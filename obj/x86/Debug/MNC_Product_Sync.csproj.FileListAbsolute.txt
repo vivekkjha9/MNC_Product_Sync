@@ -1,0 +1,17 @@
+C:\Magento_Navision_Connector\MNC_Product_Sync\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.config
+C:\Magento_Navision_Connector\MNC_Product_Sync\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe
+C:\Magento_Navision_Connector\MNC_Product_Sync\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.pdb
+C:\Magento_Navision_Connector\MNC_Product_Sync\MNC_Product_Sync\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Magento_Navision_Connector\MNC_Product_Sync\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
+C:\Magento_Navision_Connector\MNC_Product_Sync\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
+C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.config
+C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
+C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.csprojResolveAssemblyReference.cache
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.config
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.pdb
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.xml

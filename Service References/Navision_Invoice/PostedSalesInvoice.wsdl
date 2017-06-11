@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/page/postedsalesinvoice" targetNamespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:simpleType name="Type">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="_blank_" />
+          <xsd:enumeration value="G_L_Account" />
+          <xsd:enumeration value="Item" />
+          <xsd:enumeration value="Resource" />
+          <xsd:enumeration value="Fixed_Asset" />
+          <xsd:enumeration value="Charge_Item" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="Posted_Sales_Invoice_Line">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Key" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Type" type="tns:Type" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Form_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Service_Tax_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="VAT_Bus_Posting_Group" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Service_Tax_Registration_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Cross_Reference_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="VAT_Base_Amount" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Location_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="IC_Partner_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Tax_Area_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Tax_Group_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Variant_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Description" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Return_Reason_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Quantity" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Unit_of_Measure_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Unit_of_Measure" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Unit_Cost_LCY" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Unit_Price" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Line_Amount" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Line_Discount_Percent" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Line_Discount_Amount" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Allow_Invoice_Disc" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Job_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Appl_to_Item_Entry" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Charges_To_Customer" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shortcut_Dimension_1_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shortcut_Dimension_2_Code" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Posted_Sales_Invoice_Line_List">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="unbounded" name="Posted_Sales_Invoice_Line" type="tns:Posted_Sales_Invoice_Line" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PostedSalesInvoice">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Key" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Customer_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Contact_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Customer_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Address_2" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Post_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_City" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Sell_to_Contact" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="AMC_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Structure" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posting_Date" type="xsd:date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="External_Document_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Document_Date" type="xsd:date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Quote_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Order_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Pre_Assigned_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Salesperson_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Responsibility_Center" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="No_Printed" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Free_Supply" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Customer_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Contact_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Address_2" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Post_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_City" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Contact" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Form_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Form_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Calc_Inv_Discount_Percent" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shortcut_Dimension_1_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shortcut_Dimension_2_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Payment_Terms_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Due_Date" type="xsd:date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Payment_Discount_Percent" type="xsd:decimal" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Pmt_Discount_Date" type="xsd:date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Payment_Method_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Direct_Debit_Mandate_ID" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Credit_Card_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="GetCreditcardNumber" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="LC_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Export_or_Deemed_Export" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="VAT_Exempted" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_Name" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_Address" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_Address_2" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_Post_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_City" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ship_to_Contact" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Location_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shipment_Method_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shipment_Date" type="xsd:date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Package_Tracking_No" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Currency_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="EU_3_Party_Trade" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="SalesInvLines" type="tns:Posted_Sales_Invoice_Line_List" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PostedSalesInvoice_List">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="unbounded" name="PostedSalesInvoice" type="tns:PostedSalesInvoice" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="PostedSalesInvoice_Fields">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="No" />
+          <xsd:enumeration value="Sell_to_Customer_No" />
+          <xsd:enumeration value="Sell_to_Contact_No" />
+          <xsd:enumeration value="Sell_to_Customer_Name" />
+          <xsd:enumeration value="Sell_to_Address" />
+          <xsd:enumeration value="Sell_to_Address_2" />
+          <xsd:enumeration value="Sell_to_Post_Code" />
+          <xsd:enumeration value="Sell_to_City" />
+          <xsd:enumeration value="Sell_to_Contact" />
+          <xsd:enumeration value="AMC_No" />
+          <xsd:enumeration value="Structure" />
+          <xsd:enumeration value="Posting_Date" />
+          <xsd:enumeration value="External_Document_No" />
+          <xsd:enumeration value="Document_Date" />
+          <xsd:enumeration value="Quote_No" />
+          <xsd:enumeration value="Order_No" />
+          <xsd:enumeration value="Pre_Assigned_No" />
+          <xsd:enumeration value="Salesperson_Code" />
+          <xsd:enumeration value="Responsibility_Center" />
+          <xsd:enumeration value="No_Printed" />
+          <xsd:enumeration value="Free_Supply" />
+          <xsd:enumeration value="Bill_to_Customer_No" />
+          <xsd:enumeration value="Bill_to_Contact_No" />
+          <xsd:enumeration value="Bill_to_Name" />
+          <xsd:enumeration value="Bill_to_Address" />
+          <xsd:enumeration value="Bill_to_Address_2" />
+          <xsd:enumeration value="Bill_to_Post_Code" />
+          <xsd:enumeration value="Bill_to_City" />
+          <xsd:enumeration value="Bill_to_Contact" />
+          <xsd:enumeration value="Form_Code" />
+          <xsd:enumeration value="Form_No" />
+          <xsd:enumeration value="Calc_Inv_Discount_Percent" />
+          <xsd:enumeration value="Shortcut_Dimension_1_Code" />
+          <xsd:enumeration value="Shortcut_Dimension_2_Code" />
+          <xsd:enumeration value="Payment_Terms_Code" />
+          <xsd:enumeration value="Due_Date" />
+          <xsd:enumeration value="Payment_Discount_Percent" />
+          <xsd:enumeration value="Pmt_Discount_Date" />
+          <xsd:enumeration value="Payment_Method_Code" />
+          <xsd:enumeration value="Direct_Debit_Mandate_ID" />
+          <xsd:enumeration value="Credit_Card_No" />
+          <xsd:enumeration value="GetCreditcardNumber" />
+          <xsd:enumeration value="LC_No" />
+          <xsd:enumeration value="Export_or_Deemed_Export" />
+          <xsd:enumeration value="VAT_Exempted" />
+          <xsd:enumeration value="Ship_to_Code" />
+          <xsd:enumeration value="Ship_to_Name" />
+          <xsd:enumeration value="Ship_to_Address" />
+          <xsd:enumeration value="Ship_to_Address_2" />
+          <xsd:enumeration value="Ship_to_Post_Code" />
+          <xsd:enumeration value="Ship_to_City" />
+          <xsd:enumeration value="Ship_to_Contact" />
+          <xsd:enumeration value="Location_Code" />
+          <xsd:enumeration value="Shipment_Method_Code" />
+          <xsd:enumeration value="Shipment_Date" />
+          <xsd:enumeration value="Package_Tracking_No" />
+          <xsd:enumeration value="Currency_Code" />
+          <xsd:enumeration value="EU_3_Party_Trade" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="PostedSalesInvoice_Filter">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Field" type="tns:PostedSalesInvoice_Fields" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Criteria" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Read">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="No" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Read_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="PostedSalesInvoice" type="tns:PostedSalesInvoice" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadByRecId">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="recId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadByRecId_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="PostedSalesInvoice" type="tns:PostedSalesInvoice" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadMultiple">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="unbounded" name="filter" type="tns:PostedSalesInvoice_Filter" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="bookmarkKey" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="setSize" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadMultiple_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="ReadMultiple_Result" type="tns:PostedSalesInvoice_List" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="IsUpdated">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="IsUpdated_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="IsUpdated_Result" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetRecIdFromKey">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetRecIdFromKey_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="GetRecIdFromKey_Result" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Update">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="PostedSalesInvoice" type="tns:PostedSalesInvoice" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Update_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="PostedSalesInvoice" type="tns:PostedSalesInvoice" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateMultiple">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="PostedSalesInvoice_List" type="tns:PostedSalesInvoice_List" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateMultiple_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="PostedSalesInvoice_List" type="tns:PostedSalesInvoice_List" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Delete">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Delete_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Delete_Result" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Delete_SalesInvLines">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="SalesInvLines_Key" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Delete_SalesInvLines_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Delete_SalesInvLines_Result" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="Read">
+    <part name="parameters" element="tns:Read" />
+  </message>
+  <message name="Read_Result">
+    <part name="parameters" element="tns:Read_Result" />
+  </message>
+  <message name="ReadByRecId">
+    <part name="parameters" element="tns:ReadByRecId" />
+  </message>
+  <message name="ReadByRecId_Result">
+    <part name="parameters" element="tns:ReadByRecId_Result" />
+  </message>
+  <message name="ReadMultiple">
+    <part name="parameters" element="tns:ReadMultiple" />
+  </message>
+  <message name="ReadMultiple_Result">
+    <part name="parameters" element="tns:ReadMultiple_Result" />
+  </message>
+  <message name="IsUpdated">
+    <part name="parameters" element="tns:IsUpdated" />
+  </message>
+  <message name="IsUpdated_Result">
+    <part name="parameters" element="tns:IsUpdated_Result" />
+  </message>
+  <message name="GetRecIdFromKey">
+    <part name="parameters" element="tns:GetRecIdFromKey" />
+  </message>
+  <message name="GetRecIdFromKey_Result">
+    <part name="parameters" element="tns:GetRecIdFromKey_Result" />
+  </message>
+  <message name="Update">
+    <part name="parameters" element="tns:Update" />
+  </message>
+  <message name="Update_Result">
+    <part name="parameters" element="tns:Update_Result" />
+  </message>
+  <message name="UpdateMultiple">
+    <part name="parameters" element="tns:UpdateMultiple" />
+  </message>
+  <message name="UpdateMultiple_Result">
+    <part name="parameters" element="tns:UpdateMultiple_Result" />
+  </message>
+  <message name="Delete">
+    <part name="parameters" element="tns:Delete" />
+  </message>
+  <message name="Delete_Result">
+    <part name="parameters" element="tns:Delete_Result" />
+  </message>
+  <message name="Delete_SalesInvLines">
+    <part name="parameters" element="tns:Delete_SalesInvLines" />
+  </message>
+  <message name="Delete_SalesInvLines_Result">
+    <part name="parameters" element="tns:Delete_SalesInvLines_Result" />
+  </message>
+  <portType name="PostedSalesInvoice_Port">
+    <operation name="Read">
+      <input name="Read" message="tns:Read" />
+      <output name="Read_Result" message="tns:Read_Result" />
+    </operation>
+    <operation name="ReadByRecId">
+      <input name="ReadByRecId" message="tns:ReadByRecId" />
+      <output name="ReadByRecId_Result" message="tns:ReadByRecId_Result" />
+    </operation>
+    <operation name="ReadMultiple">
+      <input name="ReadMultiple" message="tns:ReadMultiple" />
+      <output name="ReadMultiple_Result" message="tns:ReadMultiple_Result" />
+    </operation>
+    <operation name="IsUpdated">
+      <input name="IsUpdated" message="tns:IsUpdated" />
+      <output name="IsUpdated_Result" message="tns:IsUpdated_Result" />
+    </operation>
+    <operation name="GetRecIdFromKey">
+      <input name="GetRecIdFromKey" message="tns:GetRecIdFromKey" />
+      <output name="GetRecIdFromKey_Result" message="tns:GetRecIdFromKey_Result" />
+    </operation>
+    <operation name="Update">
+      <input name="Update" message="tns:Update" />
+      <output name="Update_Result" message="tns:Update_Result" />
+    </operation>
+    <operation name="UpdateMultiple">
+      <input name="UpdateMultiple" message="tns:UpdateMultiple" />
+      <output name="UpdateMultiple_Result" message="tns:UpdateMultiple_Result" />
+    </operation>
+    <operation name="Delete">
+      <input name="Delete" message="tns:Delete" />
+      <output name="Delete_Result" message="tns:Delete_Result" />
+    </operation>
+    <operation name="Delete_SalesInvLines">
+      <input name="Delete_SalesInvLines" message="tns:Delete_SalesInvLines" />
+      <output name="Delete_SalesInvLines_Result" message="tns:Delete_SalesInvLines_Result" />
+    </operation>
+  </portType>
+  <binding name="PostedSalesInvoice_Binding" type="tns:PostedSalesInvoice_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="Read">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Read" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="Read">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="Read_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ReadByRecId">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:ReadByRecId" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReadByRecId">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReadByRecId_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ReadMultiple">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:ReadMultiple" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReadMultiple">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReadMultiple_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="IsUpdated">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:IsUpdated" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="IsUpdated">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="IsUpdated_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetRecIdFromKey">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:GetRecIdFromKey" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetRecIdFromKey">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetRecIdFromKey_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="Update">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Update" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="Update">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="Update_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateMultiple">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:UpdateMultiple" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateMultiple">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateMultiple_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="Delete">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Delete" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="Delete">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="Delete_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="Delete_SalesInvLines">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Delete_SalesInvLines" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="Delete_SalesInvLines">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="Delete_SalesInvLines_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="PostedSalesInvoice_Service">
+    <port name="PostedSalesInvoice_Port" binding="tns:PostedSalesInvoice_Binding">
+      <address location="http://122.166.222.116:7047/DynamicsNAV71/WS/CRONUS%20India%20Ltd./Page/PostedSalesInvoice" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>
