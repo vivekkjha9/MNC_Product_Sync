@@ -9,7 +9,7 @@ using System.Collections;
 
 namespace MNC_Product_Sync
 {
-    class Product
+    class NavToMageProducts
     {
 
                 
@@ -92,6 +92,8 @@ namespace MNC_Product_Sync
                             else
                             {
                                 productid = mage_client.catalogProductCreate(token_id, productType, "4", nv_ItemLists[i].No, mage_Product, "default");
+                                db.InsertProductMapping(nv_ItemLists[i].No, productid.ToString(), nv_ItemLists[i].No);
+                                db.InsertLog("Product", nv_ItemLists[i].No, "Navision Product Code", "SUCCESS");
                             }
                         }
                         catch (Exception ex)
@@ -100,8 +102,7 @@ namespace MNC_Product_Sync
                         }
 
 
-                        db.InsertProductMapping(nv_ItemLists[i].No, productid.ToString(), nv_ItemLists[i].No);
-                        db.InsertLog("Product", nv_ItemLists[i].No, "Navision Product Code", "SUCCESS");
+                       
 
                     }
                     catch (Exception ex)

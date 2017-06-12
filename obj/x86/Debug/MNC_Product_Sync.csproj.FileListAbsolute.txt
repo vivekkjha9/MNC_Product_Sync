@@ -8,10 +8,25 @@ C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.confi
 C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
 C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
 C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.csprojResolveAssemblyReference.cache
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.config
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.pdb
 C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.dll
 C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.config
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.manifest
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.application
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.pdb
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe.manifest
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.application
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.pdb
+C:\Users\Administrator\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.xml
+C:\Users\Administrator\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.config
+C:\Users\Administrator\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.manifest
+C:\Users\Administrator\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.application
+C:\Users\Administrator\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe
+C:\Users\Administrator\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.pdb
+C:\Users\Administrator\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe.manifest
+C:\Users\Administrator\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.application
+C:\Users\Administrator\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe
+C:\Users\Administrator\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.pdb

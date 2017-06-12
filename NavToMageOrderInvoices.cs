@@ -7,7 +7,7 @@ using ConnectCsharpToMysql;
 
 namespace MNC_Product_Sync
 {
-    class OrderInvoice
+    class NavToMageOrderInvoices
     {
         private static string _apiUser;
         private static string _apiKey;
@@ -52,7 +52,7 @@ namespace MNC_Product_Sync
                     if (db.fetch_OnlineOrder(nv_PostedInvoices[i].Order_No))
                     {
 
-                        string magorder = (string)hso[nv_PostedInvoices[i].Order_No + "/" + i];
+                        string magorder = (string)hso[nv_PostedInvoices[i].Order_No + "/" + 1];
                         string[] mageorders = magorder.Split('/');
                         salesOrderEntity orderDetail = mage_client.salesOrderInfo(token_id, mageorders[0]);
                         List<orderItemIdQty> invoiceInfo = new List<orderItemIdQty>();
@@ -78,8 +78,9 @@ namespace MNC_Product_Sync
                                     invoiceQtys, "Invoiced via API", "1", "1");
                             try
                             {
-                                mage_client.salesOrderInvoiceCapture(token_id, invoiceIncrementId);
+                               // mage_client.salesOrderInvoiceCapture(token_id, invoiceIncrementId);
                                 mage_client.salesOrderAddComment(token_id, mageorders[0], "invoiced", "Order Invoiced via API", "0");
+                                db.UpdateInvoice(magorder, invoiceIncrementId + "/" + nv_PostedInvoices[i].No);
                             }
                             catch (Exception ex)
                             {

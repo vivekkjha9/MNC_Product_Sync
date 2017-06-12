@@ -8,24 +8,27 @@ using System.Collections;
 
 namespace MNC_Product_Sync
 {
-    class Customer
+    class NavToMageCustomers
     {
 
        
 
          
-        static void MainCus(string[] args)
+        static void Main(string[] args)
         {
 
            
             Navision_CustomerListService.CustomerList nv_Customer = new Navision_CustomerListService.CustomerList();
             Navision_CustomerListService.CustomerList_PortClient client = new Navision_CustomerListService.CustomerList_PortClient();
             Navision_CustomerListService.CustomerList[] nv_CustomerLists;
-            client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
+            client.ClientCredentials.UserName.UserName = "Administrator";
+            client.ClientCredentials.UserName.Password = "itree@123";
+            //client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
 
-            client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+            //client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
 
-            client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            //client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            
 
             nv_CustomerLists = client.ReadMultiple(null, null, 10000);
 
@@ -46,8 +49,9 @@ namespace MNC_Product_Sync
                 {
                    
                     customerCreate.firstname = nv_CustomerLists[i].Name;
-                    customerCreate.lastname = nv_CustomerLists[i].Name;
+                    customerCreate.lastname = ".";
                     customerCreate.middlename = "";
+                    customerCreate.password = "abc123";
                     customerCreate.store_id = 1;
                     customerCreate.store_idSpecified = true;
                     customerCreate.website_id = 1;
@@ -77,7 +81,7 @@ namespace MNC_Product_Sync
                     }
                     customerAddress.fax = nv_CustomerLists[i].Fax_No;
                     customerAddress.firstname = nv_CustomerLists[i].Name;
-                    customerAddress.lastname = nv_CustomerLists[i].Name;
+                    customerAddress.lastname = ".";
                     customerAddress.middlename = "";
                     string[] streettxt = { nv_CustomerLists[i].Address };
                     customerAddress.street = streettxt;
@@ -100,17 +104,17 @@ namespace MNC_Product_Sync
 
                     if (db.fetch_Customer(nv_CustomerLists[i].No.ToString()))
                     {
-                        mage_client.customerCustomerUpdate(token_id, (int)hsc[nv_CustomerLists[i].No], customerCreate);
+                        mage_client.customerCustomerUpdate(token_id,Convert.ToInt16( hsc[nv_CustomerLists[i].No]), customerCreate);
                     }
                     else
                     {
                         newCustomerCreateID = mage_client.customerCustomerCreate(token_id, customerCreate);
                         createAddressID = mage_client.customerAddressCreate(token_id, newCustomerCreateID, customerAddress);
-
+                        db.InsertCustomerMapping(nv_CustomerLists[i].No, newCustomerCreateID.ToString(), nv_CustomerLists[i].E_Mail);
+                        db.InsertLog("Customer", nv_CustomerLists[i].No, "Navision Customer Code", "SUCCESS");
                     }
-                    db.InsertCustomerMapping(nv_CustomerLists[i].No, newCustomerCreateID.ToString(), nv_CustomerLists[i].E_Mail);
-                    db.InsertLog("Customer", nv_CustomerLists[i].No, "Navision Customer Code", "SUCCESS");
                 }
+                   
                 catch (Exception ex)
                 {
                     MNC_Product_Sync.ErrorLog errLog = new MNC_Product_Sync.ErrorLog();

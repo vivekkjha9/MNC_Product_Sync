@@ -9,7 +9,7 @@ using System.Collections;
 
 namespace MNC_Product_Sync
 {
-    class ProductCategory
+    class NavtoMageProductCategories
     {
 
         private DBConnect dbConnect;
@@ -36,6 +36,11 @@ namespace MNC_Product_Sync
             string token_id = null;
 
             DBConnect db = null;
+
+            db = new DBConnect();
+
+            Hashtable hscat = db.fetch_CategoryMapping();
+
             MagentoConnectService.PortTypeClient mage_client = null;
 
             try
@@ -46,7 +51,7 @@ namespace MNC_Product_Sync
 
                 token_id = mage_client.login("webserviceuser", "apikey");
 
-                db = new DBConnect();
+               
             }
             catch (Exception ex)
             {
@@ -63,9 +68,11 @@ namespace MNC_Product_Sync
                 {
             for (int i = 0; i < nv_ItemCats.Length; i++)
             {
-                
-              
-               
+
+
+                    if (!db.fetch_ProductCat(nv_ItemCats[i].Code))
+                    {                
+                    
 
                     string[] sortby_values;
                     string sortbyval = "name";
@@ -89,6 +96,8 @@ namespace MNC_Product_Sync
                     int id = mage_client.catalogCategoryCreate(token_id, 1, cat, null);
                     db.InsertProductCatMapping(nv_ItemCats[i].Code, id.ToString(), cat.name);
                     db.InsertLog("Category", nv_ItemCats[i].Code, "Navision Category Code", "SUCCESS");
+
+                    }
 
                 }
              

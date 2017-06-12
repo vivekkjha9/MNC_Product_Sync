@@ -18,7 +18,7 @@ namespace MNC_Product_Sync
         private static string _status;
         private static System.Net.Security.RemoteCertificateValidationCallback mIgnoreInvalidCertificates;
 
-        public static void Main(string[] arg)
+        public static void Mainsh(string[] arg)
         {
             MNC_Product_Sync.Navision_Shipment.PostedSalesShipment_PortClient client = new MNC_Product_Sync.Navision_Shipment.PostedSalesShipment_PortClient();
 
@@ -51,7 +51,7 @@ namespace MNC_Product_Sync
                 {
                     if (db.fetch_OnlineOrder(nv_PostedShipments[i].Order_No))
                     {
-                        string magorder = (string)hsp[nv_PostedShipments[i].Order_No + "/" + i];
+                        string magorder = (string)hsp[nv_PostedShipments[i].Order_No + "/" + 1];
                         string[] mageorders = magorder.Split('/');
 
                         string shipmentIncrementId = mage_client.salesOrderShipmentCreate(token_id, mageorders[0], null,
@@ -61,8 +61,9 @@ namespace MNC_Product_Sync
 
                         try
                         {
-                            mage_client.salesOrderShipmentAddTrack(token_id, shipmentIncrementId, nv_PostedShipments[i].Shipping_Agent_Code, "Shipment via Magnaxt Connector", nv_PostedShipments[i].Package_Tracking_No);
+                            mage_client.salesOrderShipmentAddTrack(token_id, shipmentIncrementId, "ups", "Shipment via Magnaxt Connector", nv_PostedShipments[i].Package_Tracking_No);
                             mage_client.salesOrderAddComment(token_id, mageorders[0], "complete", "Order Completed via API", "0");
+                            db.UpdateShipment(magorder, shipmentIncrementId +"/" + nv_PostedShipments[i].No);
                         }
                         catch (Exception ex)
                         {

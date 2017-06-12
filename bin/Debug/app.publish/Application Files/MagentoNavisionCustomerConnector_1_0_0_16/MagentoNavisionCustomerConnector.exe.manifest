@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MagentoNavisionCustomerConnector.exe" version="1.0.0.16" publicKeyToken="37aa8326189c532d" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MagentoNavisionCustomerConnector" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MagentoNavisionCustomerConnector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MagentoNavisionCustomerConnector.exe" size="632840">
+      <assemblyIdentity name="MagentoNavisionCustomerConnector" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dhrHPBA9Co31wDrPLEBw/ZnvyTSL/uIJZqMDFWIemLI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.8.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q8xA97GYZsSxjCi/eUfDSppz2ll01vmPuRDn7OMgJwU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MagentoNavisionCustomerConnector.exe.config" size="9047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l/uhv0i757pzxQ1WPbOMwZ+zV11zZ7fBoHkO+jTwkdU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-PCOKQE5\Anushka Jha" issuerKeyHash="7a25a20de311f4418d81957b611567bd19654f01" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gi0ViTyqou4SPuHBcIVU5DI308bgHdN8ienE9jFu0lc=</DigestValue></Reference></SignedInfo><SignatureValue>lTNj/GRgf3wAhosjjlEsj84JgzCQ5ffxqAbAeO9wSWZXNjpoXswPc7weoMxHT95LUU1bMI7u1zobj8LJnYGqhxEjhGlPiGrSuoTvVOOjui1aUXhGz6RUhpCi2u3/zIlg5N5bkuC1xzosX5caCywuUkSfOpxcz2K3jOU+Kzob7h4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p8DzwgQOtke4ojstOpoX4DhrvFmwPUfoObxzrYJ7qdgaNu7FCVqzpv7QajzgTZ5tZNMtdH/MqQsv7oyMshg3Wnqo5RItOgusOOdhlK6IvB8nOtHxsufNSafNwj/XY1l4sy1JplUsS9q9Lw8jUYlYU9x0Oz4OjkmEcNR1cg8ANL8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="57d26e31f6c4e9897cd31de0c6d33732e4548570c1e13e12eea2aa3c89152d82" Description="" Url=""><as:assemblyIdentity name="MagentoNavisionCustomerConnector.exe" version="1.0.0.16" publicKeyToken="37aa8326189c532d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PCOKQE5\Anushka Jha</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Q0h7RaO1/Aqm0gm4giM1c/hpVChQGtWSTGP1Pdr05JU=</DigestValue></Reference></SignedInfo><SignatureValue>C5/rdydwq6XJGlZFy/5efOHOFG+1KI0agSumNAGElDnrmz5CapIHXzYWka4gB7jEaFQSNf7XrUfXSjQ0zY5mVDCLba5PHUQYMp8y6lh5uppJ9YhisWNwCFUj5HTGIw6zx4Reixaxg4PlDTjUpOZKGlpZSszADO9X7CioyOwyJec=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p8DzwgQOtke4ojstOpoX4DhrvFmwPUfoObxzrYJ7qdgaNu7FCVqzpv7QajzgTZ5tZNMtdH/MqQsv7oyMshg3Wnqo5RItOgusOOdhlK6IvB8nOtHxsufNSafNwj/XY1l4sy1JplUsS9q9Lw8jUYlYU9x0Oz4OjkmEcNR1cg8ANL8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQIzb76VgmSaZAI/DxQNWq7zANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAFAAQwBPAEsAUQBFADUAXABBAG4AdQBzAGgAawBhACAASgBoAGEwHhcNMTcwNjEyMDQxMzIzWhcNMTgwNjEyMTAxMzIzWjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAFAAQwBPAEsAUQBFADUAXABBAG4AdQBzAGgAawBhACAASgBoAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKfA88IEDrZHuKI7LTqaF+A4a7xZsD1H6Dm8c62Ce6nYGjbuxQlas6b+0Go84E2ebWTTLXR/zKkLL+6MjLIYN1p6qOUSLToLrDjnYZSuiLwfJzrR8bLnzUmnzcI/12NZeLMtSaZVLEvavS8PI1GJWFPcdDs+Do5JhHDUdXIPADS/AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAiAjUxGJ0fsrsanvrdEzlpxw4N/Qi6oF7SU9FKj2yVLnoYxjXQ+Vjve7i5IOyIt1CvW0R1Fm+Q++SZjKT8VcGb6j4a+VX8p3FSyabPEDcu/NdyB3ZwS/eSr4ZU5PFmjFdNvCeLL3WU8g6dRz/bxQtnafrQD6HE8BNtwWGYvfmKPQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -6,15 +6,16 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E34DA88A-7832-4482-A0C6-7F27628B4DE5}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MNC_Product_Sync</RootNamespace>
-    <AssemblyName>MNC_Product_Sync</AssemblyName>
+    <AssemblyName>MagentoNavisionCustomerConnector</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
-    <PublishUrl>publish\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Connectors\Customers\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,10 +25,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -51,6 +52,21 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6182DF68B04C5B8B511DCC8A5029F8C3E64060E4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MNC_Product_Sync_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -69,13 +85,13 @@
   <ItemGroup>
     <Compile Include="AppConfigFileSettings.cs" />
     <Compile Include="ErrorLog.cs" />
-    <Compile Include="OrderInvoice.cs" />
-    <Compile Include="OrderShipments.cs" />
-    <Compile Include="ProductCategory.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="Customer.cs" />
+    <Compile Include="NavToMageOrderInvoices.cs" />
+    <Compile Include="NavToMageOrderShipments.cs" />
+    <Compile Include="NavtoMageProductCategories.cs" />
+    <Compile Include="MageToNavOrders.cs" />
+    <Compile Include="NavToMageCustomers.cs" />
     <Compile Include="DBConnect.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="NavToMageProducts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\Navision_CustomerListService\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -120,6 +136,7 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="MNC_Product_Sync_TemporaryKey.pfx" />
     <None Include="Service References\Navision_CustomerListService\CustomerList1.wsdl" />
     <None Include="Service References\Navision_CustomerListService\MNC_Product_Sync.Navision_CustomerListService.CustomerList.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
