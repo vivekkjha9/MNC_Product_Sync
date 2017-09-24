@@ -47,14 +47,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MagentoAXCRTCustomerConnector.exe" size="966152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MagentoAXCRTCustomerConnector.exe" size="968200">
       <assemblyIdentity name="MagentoAXCRTCustomerConnector" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JWLp9UJdL6nH0bQNBiVElzHv/6rxODfF+1oDps/WBXE=</dsig:DigestValue>
+        <dsig:DigestValue>LDHzbe48CGm6MsVu8NWVRm9xE3ToDJJB8STvy6YVfZk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
