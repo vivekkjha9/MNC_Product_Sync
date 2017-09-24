@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MNC_Product_Sync.Navision_CustomerListService {
+namespace AX_CRT_Mage_Connector.Navision_CustomerListService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -18,31 +18,31 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
         // CODEGEN: Generating message contract since the wrapper name (Read_Result) of message Read_Result does not match the default value (Read)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/customerlist:Read", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_CustomerListService.Read_Result Read(MNC_Product_Sync.Navision_CustomerListService.Read request);
+        AX_CRT_Mage_Connector.Navision_CustomerListService.Read_Result Read(AX_CRT_Mage_Connector.Navision_CustomerListService.Read request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadByRecId_Result) of message ReadByRecId_Result does not match the default value (ReadByRecId)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/customerlist:ReadByRecId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_CustomerListService.ReadByRecId_Result ReadByRecId(MNC_Product_Sync.Navision_CustomerListService.ReadByRecId request);
+        AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId_Result ReadByRecId(AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadMultiple_Result) of message ReadMultiple_Result does not match the default value (ReadMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/customerlist:ReadMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_CustomerListService.ReadMultiple_Result ReadMultiple(MNC_Product_Sync.Navision_CustomerListService.ReadMultiple request);
+        AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple_Result ReadMultiple(AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (IsUpdated_Result) of message IsUpdated_Result does not match the default value (IsUpdated)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/customerlist:IsUpdated", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_CustomerListService.IsUpdated_Result IsUpdated(MNC_Product_Sync.Navision_CustomerListService.IsUpdated request);
+        AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated_Result IsUpdated(AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated request);
         
         // CODEGEN: Generating message contract since the wrapper name (GetRecIdFromKey_Result) of message GetRecIdFromKey_Result does not match the default value (GetRecIdFromKey)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/customerlist:GetRecIdFromKey", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey_Result GetRecIdFromKey(MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey request);
+        AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey_Result GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey request);
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -900,7 +900,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist")]
     public enum Blocked {
@@ -919,7 +919,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist")]
     public enum Cust_Type {
@@ -947,7 +947,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist")]
     public enum Application_Method {
@@ -960,7 +960,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist")]
     public enum Reserve {
@@ -976,7 +976,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist")]
     public enum Shipping_Advice {
@@ -989,7 +989,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1035,7 +1035,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist")]
     public enum CustomerList_Fields {
@@ -1203,12 +1203,12 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     public partial class Read_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist", Order=0)]
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList CustomerList;
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList CustomerList;
         
         public Read_Result() {
         }
         
-        public Read_Result(MNC_Product_Sync.Navision_CustomerListService.CustomerList CustomerList) {
+        public Read_Result(AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList CustomerList) {
             this.CustomerList = CustomerList;
         }
     }
@@ -1237,12 +1237,12 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     public partial class ReadByRecId_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist", Order=0)]
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList CustomerList;
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList CustomerList;
         
         public ReadByRecId_Result() {
         }
         
-        public ReadByRecId_Result(MNC_Product_Sync.Navision_CustomerListService.CustomerList CustomerList) {
+        public ReadByRecId_Result(AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList CustomerList) {
             this.CustomerList = CustomerList;
         }
     }
@@ -1255,7 +1255,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("filter")]
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList_Filter[] filter;
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Filter[] filter;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/customerlist", Order=1)]
         public string bookmarkKey;
@@ -1266,7 +1266,7 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
         public ReadMultiple() {
         }
         
-        public ReadMultiple(MNC_Product_Sync.Navision_CustomerListService.CustomerList_Filter[] filter, string bookmarkKey, int setSize) {
+        public ReadMultiple(AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Filter[] filter, string bookmarkKey, int setSize) {
             this.filter = filter;
             this.bookmarkKey = bookmarkKey;
             this.setSize = setSize;
@@ -1281,12 +1281,12 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="ReadMultiple_Result", Namespace="urn:microsoft-dynamics-schemas/page/customerlist", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList[] ReadMultiple_Result1;
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList[] ReadMultiple_Result1;
         
         public ReadMultiple_Result() {
         }
         
-        public ReadMultiple_Result(MNC_Product_Sync.Navision_CustomerListService.CustomerList[] ReadMultiple_Result1) {
+        public ReadMultiple_Result(AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList[] ReadMultiple_Result1) {
             this.ReadMultiple_Result1 = ReadMultiple_Result1;
         }
     }
@@ -1360,12 +1360,12 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface CustomerList_PortChannel : MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port, System.ServiceModel.IClientChannel {
+    public interface CustomerList_PortChannel : AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CustomerList_PortClient : System.ServiceModel.ClientBase<MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port>, MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port {
+    public partial class CustomerList_PortClient : System.ServiceModel.ClientBase<AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port>, AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port {
         
         public CustomerList_PortClient() {
         }
@@ -1387,64 +1387,64 @@ namespace MNC_Product_Sync.Navision_CustomerListService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_CustomerListService.Read_Result MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port.Read(MNC_Product_Sync.Navision_CustomerListService.Read request) {
+        AX_CRT_Mage_Connector.Navision_CustomerListService.Read_Result AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port.Read(AX_CRT_Mage_Connector.Navision_CustomerListService.Read request) {
             return base.Channel.Read(request);
         }
         
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList Read(string No) {
-            MNC_Product_Sync.Navision_CustomerListService.Read inValue = new MNC_Product_Sync.Navision_CustomerListService.Read();
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList Read(string No) {
+            AX_CRT_Mage_Connector.Navision_CustomerListService.Read inValue = new AX_CRT_Mage_Connector.Navision_CustomerListService.Read();
             inValue.No = No;
-            MNC_Product_Sync.Navision_CustomerListService.Read_Result retVal = ((MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port)(this)).Read(inValue);
+            AX_CRT_Mage_Connector.Navision_CustomerListService.Read_Result retVal = ((AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port)(this)).Read(inValue);
             return retVal.CustomerList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_CustomerListService.ReadByRecId_Result MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port.ReadByRecId(MNC_Product_Sync.Navision_CustomerListService.ReadByRecId request) {
+        AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId_Result AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port.ReadByRecId(AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId request) {
             return base.Channel.ReadByRecId(request);
         }
         
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList ReadByRecId(string recId) {
-            MNC_Product_Sync.Navision_CustomerListService.ReadByRecId inValue = new MNC_Product_Sync.Navision_CustomerListService.ReadByRecId();
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList ReadByRecId(string recId) {
+            AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId inValue = new AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId();
             inValue.recId = recId;
-            MNC_Product_Sync.Navision_CustomerListService.ReadByRecId_Result retVal = ((MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port)(this)).ReadByRecId(inValue);
+            AX_CRT_Mage_Connector.Navision_CustomerListService.ReadByRecId_Result retVal = ((AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port)(this)).ReadByRecId(inValue);
             return retVal.CustomerList;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_CustomerListService.ReadMultiple_Result MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port.ReadMultiple(MNC_Product_Sync.Navision_CustomerListService.ReadMultiple request) {
+        AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple_Result AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port.ReadMultiple(AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple request) {
             return base.Channel.ReadMultiple(request);
         }
         
-        public MNC_Product_Sync.Navision_CustomerListService.CustomerList[] ReadMultiple(MNC_Product_Sync.Navision_CustomerListService.CustomerList_Filter[] filter, string bookmarkKey, int setSize) {
-            MNC_Product_Sync.Navision_CustomerListService.ReadMultiple inValue = new MNC_Product_Sync.Navision_CustomerListService.ReadMultiple();
+        public AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList[] ReadMultiple(AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Filter[] filter, string bookmarkKey, int setSize) {
+            AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple inValue = new AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple();
             inValue.filter = filter;
             inValue.bookmarkKey = bookmarkKey;
             inValue.setSize = setSize;
-            MNC_Product_Sync.Navision_CustomerListService.ReadMultiple_Result retVal = ((MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port)(this)).ReadMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_CustomerListService.ReadMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port)(this)).ReadMultiple(inValue);
             return retVal.ReadMultiple_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_CustomerListService.IsUpdated_Result MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port.IsUpdated(MNC_Product_Sync.Navision_CustomerListService.IsUpdated request) {
+        AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated_Result AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port.IsUpdated(AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated request) {
             return base.Channel.IsUpdated(request);
         }
         
         public bool IsUpdated(string Key) {
-            MNC_Product_Sync.Navision_CustomerListService.IsUpdated inValue = new MNC_Product_Sync.Navision_CustomerListService.IsUpdated();
+            AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated inValue = new AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_CustomerListService.IsUpdated_Result retVal = ((MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port)(this)).IsUpdated(inValue);
+            AX_CRT_Mage_Connector.Navision_CustomerListService.IsUpdated_Result retVal = ((AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port)(this)).IsUpdated(inValue);
             return retVal.IsUpdated_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey_Result MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port.GetRecIdFromKey(MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey request) {
+        AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey_Result AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port.GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey request) {
             return base.Channel.GetRecIdFromKey(request);
         }
         
         public string GetRecIdFromKey(string Key) {
-            MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey inValue = new MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey();
+            AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey inValue = new AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_CustomerListService.GetRecIdFromKey_Result retVal = ((MNC_Product_Sync.Navision_CustomerListService.CustomerList_Port)(this)).GetRecIdFromKey(inValue);
+            AX_CRT_Mage_Connector.Navision_CustomerListService.GetRecIdFromKey_Result retVal = ((AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList_Port)(this)).GetRecIdFromKey(inValue);
             return retVal.GetRecIdFromKey_Result1;
         }
     }

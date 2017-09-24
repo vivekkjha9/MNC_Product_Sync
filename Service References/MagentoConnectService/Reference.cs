@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MNC_Product_Sync.MagentoConnectService {
+namespace AX_CRT_MAge_Connector.MagentoConnectService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -82,7 +82,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="resourcesReturn")]
-        MNC_Product_Sync.MagentoConnectService.apiEntity[] resources(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.apiEntity[] resources(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -136,7 +136,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="globalFaultsReturn")]
-        MNC_Product_Sync.MagentoConnectService.existsFaltureEntity[] globalFaults(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.existsFaltureEntity[] globalFaults(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -190,7 +190,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="resourceFaultsReturn")]
-        MNC_Product_Sync.MagentoConnectService.existsFaltureEntity[] resourceFaults(string resourceName, string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.existsFaltureEntity[] resourceFaults(string resourceName, string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -244,7 +244,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="stores")]
-        MNC_Product_Sync.MagentoConnectService.storeEntity[] storeList(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.storeEntity[] storeList(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -298,7 +298,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="info")]
-        MNC_Product_Sync.MagentoConnectService.storeEntity storeInfo(string sessionId, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.storeEntity storeInfo(string sessionId, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -352,7 +352,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="info")]
-        MNC_Product_Sync.MagentoConnectService.magentoInfoEntity magentoInfo(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.magentoInfoEntity magentoInfo(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -406,7 +406,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="countries")]
-        MNC_Product_Sync.MagentoConnectService.directoryCountryEntity[] directoryCountryList(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.directoryCountryEntity[] directoryCountryList(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -460,7 +460,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="countries")]
-        MNC_Product_Sync.MagentoConnectService.directoryRegionEntity[] directoryRegionList(string sessionId, string country);
+        AX_CRT_MAge_Connector.MagentoConnectService.directoryRegionEntity[] directoryRegionList(string sessionId, string country);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -514,7 +514,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="storeView")]
-        MNC_Product_Sync.MagentoConnectService.customerCustomerEntity[] customerCustomerList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters);
+        AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntity[] customerCustomerList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -568,7 +568,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        int customerCustomerCreate(string sessionId, MNC_Product_Sync.MagentoConnectService.customerCustomerEntityToCreate customerData);
+        int customerCustomerCreate(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntityToCreate customerData);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -622,7 +622,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="customerInfo")]
-        MNC_Product_Sync.MagentoConnectService.customerCustomerEntity customerCustomerInfo(string sessionId, int customerId, string[] attributes);
+        AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntity customerCustomerInfo(string sessionId, int customerId, string[] attributes);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -676,7 +676,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool customerCustomerUpdate(string sessionId, int customerId, MNC_Product_Sync.MagentoConnectService.customerCustomerEntityToCreate customerData);
+        bool customerCustomerUpdate(string sessionId, int customerId, AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntityToCreate customerData);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -784,7 +784,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.customerGroupEntity[] customerGroupList(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.customerGroupEntity[] customerGroupList(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -838,7 +838,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.customerAddressEntityItem[] customerAddressList(string sessionId, int customerId);
+        AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityItem[] customerAddressList(string sessionId, int customerId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -892,7 +892,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        int customerAddressCreate(string sessionId, int customerId, MNC_Product_Sync.MagentoConnectService.customerAddressEntityCreate addressData);
+        int customerAddressCreate(string sessionId, int customerId, AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityCreate addressData);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -946,7 +946,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="info")]
-        MNC_Product_Sync.MagentoConnectService.customerAddressEntityItem customerAddressInfo(string sessionId, int addressId);
+        AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityItem customerAddressInfo(string sessionId, int addressId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1000,7 +1000,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="info")]
-        bool customerAddressUpdate(string sessionId, int addressId, MNC_Product_Sync.MagentoConnectService.customerAddressEntityCreate addressData);
+        bool customerAddressUpdate(string sessionId, int addressId, AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityCreate addressData);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1161,7 +1161,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="tree")]
-        MNC_Product_Sync.MagentoConnectService.catalogCategoryTree catalogCategoryTree(string sessionId, string parentId, string storeView);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryTree catalogCategoryTree(string sessionId, string parentId, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1215,7 +1215,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="tree")]
-        MNC_Product_Sync.MagentoConnectService.catalogCategoryEntityNoChildren[] catalogCategoryLevel(string sessionId, string website, string storeView, string parentCategory);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityNoChildren[] catalogCategoryLevel(string sessionId, string website, string storeView, string parentCategory);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1269,7 +1269,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="info")]
-        MNC_Product_Sync.MagentoConnectService.catalogCategoryInfo catalogCategoryInfo(string sessionId, int categoryId, string storeView, string[] attributes);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryInfo catalogCategoryInfo(string sessionId, int categoryId, string storeView, string[] attributes);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1323,7 +1323,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="attribute_id")]
-        int catalogCategoryCreate(string sessionId, int parentId, MNC_Product_Sync.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView);
+        int catalogCategoryCreate(string sessionId, int parentId, AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1377,7 +1377,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="id")]
-        bool catalogCategoryUpdate(string sessionId, int categoryId, MNC_Product_Sync.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView);
+        bool catalogCategoryUpdate(string sessionId, int categoryId, AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1539,7 +1539,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAssignedProduct[] catalogCategoryAssignedProducts(string sessionId, int categoryId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAssignedProduct[] catalogCategoryAssignedProducts(string sessionId, int categoryId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1808,7 +1808,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAttributeEntity[] catalogCategoryAttributeList(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity[] catalogCategoryAttributeList(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1862,7 +1862,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAttributeOptionEntity[] catalogCategoryAttributeOptions(string sessionId, string attributeId, string storeView);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity[] catalogCategoryAttributeOptions(string sessionId, string attributeId, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -1968,7 +1968,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(existsFaltureEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
-        void catalogProductList([System.ServiceModel.MessageParameterAttribute(Name="storeView")] out MNC_Product_Sync.MagentoConnectService.catalogProductEntity[] storeView1, string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters, string storeView);
+        void catalogProductList([System.ServiceModel.MessageParameterAttribute(Name="storeView")] out AX_CRT_MAge_Connector.MagentoConnectService.catalogProductEntity[] storeView1, string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2022,7 +2022,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="info")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductReturnEntity catalogProductInfo(string sessionId, string productId, string storeView, MNC_Product_Sync.MagentoConnectService.catalogProductRequestAttributes attributes, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductReturnEntity catalogProductInfo(string sessionId, string productId, string storeView, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductRequestAttributes attributes, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2076,7 +2076,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        int catalogProductCreate(string sessionId, string type, string set, string sku, MNC_Product_Sync.MagentoConnectService.catalogProductCreateEntity productData, string storeView);
+        int catalogProductCreate(string sessionId, string type, string set, string sku, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCreateEntity productData, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2130,7 +2130,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductUpdate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogProductCreateEntity productData, string storeView, string identifierType);
+        bool catalogProductUpdate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCreateEntity productData, string storeView, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2184,7 +2184,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductMultiUpdate(string sessionId, string[] productIds, MNC_Product_Sync.MagentoConnectService.catalogProductCreateEntity[] productData, string store, string identifierType);
+        bool catalogProductMultiUpdate(string sessionId, string[] productIds, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCreateEntity[] productData, string store, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2292,7 +2292,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductSpecialPriceReturnEntity catalogProductGetSpecialPrice(string sessionId, string product, string storeView, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductSpecialPriceReturnEntity catalogProductGetSpecialPrice(string sessionId, string product, string storeView, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2453,7 +2453,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAttributeEntity[] catalogProductListOfAdditionalAttributes(string sessionId, string productType, string attributeSetId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity[] catalogProductListOfAdditionalAttributes(string sessionId, string productType, string attributeSetId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2507,7 +2507,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAttributeEntity[] catalogProductAttributeList(string sessionId, int setId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity[] catalogProductAttributeList(string sessionId, int setId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2561,7 +2561,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeOptions(string sessionId, string attributeId, string storeView);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeOptions(string sessionId, string attributeId, string storeView);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -2723,7 +2723,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductAttributeSetEntity[] catalogProductAttributeSetList(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeSetEntity[] catalogProductAttributeSetList(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3047,7 +3047,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeTypes(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeTypes(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3101,7 +3101,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        int catalogProductAttributeCreate(string sessionId, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeEntityToCreate data);
+        int catalogProductAttributeCreate(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntityToCreate data);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3209,7 +3209,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductAttributeEntity catalogProductAttributeInfo(string sessionId, string attribute);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntity catalogProductAttributeInfo(string sessionId, string attribute);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3263,7 +3263,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductAttributeUpdate(string sessionId, string attribute, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeEntityToUpdate data);
+        bool catalogProductAttributeUpdate(string sessionId, string attribute, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntityToUpdate data);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3317,7 +3317,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductAttributeAddOption(string sessionId, string attribute, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeOptionEntityToAdd data);
+        bool catalogProductAttributeAddOption(string sessionId, string attribute, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeOptionEntityToAdd data);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3425,7 +3425,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductTypeEntity[] catalogProductTypeList(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTypeEntity[] catalogProductTypeList(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3479,7 +3479,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductTierPriceEntity[] catalogProductAttributeTierPriceInfo(string sessionId, string product, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTierPriceEntity[] catalogProductAttributeTierPriceInfo(string sessionId, string product, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3533,7 +3533,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        int catalogProductAttributeTierPriceUpdate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogProductTierPriceEntity[] tier_price, string identifierType);
+        int catalogProductAttributeTierPriceUpdate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTierPriceEntity[] tier_price, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3640,7 +3640,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductImageEntity[] catalogProductAttributeMediaList(string sessionId, string product, string storeView, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductImageEntity[] catalogProductAttributeMediaList(string sessionId, string product, string storeView, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3694,7 +3694,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductImageEntity catalogProductAttributeMediaInfo(string sessionId, string product, string file, string storeView, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductImageEntity catalogProductAttributeMediaInfo(string sessionId, string product, string file, string storeView, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3748,7 +3748,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductAttributeMediaTypeEntity[] catalogProductAttributeMediaTypes(string sessionId, string setId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaTypeEntity[] catalogProductAttributeMediaTypes(string sessionId, string setId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3802,7 +3802,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        string catalogProductAttributeMediaCreate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType);
+        string catalogProductAttributeMediaCreate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3856,7 +3856,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductAttributeMediaUpdate(string sessionId, string product, string file, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType);
+        bool catalogProductAttributeMediaUpdate(string sessionId, string product, string file, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -3964,7 +3964,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductLinkEntity[] catalogProductLinkList(string sessionId, string type, string product, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity[] catalogProductLinkList(string sessionId, string type, string product, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4018,7 +4018,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductLinkAssign(string sessionId, string type, string product, string linkedProduct, MNC_Product_Sync.MagentoConnectService.catalogProductLinkEntity data, string identifierType);
+        bool catalogProductLinkAssign(string sessionId, string type, string product, string linkedProduct, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity data, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4072,7 +4072,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductLinkUpdate(string sessionId, string type, string product, string linkedProduct, MNC_Product_Sync.MagentoConnectService.catalogProductLinkEntity data, string identifierType);
+        bool catalogProductLinkUpdate(string sessionId, string type, string product, string linkedProduct, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity data, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4234,7 +4234,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductLinkAttributeEntity[] catalogProductLinkAttributes(string sessionId, string type);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkAttributeEntity[] catalogProductLinkAttributes(string sessionId, string type);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4288,7 +4288,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductCustomOptionAdd(string sessionId, string productId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionToAdd data, string store);
+        bool catalogProductCustomOptionAdd(string sessionId, string productId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionToAdd data, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4342,7 +4342,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductCustomOptionUpdate(string sessionId, string optionId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionToUpdate data, string store);
+        bool catalogProductCustomOptionUpdate(string sessionId, string optionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionToUpdate data, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4396,7 +4396,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionTypesEntity[] catalogProductCustomOptionTypes(string sessionId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionTypesEntity[] catalogProductCustomOptionTypes(string sessionId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4450,7 +4450,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionInfoEntity catalogProductCustomOptionInfo(string sessionId, string optionId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionInfoEntity catalogProductCustomOptionInfo(string sessionId, string optionId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4504,7 +4504,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionListEntity[] catalogProductCustomOptionList(string sessionId, string productId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionListEntity[] catalogProductCustomOptionList(string sessionId, string productId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4612,7 +4612,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueInfoEntity catalogProductCustomOptionValueInfo(string sessionId, string valueId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueInfoEntity catalogProductCustomOptionValueInfo(string sessionId, string valueId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4666,7 +4666,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueListEntity[] catalogProductCustomOptionValueList(string sessionId, string optionId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueListEntity[] catalogProductCustomOptionValueList(string sessionId, string optionId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4720,7 +4720,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductCustomOptionValueAdd(string sessionId, string optionId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueAddEntity[] data, string store);
+        bool catalogProductCustomOptionValueAdd(string sessionId, string optionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueAddEntity[] data, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4774,7 +4774,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductCustomOptionValueUpdate(string sessionId, string valueId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueUpdateEntity data, string storeId);
+        bool catalogProductCustomOptionValueUpdate(string sessionId, string valueId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueUpdateEntity data, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4882,7 +4882,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderListEntity[] salesOrderList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderListEntity[] salesOrderList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -4936,7 +4936,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderEntity salesOrderInfo(string sessionId, string orderIncrementId);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderEntity salesOrderInfo(string sessionId, string orderIncrementId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5206,7 +5206,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderShipmentEntity[] salesOrderShipmentList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderShipmentEntity[] salesOrderShipmentList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5260,7 +5260,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderShipmentEntity salesOrderShipmentInfo(string sessionId, string shipmentIncrementId);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderShipmentEntity salesOrderShipmentInfo(string sessionId, string shipmentIncrementId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5314,7 +5314,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="shipmentIncrementId")]
-        string salesOrderShipmentCreate(string sessionId, string orderIncrementId, MNC_Product_Sync.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, int email, int includeComment);
+        string salesOrderShipmentCreate(string sessionId, string orderIncrementId, AX_CRT_MAge_Connector.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, int email, int includeComment);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5583,7 +5583,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.associativeEntity[] salesOrderShipmentGetCarriers(string sessionId, string orderIncrementId);
+        AX_CRT_MAge_Connector.MagentoConnectService.associativeEntity[] salesOrderShipmentGetCarriers(string sessionId, string orderIncrementId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5637,7 +5637,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderInvoiceEntity[] salesOrderInvoiceList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderInvoiceEntity[] salesOrderInvoiceList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5691,7 +5691,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderInvoiceEntity salesOrderInvoiceInfo(string sessionId, string invoiceIncrementId);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderInvoiceEntity salesOrderInvoiceInfo(string sessionId, string invoiceIncrementId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -5745,7 +5745,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        string salesOrderInvoiceCreate(string sessionId, string invoiceIncrementId, MNC_Product_Sync.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, string email, string includeComment);
+        string salesOrderInvoiceCreate(string sessionId, string invoiceIncrementId, AX_CRT_MAge_Connector.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, string email, string includeComment);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6015,7 +6015,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderCreditmemoEntity[] salesOrderCreditmemoList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoEntity[] salesOrderCreditmemoList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6069,7 +6069,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.salesOrderCreditmemoEntity salesOrderCreditmemoInfo(string sessionId, string creditmemoIncrementId);
+        AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoEntity salesOrderCreditmemoInfo(string sessionId, string creditmemoIncrementId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6123,7 +6123,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        string salesOrderCreditmemoCreate(string sessionId, string orderIncrementId, MNC_Product_Sync.MagentoConnectService.salesOrderCreditmemoData creditmemoData, string comment, int notifyCustomer, int includeComment, string refundToStoreCreditAmount);
+        string salesOrderCreditmemoCreate(string sessionId, string orderIncrementId, AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoData creditmemoData, string comment, int notifyCustomer, int includeComment, string refundToStoreCreditAmount);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6285,7 +6285,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogInventoryStockItemEntity[] catalogInventoryStockItemList(string sessionId, string[] products);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemEntity[] catalogInventoryStockItemList(string sessionId, string[] products);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6339,7 +6339,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        int catalogInventoryStockItemUpdate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogInventoryStockItemUpdateEntity data);
+        int catalogInventoryStockItemUpdate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemUpdateEntity data);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6393,7 +6393,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogInventoryStockItemMultiUpdate(string sessionId, string[] productIds, MNC_Product_Sync.MagentoConnectService.catalogInventoryStockItemUpdateEntity[] productData);
+        bool catalogInventoryStockItemMultiUpdate(string sessionId, string[] productIds, AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemUpdateEntity[] productData);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6501,7 +6501,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.shoppingCartInfoEntity shoppingCartInfo(string sessionId, int quoteId, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartInfoEntity shoppingCartInfo(string sessionId, int quoteId, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6609,7 +6609,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.shoppingCartTotalsEntity[] shoppingCartTotals(string sessionId, int quoteId, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartTotalsEntity[] shoppingCartTotals(string sessionId, int quoteId, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6663,7 +6663,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.shoppingCartLicenseEntity[] shoppingCartLicense(string sessionId, int quoteId, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartLicenseEntity[] shoppingCartLicense(string sessionId, int quoteId, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6717,7 +6717,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartProductAdd(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
+        bool shoppingCartProductAdd(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6771,7 +6771,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartProductUpdate(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
+        bool shoppingCartProductUpdate(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6825,7 +6825,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartProductRemove(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
+        bool shoppingCartProductRemove(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6879,7 +6879,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductEntity[] shoppingCartProductList(string sessionId, int quoteId, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductEntity[] shoppingCartProductList(string sessionId, int quoteId, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6933,7 +6933,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartProductMoveToCustomerQuote(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
+        bool shoppingCartProductMoveToCustomerQuote(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -6987,7 +6987,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartCustomerSet(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartCustomerEntity customer, string storeId);
+        bool shoppingCartCustomerSet(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartCustomerEntity customer, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7041,7 +7041,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartCustomerAddresses(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartCustomerAddressEntity[] customer, string storeId);
+        bool shoppingCartCustomerAddresses(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartCustomerAddressEntity[] customer, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7149,7 +7149,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.shoppingCartShippingMethodEntity[] shoppingCartShippingList(string sessionId, int quoteId, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartShippingMethodEntity[] shoppingCartShippingList(string sessionId, int quoteId, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7203,7 +7203,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool shoppingCartPaymentMethod(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartPaymentMethodEntity method, string storeId);
+        bool shoppingCartPaymentMethod(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartPaymentMethodEntity method, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7257,7 +7257,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.shoppingCartPaymentMethodResponseEntity[] shoppingCartPaymentList(string sessionId, int quoteId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartPaymentMethodResponseEntity[] shoppingCartPaymentList(string sessionId, int quoteId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7419,7 +7419,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductTagListEntity[] catalogProductTagList(string sessionId, string productId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagListEntity[] catalogProductTagList(string sessionId, string productId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7473,7 +7473,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductTagInfoEntity catalogProductTagInfo(string sessionId, string tagId, string store);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagInfoEntity catalogProductTagInfo(string sessionId, string tagId, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7527,7 +7527,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.associativeEntity[] catalogProductTagAdd(string sessionId, MNC_Product_Sync.MagentoConnectService.catalogProductTagAddEntity data);
+        AX_CRT_MAge_Connector.MagentoConnectService.associativeEntity[] catalogProductTagAdd(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagAddEntity data);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7581,7 +7581,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        bool catalogProductTagUpdate(string sessionId, string tagId, MNC_Product_Sync.MagentoConnectService.catalogProductTagUpdateEntity data, string store);
+        bool catalogProductTagUpdate(string sessionId, string tagId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagUpdateEntity data, string store);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7689,7 +7689,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.giftMessageResponse giftMessageSetForQuote(string sessionId, string quoteId, MNC_Product_Sync.MagentoConnectService.giftMessageEntity giftMessage, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse giftMessageSetForQuote(string sessionId, string quoteId, AX_CRT_MAge_Connector.MagentoConnectService.giftMessageEntity giftMessage, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7743,7 +7743,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.giftMessageResponse giftMessageSetForQuoteItem(string sessionId, string quoteItemId, MNC_Product_Sync.MagentoConnectService.giftMessageEntity giftMessage, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse giftMessageSetForQuoteItem(string sessionId, string quoteItemId, AX_CRT_MAge_Connector.MagentoConnectService.giftMessageEntity giftMessage, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7797,7 +7797,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="result")]
-        MNC_Product_Sync.MagentoConnectService.giftMessageResponse[] giftMessageSetForQuoteProduct(string sessionId, string quoteId, MNC_Product_Sync.MagentoConnectService.giftMessageAssociativeProductsEntity[] productsAndMessages, string storeId);
+        AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse[] giftMessageSetForQuoteProduct(string sessionId, string quoteId, AX_CRT_MAge_Connector.MagentoConnectService.giftMessageAssociativeProductsEntity[] productsAndMessages, string storeId);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7851,7 +7851,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="respons")]
-        int catalogProductDownloadableLinkAdd(string sessionId, string productId, MNC_Product_Sync.MagentoConnectService.catalogProductDownloadableLinkAddEntity resource, string resourceType, string store, string identifierType);
+        int catalogProductDownloadableLinkAdd(string sessionId, string productId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductDownloadableLinkAddEntity resource, string resourceType, string store, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7905,7 +7905,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiMethodEntity))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(apiEntity))]
         [return: System.ServiceModel.MessageParameterAttribute(Name="respons")]
-        MNC_Product_Sync.MagentoConnectService.catalogProductDownloadableLinkInfoEntity catalogProductDownloadableLinkList(string sessionId, string productId, string store, string identifierType);
+        AX_CRT_MAge_Connector.MagentoConnectService.catalogProductDownloadableLinkInfoEntity catalogProductDownloadableLinkList(string sessionId, string productId, string store, string identifierType);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:Action", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(Style=System.ServiceModel.OperationFormatStyle.Rpc, SupportFaults=true, Use=System.ServiceModel.OperationFormatUse.Encoded)]
@@ -7963,7 +7963,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8033,7 +8033,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8103,7 +8103,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8238,7 +8238,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8308,7 +8308,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8536,7 +8536,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8580,7 +8580,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8624,7 +8624,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8681,7 +8681,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8898,7 +8898,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8942,7 +8942,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9065,7 +9065,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9109,7 +9109,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9166,7 +9166,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9237,7 +9237,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9294,7 +9294,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9364,7 +9364,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9434,7 +9434,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9478,7 +9478,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9535,7 +9535,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9657,7 +9657,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9780,7 +9780,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10021,7 +10021,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10225,7 +10225,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10336,7 +10336,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10394,7 +10394,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10646,7 +10646,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11802,7 +11802,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12227,7 +12227,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13248,7 +13248,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13318,7 +13318,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13430,7 +13430,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13474,7 +13474,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13570,7 +13570,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14017,7 +14017,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14971,7 +14971,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15093,7 +15093,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15462,7 +15462,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15922,7 +15922,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16044,7 +16044,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16192,7 +16192,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16379,7 +16379,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16618,7 +16618,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -16740,7 +16740,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -17018,7 +17018,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -17777,7 +17777,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18029,7 +18029,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -18983,7 +18983,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21224,7 +21224,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21307,7 +21307,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21390,7 +21390,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21486,7 +21486,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21673,7 +21673,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21756,7 +21756,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21839,7 +21839,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -21987,7 +21987,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22031,7 +22031,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22128,7 +22128,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22225,7 +22225,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22269,7 +22269,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22365,7 +22365,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22422,7 +22422,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22518,7 +22518,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22562,7 +22562,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22658,7 +22658,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22702,7 +22702,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22746,7 +22746,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -22803,7 +22803,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23129,7 +23129,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23173,7 +23173,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23551,7 +23551,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23595,7 +23595,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -23947,7 +23947,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24005,7 +24005,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24062,7 +24062,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24471,7 +24471,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24515,7 +24515,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24559,7 +24559,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -24941,7 +24941,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25039,7 +25039,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25499,7 +25499,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25543,7 +25543,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25652,7 +25652,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25749,7 +25749,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -25832,7 +25832,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26194,7 +26194,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26725,7 +26725,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26821,7 +26821,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -26930,7 +26930,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27026,7 +27026,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27294,7 +27294,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27628,7 +27628,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27672,7 +27672,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -27942,7 +27942,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28264,7 +28264,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28308,7 +28308,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28352,7 +28352,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28409,7 +28409,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28479,7 +28479,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28523,7 +28523,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28632,7 +28632,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -28676,12 +28676,12 @@ namespace MNC_Product_Sync.MagentoConnectService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface PortTypeChannel : MNC_Product_Sync.MagentoConnectService.PortType, System.ServiceModel.IClientChannel {
+    public interface PortTypeChannel : AX_CRT_MAge_Connector.MagentoConnectService.PortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PortTypeClient : System.ServiceModel.ClientBase<MNC_Product_Sync.MagentoConnectService.PortType>, MNC_Product_Sync.MagentoConnectService.PortType {
+    public partial class PortTypeClient : System.ServiceModel.ClientBase<AX_CRT_MAge_Connector.MagentoConnectService.PortType>, AX_CRT_MAge_Connector.MagentoConnectService.PortType {
         
         public PortTypeClient() {
         }
@@ -28714,51 +28714,51 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.startSession();
         }
         
-        public MNC_Product_Sync.MagentoConnectService.apiEntity[] resources(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.apiEntity[] resources(string sessionId) {
             return base.Channel.resources(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.existsFaltureEntity[] globalFaults(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.existsFaltureEntity[] globalFaults(string sessionId) {
             return base.Channel.globalFaults(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.existsFaltureEntity[] resourceFaults(string resourceName, string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.existsFaltureEntity[] resourceFaults(string resourceName, string sessionId) {
             return base.Channel.resourceFaults(resourceName, sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.storeEntity[] storeList(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.storeEntity[] storeList(string sessionId) {
             return base.Channel.storeList(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.storeEntity storeInfo(string sessionId, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.storeEntity storeInfo(string sessionId, string storeId) {
             return base.Channel.storeInfo(sessionId, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.magentoInfoEntity magentoInfo(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.magentoInfoEntity magentoInfo(string sessionId) {
             return base.Channel.magentoInfo(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.directoryCountryEntity[] directoryCountryList(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.directoryCountryEntity[] directoryCountryList(string sessionId) {
             return base.Channel.directoryCountryList(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.directoryRegionEntity[] directoryRegionList(string sessionId, string country) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.directoryRegionEntity[] directoryRegionList(string sessionId, string country) {
             return base.Channel.directoryRegionList(sessionId, country);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.customerCustomerEntity[] customerCustomerList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntity[] customerCustomerList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters) {
             return base.Channel.customerCustomerList(sessionId, filters);
         }
         
-        public int customerCustomerCreate(string sessionId, MNC_Product_Sync.MagentoConnectService.customerCustomerEntityToCreate customerData) {
+        public int customerCustomerCreate(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntityToCreate customerData) {
             return base.Channel.customerCustomerCreate(sessionId, customerData);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.customerCustomerEntity customerCustomerInfo(string sessionId, int customerId, string[] attributes) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntity customerCustomerInfo(string sessionId, int customerId, string[] attributes) {
             return base.Channel.customerCustomerInfo(sessionId, customerId, attributes);
         }
         
-        public bool customerCustomerUpdate(string sessionId, int customerId, MNC_Product_Sync.MagentoConnectService.customerCustomerEntityToCreate customerData) {
+        public bool customerCustomerUpdate(string sessionId, int customerId, AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntityToCreate customerData) {
             return base.Channel.customerCustomerUpdate(sessionId, customerId, customerData);
         }
         
@@ -28766,23 +28766,23 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.customerCustomerDelete(sessionId, customerId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.customerGroupEntity[] customerGroupList(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.customerGroupEntity[] customerGroupList(string sessionId) {
             return base.Channel.customerGroupList(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.customerAddressEntityItem[] customerAddressList(string sessionId, int customerId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityItem[] customerAddressList(string sessionId, int customerId) {
             return base.Channel.customerAddressList(sessionId, customerId);
         }
         
-        public int customerAddressCreate(string sessionId, int customerId, MNC_Product_Sync.MagentoConnectService.customerAddressEntityCreate addressData) {
+        public int customerAddressCreate(string sessionId, int customerId, AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityCreate addressData) {
             return base.Channel.customerAddressCreate(sessionId, customerId, addressData);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.customerAddressEntityItem customerAddressInfo(string sessionId, int addressId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityItem customerAddressInfo(string sessionId, int addressId) {
             return base.Channel.customerAddressInfo(sessionId, addressId);
         }
         
-        public bool customerAddressUpdate(string sessionId, int addressId, MNC_Product_Sync.MagentoConnectService.customerAddressEntityCreate addressData) {
+        public bool customerAddressUpdate(string sessionId, int addressId, AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityCreate addressData) {
             return base.Channel.customerAddressUpdate(sessionId, addressId, addressData);
         }
         
@@ -28794,23 +28794,23 @@ namespace MNC_Product_Sync.MagentoConnectService {
             base.Channel.catalogCategoryCurrentStore(out storeView1, sessionId, storeView);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogCategoryTree catalogCategoryTree(string sessionId, string parentId, string storeView) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryTree catalogCategoryTree(string sessionId, string parentId, string storeView) {
             return base.Channel.catalogCategoryTree(sessionId, parentId, storeView);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogCategoryEntityNoChildren[] catalogCategoryLevel(string sessionId, string website, string storeView, string parentCategory) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityNoChildren[] catalogCategoryLevel(string sessionId, string website, string storeView, string parentCategory) {
             return base.Channel.catalogCategoryLevel(sessionId, website, storeView, parentCategory);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogCategoryInfo catalogCategoryInfo(string sessionId, int categoryId, string storeView, string[] attributes) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryInfo catalogCategoryInfo(string sessionId, int categoryId, string storeView, string[] attributes) {
             return base.Channel.catalogCategoryInfo(sessionId, categoryId, storeView, attributes);
         }
         
-        public int catalogCategoryCreate(string sessionId, int parentId, MNC_Product_Sync.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView) {
+        public int catalogCategoryCreate(string sessionId, int parentId, AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView) {
             return base.Channel.catalogCategoryCreate(sessionId, parentId, categoryData, storeView);
         }
         
-        public bool catalogCategoryUpdate(string sessionId, int categoryId, MNC_Product_Sync.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView) {
+        public bool catalogCategoryUpdate(string sessionId, int categoryId, AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityCreate categoryData, string storeView) {
             return base.Channel.catalogCategoryUpdate(sessionId, categoryId, categoryData, storeView);
         }
         
@@ -28822,7 +28822,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogCategoryDelete(sessionId, categoryId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAssignedProduct[] catalogCategoryAssignedProducts(string sessionId, int categoryId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAssignedProduct[] catalogCategoryAssignedProducts(string sessionId, int categoryId) {
             return base.Channel.catalogCategoryAssignedProducts(sessionId, categoryId);
         }
         
@@ -28842,11 +28842,11 @@ namespace MNC_Product_Sync.MagentoConnectService {
             base.Channel.catalogCategoryAttributeCurrentStore(out storeView1, sessionId, storeView);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAttributeEntity[] catalogCategoryAttributeList(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity[] catalogCategoryAttributeList(string sessionId) {
             return base.Channel.catalogCategoryAttributeList(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAttributeOptionEntity[] catalogCategoryAttributeOptions(string sessionId, string attributeId, string storeView) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity[] catalogCategoryAttributeOptions(string sessionId, string attributeId, string storeView) {
             return base.Channel.catalogCategoryAttributeOptions(sessionId, attributeId, storeView);
         }
         
@@ -28854,23 +28854,23 @@ namespace MNC_Product_Sync.MagentoConnectService {
             base.Channel.catalogProductCurrentStore(out storeView1, sessionId, storeView);
         }
         
-        public void catalogProductList(out MNC_Product_Sync.MagentoConnectService.catalogProductEntity[] storeView1, string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters, string storeView) {
+        public void catalogProductList(out AX_CRT_MAge_Connector.MagentoConnectService.catalogProductEntity[] storeView1, string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters, string storeView) {
             base.Channel.catalogProductList(out storeView1, sessionId, filters, storeView);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductReturnEntity catalogProductInfo(string sessionId, string productId, string storeView, MNC_Product_Sync.MagentoConnectService.catalogProductRequestAttributes attributes, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductReturnEntity catalogProductInfo(string sessionId, string productId, string storeView, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductRequestAttributes attributes, string identifierType) {
             return base.Channel.catalogProductInfo(sessionId, productId, storeView, attributes, identifierType);
         }
         
-        public int catalogProductCreate(string sessionId, string type, string set, string sku, MNC_Product_Sync.MagentoConnectService.catalogProductCreateEntity productData, string storeView) {
+        public int catalogProductCreate(string sessionId, string type, string set, string sku, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCreateEntity productData, string storeView) {
             return base.Channel.catalogProductCreate(sessionId, type, set, sku, productData, storeView);
         }
         
-        public bool catalogProductUpdate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogProductCreateEntity productData, string storeView, string identifierType) {
+        public bool catalogProductUpdate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCreateEntity productData, string storeView, string identifierType) {
             return base.Channel.catalogProductUpdate(sessionId, product, productData, storeView, identifierType);
         }
         
-        public bool catalogProductMultiUpdate(string sessionId, string[] productIds, MNC_Product_Sync.MagentoConnectService.catalogProductCreateEntity[] productData, string store, string identifierType) {
+        public bool catalogProductMultiUpdate(string sessionId, string[] productIds, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCreateEntity[] productData, string store, string identifierType) {
             return base.Channel.catalogProductMultiUpdate(sessionId, productIds, productData, store, identifierType);
         }
         
@@ -28878,7 +28878,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductSetSpecialPrice(sessionId, product, specialPrice, fromDate, toDate, storeView, identifierType);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductSpecialPriceReturnEntity catalogProductGetSpecialPrice(string sessionId, string product, string storeView, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductSpecialPriceReturnEntity catalogProductGetSpecialPrice(string sessionId, string product, string storeView, string identifierType) {
             return base.Channel.catalogProductGetSpecialPrice(sessionId, product, storeView, identifierType);
         }
         
@@ -28890,15 +28890,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             base.Channel.catalogProductAttributeCurrentStore(out storeView1, sessionId, storeView);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAttributeEntity[] catalogProductListOfAdditionalAttributes(string sessionId, string productType, string attributeSetId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity[] catalogProductListOfAdditionalAttributes(string sessionId, string productType, string attributeSetId) {
             return base.Channel.catalogProductListOfAdditionalAttributes(sessionId, productType, attributeSetId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAttributeEntity[] catalogProductAttributeList(string sessionId, int setId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity[] catalogProductAttributeList(string sessionId, int setId) {
             return base.Channel.catalogProductAttributeList(sessionId, setId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeOptions(string sessionId, string attributeId, string storeView) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeOptions(string sessionId, string attributeId, string storeView) {
             return base.Channel.catalogProductAttributeOptions(sessionId, attributeId, storeView);
         }
         
@@ -28910,7 +28910,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductAttributeSetRemove(sessionId, attributeSetId, forceProductsRemove);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductAttributeSetEntity[] catalogProductAttributeSetList(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeSetEntity[] catalogProductAttributeSetList(string sessionId) {
             return base.Channel.catalogProductAttributeSetList(sessionId);
         }
         
@@ -28934,11 +28934,11 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductAttributeSetGroupRemove(sessionId, attributeGroupId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeTypes(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity[] catalogProductAttributeTypes(string sessionId) {
             return base.Channel.catalogProductAttributeTypes(sessionId);
         }
         
-        public int catalogProductAttributeCreate(string sessionId, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeEntityToCreate data) {
+        public int catalogProductAttributeCreate(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntityToCreate data) {
             return base.Channel.catalogProductAttributeCreate(sessionId, data);
         }
         
@@ -28946,15 +28946,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductAttributeRemove(sessionId, attribute);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductAttributeEntity catalogProductAttributeInfo(string sessionId, string attribute) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntity catalogProductAttributeInfo(string sessionId, string attribute) {
             return base.Channel.catalogProductAttributeInfo(sessionId, attribute);
         }
         
-        public bool catalogProductAttributeUpdate(string sessionId, string attribute, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeEntityToUpdate data) {
+        public bool catalogProductAttributeUpdate(string sessionId, string attribute, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntityToUpdate data) {
             return base.Channel.catalogProductAttributeUpdate(sessionId, attribute, data);
         }
         
-        public bool catalogProductAttributeAddOption(string sessionId, string attribute, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeOptionEntityToAdd data) {
+        public bool catalogProductAttributeAddOption(string sessionId, string attribute, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeOptionEntityToAdd data) {
             return base.Channel.catalogProductAttributeAddOption(sessionId, attribute, data);
         }
         
@@ -28962,15 +28962,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductAttributeRemoveOption(sessionId, attribute, optionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductTypeEntity[] catalogProductTypeList(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTypeEntity[] catalogProductTypeList(string sessionId) {
             return base.Channel.catalogProductTypeList(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductTierPriceEntity[] catalogProductAttributeTierPriceInfo(string sessionId, string product, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTierPriceEntity[] catalogProductAttributeTierPriceInfo(string sessionId, string product, string identifierType) {
             return base.Channel.catalogProductAttributeTierPriceInfo(sessionId, product, identifierType);
         }
         
-        public int catalogProductAttributeTierPriceUpdate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogProductTierPriceEntity[] tier_price, string identifierType) {
+        public int catalogProductAttributeTierPriceUpdate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTierPriceEntity[] tier_price, string identifierType) {
             return base.Channel.catalogProductAttributeTierPriceUpdate(sessionId, product, tier_price, identifierType);
         }
         
@@ -28978,23 +28978,23 @@ namespace MNC_Product_Sync.MagentoConnectService {
             base.Channel.catalogProductAttributeMediaCurrentStore(out storeView1, sessionId, storeView);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductImageEntity[] catalogProductAttributeMediaList(string sessionId, string product, string storeView, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductImageEntity[] catalogProductAttributeMediaList(string sessionId, string product, string storeView, string identifierType) {
             return base.Channel.catalogProductAttributeMediaList(sessionId, product, storeView, identifierType);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductImageEntity catalogProductAttributeMediaInfo(string sessionId, string product, string file, string storeView, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductImageEntity catalogProductAttributeMediaInfo(string sessionId, string product, string file, string storeView, string identifierType) {
             return base.Channel.catalogProductAttributeMediaInfo(sessionId, product, file, storeView, identifierType);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductAttributeMediaTypeEntity[] catalogProductAttributeMediaTypes(string sessionId, string setId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaTypeEntity[] catalogProductAttributeMediaTypes(string sessionId, string setId) {
             return base.Channel.catalogProductAttributeMediaTypes(sessionId, setId);
         }
         
-        public string catalogProductAttributeMediaCreate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType) {
+        public string catalogProductAttributeMediaCreate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType) {
             return base.Channel.catalogProductAttributeMediaCreate(sessionId, product, data, storeView, identifierType);
         }
         
-        public bool catalogProductAttributeMediaUpdate(string sessionId, string product, string file, MNC_Product_Sync.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType) {
+        public bool catalogProductAttributeMediaUpdate(string sessionId, string product, string file, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaCreateEntity data, string storeView, string identifierType) {
             return base.Channel.catalogProductAttributeMediaUpdate(sessionId, product, file, data, storeView, identifierType);
         }
         
@@ -29002,15 +29002,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductAttributeMediaRemove(sessionId, product, file, identifierType);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductLinkEntity[] catalogProductLinkList(string sessionId, string type, string product, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity[] catalogProductLinkList(string sessionId, string type, string product, string identifierType) {
             return base.Channel.catalogProductLinkList(sessionId, type, product, identifierType);
         }
         
-        public bool catalogProductLinkAssign(string sessionId, string type, string product, string linkedProduct, MNC_Product_Sync.MagentoConnectService.catalogProductLinkEntity data, string identifierType) {
+        public bool catalogProductLinkAssign(string sessionId, string type, string product, string linkedProduct, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity data, string identifierType) {
             return base.Channel.catalogProductLinkAssign(sessionId, type, product, linkedProduct, data, identifierType);
         }
         
-        public bool catalogProductLinkUpdate(string sessionId, string type, string product, string linkedProduct, MNC_Product_Sync.MagentoConnectService.catalogProductLinkEntity data, string identifierType) {
+        public bool catalogProductLinkUpdate(string sessionId, string type, string product, string linkedProduct, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity data, string identifierType) {
             return base.Channel.catalogProductLinkUpdate(sessionId, type, product, linkedProduct, data, identifierType);
         }
         
@@ -29022,27 +29022,27 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductLinkTypes(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductLinkAttributeEntity[] catalogProductLinkAttributes(string sessionId, string type) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkAttributeEntity[] catalogProductLinkAttributes(string sessionId, string type) {
             return base.Channel.catalogProductLinkAttributes(sessionId, type);
         }
         
-        public bool catalogProductCustomOptionAdd(string sessionId, string productId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionToAdd data, string store) {
+        public bool catalogProductCustomOptionAdd(string sessionId, string productId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionToAdd data, string store) {
             return base.Channel.catalogProductCustomOptionAdd(sessionId, productId, data, store);
         }
         
-        public bool catalogProductCustomOptionUpdate(string sessionId, string optionId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionToUpdate data, string store) {
+        public bool catalogProductCustomOptionUpdate(string sessionId, string optionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionToUpdate data, string store) {
             return base.Channel.catalogProductCustomOptionUpdate(sessionId, optionId, data, store);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionTypesEntity[] catalogProductCustomOptionTypes(string sessionId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionTypesEntity[] catalogProductCustomOptionTypes(string sessionId) {
             return base.Channel.catalogProductCustomOptionTypes(sessionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionInfoEntity catalogProductCustomOptionInfo(string sessionId, string optionId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionInfoEntity catalogProductCustomOptionInfo(string sessionId, string optionId, string store) {
             return base.Channel.catalogProductCustomOptionInfo(sessionId, optionId, store);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionListEntity[] catalogProductCustomOptionList(string sessionId, string productId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionListEntity[] catalogProductCustomOptionList(string sessionId, string productId, string store) {
             return base.Channel.catalogProductCustomOptionList(sessionId, productId, store);
         }
         
@@ -29050,19 +29050,19 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductCustomOptionRemove(sessionId, optionId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueInfoEntity catalogProductCustomOptionValueInfo(string sessionId, string valueId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueInfoEntity catalogProductCustomOptionValueInfo(string sessionId, string valueId, string store) {
             return base.Channel.catalogProductCustomOptionValueInfo(sessionId, valueId, store);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueListEntity[] catalogProductCustomOptionValueList(string sessionId, string optionId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueListEntity[] catalogProductCustomOptionValueList(string sessionId, string optionId, string store) {
             return base.Channel.catalogProductCustomOptionValueList(sessionId, optionId, store);
         }
         
-        public bool catalogProductCustomOptionValueAdd(string sessionId, string optionId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueAddEntity[] data, string store) {
+        public bool catalogProductCustomOptionValueAdd(string sessionId, string optionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueAddEntity[] data, string store) {
             return base.Channel.catalogProductCustomOptionValueAdd(sessionId, optionId, data, store);
         }
         
-        public bool catalogProductCustomOptionValueUpdate(string sessionId, string valueId, MNC_Product_Sync.MagentoConnectService.catalogProductCustomOptionValueUpdateEntity data, string storeId) {
+        public bool catalogProductCustomOptionValueUpdate(string sessionId, string valueId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueUpdateEntity data, string storeId) {
             return base.Channel.catalogProductCustomOptionValueUpdate(sessionId, valueId, data, storeId);
         }
         
@@ -29070,11 +29070,11 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductCustomOptionValueRemove(sessionId, valueId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderListEntity[] salesOrderList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderListEntity[] salesOrderList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters) {
             return base.Channel.salesOrderList(sessionId, filters);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderEntity salesOrderInfo(string sessionId, string orderIncrementId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderEntity salesOrderInfo(string sessionId, string orderIncrementId) {
             return base.Channel.salesOrderInfo(sessionId, orderIncrementId);
         }
         
@@ -29094,15 +29094,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.salesOrderCancel(sessionId, orderIncrementId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderShipmentEntity[] salesOrderShipmentList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderShipmentEntity[] salesOrderShipmentList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters) {
             return base.Channel.salesOrderShipmentList(sessionId, filters);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderShipmentEntity salesOrderShipmentInfo(string sessionId, string shipmentIncrementId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderShipmentEntity salesOrderShipmentInfo(string sessionId, string shipmentIncrementId) {
             return base.Channel.salesOrderShipmentInfo(sessionId, shipmentIncrementId);
         }
         
-        public string salesOrderShipmentCreate(string sessionId, string orderIncrementId, MNC_Product_Sync.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, int email, int includeComment) {
+        public string salesOrderShipmentCreate(string sessionId, string orderIncrementId, AX_CRT_MAge_Connector.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, int email, int includeComment) {
             return base.Channel.salesOrderShipmentCreate(sessionId, orderIncrementId, itemsQty, comment, email, includeComment);
         }
         
@@ -29122,19 +29122,19 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.salesOrderShipmentRemoveTrack(sessionId, shipmentIncrementId, trackId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.associativeEntity[] salesOrderShipmentGetCarriers(string sessionId, string orderIncrementId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.associativeEntity[] salesOrderShipmentGetCarriers(string sessionId, string orderIncrementId) {
             return base.Channel.salesOrderShipmentGetCarriers(sessionId, orderIncrementId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderInvoiceEntity[] salesOrderInvoiceList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderInvoiceEntity[] salesOrderInvoiceList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters) {
             return base.Channel.salesOrderInvoiceList(sessionId, filters);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderInvoiceEntity salesOrderInvoiceInfo(string sessionId, string invoiceIncrementId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderInvoiceEntity salesOrderInvoiceInfo(string sessionId, string invoiceIncrementId) {
             return base.Channel.salesOrderInvoiceInfo(sessionId, invoiceIncrementId);
         }
         
-        public string salesOrderInvoiceCreate(string sessionId, string invoiceIncrementId, MNC_Product_Sync.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, string email, string includeComment) {
+        public string salesOrderInvoiceCreate(string sessionId, string invoiceIncrementId, AX_CRT_MAge_Connector.MagentoConnectService.orderItemIdQty[] itemsQty, string comment, string email, string includeComment) {
             return base.Channel.salesOrderInvoiceCreate(sessionId, invoiceIncrementId, itemsQty, comment, email, includeComment);
         }
         
@@ -29154,15 +29154,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.salesOrderInvoiceCancel(sessionId, invoiceIncrementId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderCreditmemoEntity[] salesOrderCreditmemoList(string sessionId, MNC_Product_Sync.MagentoConnectService.filters filters) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoEntity[] salesOrderCreditmemoList(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.filters filters) {
             return base.Channel.salesOrderCreditmemoList(sessionId, filters);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.salesOrderCreditmemoEntity salesOrderCreditmemoInfo(string sessionId, string creditmemoIncrementId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoEntity salesOrderCreditmemoInfo(string sessionId, string creditmemoIncrementId) {
             return base.Channel.salesOrderCreditmemoInfo(sessionId, creditmemoIncrementId);
         }
         
-        public string salesOrderCreditmemoCreate(string sessionId, string orderIncrementId, MNC_Product_Sync.MagentoConnectService.salesOrderCreditmemoData creditmemoData, string comment, int notifyCustomer, int includeComment, string refundToStoreCreditAmount) {
+        public string salesOrderCreditmemoCreate(string sessionId, string orderIncrementId, AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoData creditmemoData, string comment, int notifyCustomer, int includeComment, string refundToStoreCreditAmount) {
             return base.Channel.salesOrderCreditmemoCreate(sessionId, orderIncrementId, creditmemoData, comment, notifyCustomer, includeComment, refundToStoreCreditAmount);
         }
         
@@ -29174,15 +29174,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.salesOrderCreditmemoCancel(sessionId, creditmemoIncrementId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogInventoryStockItemEntity[] catalogInventoryStockItemList(string sessionId, string[] products) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemEntity[] catalogInventoryStockItemList(string sessionId, string[] products) {
             return base.Channel.catalogInventoryStockItemList(sessionId, products);
         }
         
-        public int catalogInventoryStockItemUpdate(string sessionId, string product, MNC_Product_Sync.MagentoConnectService.catalogInventoryStockItemUpdateEntity data) {
+        public int catalogInventoryStockItemUpdate(string sessionId, string product, AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemUpdateEntity data) {
             return base.Channel.catalogInventoryStockItemUpdate(sessionId, product, data);
         }
         
-        public bool catalogInventoryStockItemMultiUpdate(string sessionId, string[] productIds, MNC_Product_Sync.MagentoConnectService.catalogInventoryStockItemUpdateEntity[] productData) {
+        public bool catalogInventoryStockItemMultiUpdate(string sessionId, string[] productIds, AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemUpdateEntity[] productData) {
             return base.Channel.catalogInventoryStockItemMultiUpdate(sessionId, productIds, productData);
         }
         
@@ -29190,7 +29190,7 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.shoppingCartCreate(sessionId, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.shoppingCartInfoEntity shoppingCartInfo(string sessionId, int quoteId, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartInfoEntity shoppingCartInfo(string sessionId, int quoteId, string storeId) {
             return base.Channel.shoppingCartInfo(sessionId, quoteId, storeId);
         }
         
@@ -29198,39 +29198,39 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.shoppingCartOrder(sessionId, quoteId, storeId, licenses);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.shoppingCartTotalsEntity[] shoppingCartTotals(string sessionId, int quoteId, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartTotalsEntity[] shoppingCartTotals(string sessionId, int quoteId, string storeId) {
             return base.Channel.shoppingCartTotals(sessionId, quoteId, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.shoppingCartLicenseEntity[] shoppingCartLicense(string sessionId, int quoteId, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartLicenseEntity[] shoppingCartLicense(string sessionId, int quoteId, string storeId) {
             return base.Channel.shoppingCartLicense(sessionId, quoteId, storeId);
         }
         
-        public bool shoppingCartProductAdd(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
+        public bool shoppingCartProductAdd(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
             return base.Channel.shoppingCartProductAdd(sessionId, quoteId, products, storeId);
         }
         
-        public bool shoppingCartProductUpdate(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
+        public bool shoppingCartProductUpdate(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
             return base.Channel.shoppingCartProductUpdate(sessionId, quoteId, products, storeId);
         }
         
-        public bool shoppingCartProductRemove(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
+        public bool shoppingCartProductRemove(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
             return base.Channel.shoppingCartProductRemove(sessionId, quoteId, products, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductEntity[] shoppingCartProductList(string sessionId, int quoteId, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductEntity[] shoppingCartProductList(string sessionId, int quoteId, string storeId) {
             return base.Channel.shoppingCartProductList(sessionId, quoteId, storeId);
         }
         
-        public bool shoppingCartProductMoveToCustomerQuote(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
+        public bool shoppingCartProductMoveToCustomerQuote(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartProductEntity[] products, string storeId) {
             return base.Channel.shoppingCartProductMoveToCustomerQuote(sessionId, quoteId, products, storeId);
         }
         
-        public bool shoppingCartCustomerSet(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartCustomerEntity customer, string storeId) {
+        public bool shoppingCartCustomerSet(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartCustomerEntity customer, string storeId) {
             return base.Channel.shoppingCartCustomerSet(sessionId, quoteId, customer, storeId);
         }
         
-        public bool shoppingCartCustomerAddresses(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartCustomerAddressEntity[] customer, string storeId) {
+        public bool shoppingCartCustomerAddresses(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartCustomerAddressEntity[] customer, string storeId) {
             return base.Channel.shoppingCartCustomerAddresses(sessionId, quoteId, customer, storeId);
         }
         
@@ -29238,15 +29238,15 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.shoppingCartShippingMethod(sessionId, quoteId, method, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.shoppingCartShippingMethodEntity[] shoppingCartShippingList(string sessionId, int quoteId, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartShippingMethodEntity[] shoppingCartShippingList(string sessionId, int quoteId, string storeId) {
             return base.Channel.shoppingCartShippingList(sessionId, quoteId, storeId);
         }
         
-        public bool shoppingCartPaymentMethod(string sessionId, int quoteId, MNC_Product_Sync.MagentoConnectService.shoppingCartPaymentMethodEntity method, string storeId) {
+        public bool shoppingCartPaymentMethod(string sessionId, int quoteId, AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartPaymentMethodEntity method, string storeId) {
             return base.Channel.shoppingCartPaymentMethod(sessionId, quoteId, method, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.shoppingCartPaymentMethodResponseEntity[] shoppingCartPaymentList(string sessionId, int quoteId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartPaymentMethodResponseEntity[] shoppingCartPaymentList(string sessionId, int quoteId, string store) {
             return base.Channel.shoppingCartPaymentList(sessionId, quoteId, store);
         }
         
@@ -29258,19 +29258,19 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.shoppingCartCouponRemove(sessionId, quoteId, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductTagListEntity[] catalogProductTagList(string sessionId, string productId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagListEntity[] catalogProductTagList(string sessionId, string productId, string store) {
             return base.Channel.catalogProductTagList(sessionId, productId, store);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductTagInfoEntity catalogProductTagInfo(string sessionId, string tagId, string store) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagInfoEntity catalogProductTagInfo(string sessionId, string tagId, string store) {
             return base.Channel.catalogProductTagInfo(sessionId, tagId, store);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.associativeEntity[] catalogProductTagAdd(string sessionId, MNC_Product_Sync.MagentoConnectService.catalogProductTagAddEntity data) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.associativeEntity[] catalogProductTagAdd(string sessionId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagAddEntity data) {
             return base.Channel.catalogProductTagAdd(sessionId, data);
         }
         
-        public bool catalogProductTagUpdate(string sessionId, string tagId, MNC_Product_Sync.MagentoConnectService.catalogProductTagUpdateEntity data, string store) {
+        public bool catalogProductTagUpdate(string sessionId, string tagId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagUpdateEntity data, string store) {
             return base.Channel.catalogProductTagUpdate(sessionId, tagId, data, store);
         }
         
@@ -29278,23 +29278,23 @@ namespace MNC_Product_Sync.MagentoConnectService {
             return base.Channel.catalogProductTagRemove(sessionId, tagId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.giftMessageResponse giftMessageSetForQuote(string sessionId, string quoteId, MNC_Product_Sync.MagentoConnectService.giftMessageEntity giftMessage, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse giftMessageSetForQuote(string sessionId, string quoteId, AX_CRT_MAge_Connector.MagentoConnectService.giftMessageEntity giftMessage, string storeId) {
             return base.Channel.giftMessageSetForQuote(sessionId, quoteId, giftMessage, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.giftMessageResponse giftMessageSetForQuoteItem(string sessionId, string quoteItemId, MNC_Product_Sync.MagentoConnectService.giftMessageEntity giftMessage, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse giftMessageSetForQuoteItem(string sessionId, string quoteItemId, AX_CRT_MAge_Connector.MagentoConnectService.giftMessageEntity giftMessage, string storeId) {
             return base.Channel.giftMessageSetForQuoteItem(sessionId, quoteItemId, giftMessage, storeId);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.giftMessageResponse[] giftMessageSetForQuoteProduct(string sessionId, string quoteId, MNC_Product_Sync.MagentoConnectService.giftMessageAssociativeProductsEntity[] productsAndMessages, string storeId) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse[] giftMessageSetForQuoteProduct(string sessionId, string quoteId, AX_CRT_MAge_Connector.MagentoConnectService.giftMessageAssociativeProductsEntity[] productsAndMessages, string storeId) {
             return base.Channel.giftMessageSetForQuoteProduct(sessionId, quoteId, productsAndMessages, storeId);
         }
         
-        public int catalogProductDownloadableLinkAdd(string sessionId, string productId, MNC_Product_Sync.MagentoConnectService.catalogProductDownloadableLinkAddEntity resource, string resourceType, string store, string identifierType) {
+        public int catalogProductDownloadableLinkAdd(string sessionId, string productId, AX_CRT_MAge_Connector.MagentoConnectService.catalogProductDownloadableLinkAddEntity resource, string resourceType, string store, string identifierType) {
             return base.Channel.catalogProductDownloadableLinkAdd(sessionId, productId, resource, resourceType, store, identifierType);
         }
         
-        public MNC_Product_Sync.MagentoConnectService.catalogProductDownloadableLinkInfoEntity catalogProductDownloadableLinkList(string sessionId, string productId, string store, string identifierType) {
+        public AX_CRT_MAge_Connector.MagentoConnectService.catalogProductDownloadableLinkInfoEntity catalogProductDownloadableLinkList(string sessionId, string productId, string store, string identifierType) {
             return base.Channel.catalogProductDownloadableLinkList(sessionId, productId, store, identifierType);
         }
         

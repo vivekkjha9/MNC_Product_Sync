@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E34DA88A-7832-4482-A0C6-7F27628B4DE5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AX_CRT_Mage_Connector</RootNamespace>
+    <AssemblyName>MagentoAXCRTCustomerConnector</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Connectors\Customer\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6182DF68B04C5B8B511DCC8A5029F8C3E64060E4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MNC_Product_Sync_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamics.Commerce.RetailProxy, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.RetailProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Cache.MemoryCache">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.Cache.MemoryCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Client, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.ConfigurationProviders">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.ConfigurationProviders.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.CrossLoyaltySample">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.CrossLoyaltySample.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Data">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.DataAccess.SqlServer">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.DataAccess.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.DataServices">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.DataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.DataServices.SqlServer">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Entities, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Framework, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Localization, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Messages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.RealtimeServices.Messages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.RealtimeServices.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Services">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Services.Desktop">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.Services.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Services.Messages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Services.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Services.PricingEngine">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Services.PricingEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.StoreHoursSample">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.StoreHoursSample.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.TransactionService">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.TransactionService.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.Workflow">
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Diagnostics.Sinks.Portable">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Diagnostics.Sinks.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Cdx.RealtimeServiceClientLibrary">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Cdx.RealtimeServiceClientLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.CommerceDataExchange.AsyncClient.Business">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.CommerceDataExchange.AsyncClient.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.CommerceDataExchange.AsyncClient.Core">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.CommerceDataExchange.AsyncClient.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.CommerceDataExchange.AsyncClient.DataManager">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.CommerceDataExchange.AsyncClient.DataManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Connector.FunctionalTests">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Connector.FunctionalTests.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Deployment.Resources">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Deployment.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Deployment.SelfService.BootstrapperLibrary">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Deployment.SelfService.BootstrapperLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Diagnostics, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Diagnostics.Core.Desktop">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Diagnostics.Core.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Diagnostics.Proxies.Desktop">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Diagnostics.Proxies.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Diagnostics.Sinks">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Diagnostics.Sinks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Ecommerce.Sdk.Controls">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Ecommerce.Sdk.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Ecommerce.Sdk.Core">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Ecommerce.Sdk.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Ecommerce.Web.Storefront">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Ecommerce.Web.Storefront.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Notification.Contracts">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Notification.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Notification.Proxy">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Notification.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.PaymentManager.Reference">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.PaymentManager.Reference.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.PaymentProcessor.Common">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.PaymentProcessor.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.PaymentSDK">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.PaymentSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.PaymentSDK.Extensions">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.PaymentSDK.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.PaymentSDK.Portable">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.PaymentSDK.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.PaymentTerminal.Contracts">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.PaymentTerminal.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Resources.Strings, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Resources.Strings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.RetailServerLibrary">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.RetailServerLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.SampleConnector.MerchantWeb">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.SampleConnector.MerchantWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.SampleConnector.PaymentAcceptWeb">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.SampleConnector.PaymentAcceptWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.SDKManager">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.SDKManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.SDKManager.Portable">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.SDKManager.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.Security">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.SynchLibrary">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.SynchLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.TestConnector">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.TestConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Retail.TestConnector.Portable">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Retail.TestConnector.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.RetailServer.CrossLoyaltySample">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.RetailServer.CrossLoyaltySample.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.RetailServer.StoreHoursSample">
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.RetailServer.StoreHoursSample.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <HintPath>..\..\..\..\AX CRT Connector\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.OData.Client">
+      <HintPath>..\..\..\..\AX CRT Connector\WpfApplication1\bin\Debug\Microsoft.OData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.8\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfigFileSettings.cs" />
+    <Compile Include="CombinedWriter.cs" />
+    <Compile Include="DynamicsRuntimeManager.cs" />
+    <Compile Include="ErrorLog.cs" />
+    <Compile Include="AxToMageCustomers.cs" />
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadAxCustomers.cs" />
+    <Compile Include="Service References\MagentoConnectService\Reference1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Navision_CustomerListService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Navision_Invoice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Navision_Shipment\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MagentoConnectService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Navision_ItemCategory_Service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Navision_ItemList_Service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Navision_SalesOrder_Service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MNC_Product_Sync_TemporaryKey.pfx" />
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.apiEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_Mage_Connector.MagentoConnectService.apiEntity1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.associativeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogAssignedProduct.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogAttributeOptionEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryEntityNoChildren.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogCategoryTree.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogInventoryStockItemEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeMediaTypeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductAttributeSetEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionListEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionTypesEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductCustomOptionValueListEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductDownloadableLinkInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductImageEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkAttributeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductLinkEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductReturnEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductSpecialPriceReturnEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTagListEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTierPriceEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.catalogProductTypeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.customerAddressEntityItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.customerCustomerEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.customerGroupEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.directoryCountryEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.directoryRegionEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.existsFaltureEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.giftMessageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.magentoInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.salesOrderCreditmemoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.salesOrderEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.salesOrderInvoiceEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.salesOrderListEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.salesOrderShipmentEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartLicenseEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartPaymentMethodResponseEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartShippingMethodEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.shoppingCartTotalsEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MagentoConnectService\AX_CRT_MAge_Connector.MagentoConnectService.storeEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_CustomerListService\AX_CRT_Mage_Connector.Navision_CustomerListService.CustomerList1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_CustomerListService\CustomerList1.wsdl" />
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.Read_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\AX_CRT_Mage_Connector.Navision_Invoice.Update_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Invoice\PostedSalesInvoice.wsdl" />
+    <None Include="Service References\Navision_ItemCategory_Service\AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_ItemList_Service\AX_CRT_Mage_Connector.Navision_ItemList_Service.ItemList1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_SalesOrder_Service\AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.Delete_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.Delete_SalesShipmLines_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.GetRecIdFromKey_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.IsUpdated_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.PostedSalesShipment1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.ReadByRecId_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.ReadMultiple_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.Read_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.UpdateMultiple_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\AX_CRT_Mage_Connector.Navision_Shipment.Update_Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Navision_Shipment\PostedSalesShipment.wsdl" />
+    <None Include="Service References\MagentoConnectService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MagentoConnectService\Magento1.wsdl" />
+    <None Include="Service References\Navision_ItemCategory_Service\ItemCategories1.wsdl" />
+    <None Include="Service References\Navision_ItemList_Service\ItemList1.wsdl" />
+    <None Include="Service References\Navision_SalesOrder_Service\SalesOrder1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Navision_CustomerListService\" />
+    <WCFMetadataStorage Include="Service References\Navision_Invoice\" />
+    <WCFMetadataStorage Include="Service References\Navision_Shipment\" />
+    <WCFMetadataStorage Include="Service References\MagentoConnectService\" />
+    <WCFMetadataStorage Include="Service References\Navision_ItemCategory_Service\" />
+    <WCFMetadataStorage Include="Service References\Navision_ItemList_Service\" />
+    <WCFMetadataStorage Include="Service References\Navision_SalesOrder_Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_CustomerListService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_CustomerListService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_CustomerListService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_SalesOrder_Service\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_SalesOrder_Service\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_SalesOrder_Service\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MNC_Logs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_ItemCategory_Service\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_ItemCategory_Service\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_ItemCategory_Service\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MagentoConnectService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MagentoConnectService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MagentoConnectService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference1.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_ItemList_Service\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_ItemList_Service\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_ItemList_Service\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_Shipment\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_Shipment\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_Shipment\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_Invoice\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_Invoice\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Navision_Invoice\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

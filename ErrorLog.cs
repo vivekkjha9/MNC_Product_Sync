@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace MNC_Product_Sync
+namespace AX_CRT_MAge_Connector
 {
     class ErrorLog
     {

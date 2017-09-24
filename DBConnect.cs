@@ -211,6 +211,71 @@ namespace ConnectCsharpToMysql
 
         }
 
+        public void UpdateShipment(string magentoorder, string shipment)
+        {
+            string[] mageorder = magentoorder.Split('/');
+            string query = "update mgme_navision_ordermapping_navisionordermapping set navisionshipmentid='" + shipment + "' where ordernumber ='" + mageorder[0] + "' and magentoorderlineid = '" + mageorder[1] + "'";
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                try
+                {
+                    //create command and assign the query and connection from the constructor
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                    //Execute command
+                    cmd.ExecuteNonQuery();
+
+
+                }
+                catch (Exception ex)
+                {
+
+                }
+                finally
+                {
+                    //close connection
+                    this.CloseConnection();
+                }
+            }
+
+
+        }
+
+        public void UpdateInvoice(string magentoorder, string invoice)
+        {
+            string[] mageorder = magentoorder.Split('/');
+            string query = "update mgme_navision_ordermapping_navisionordermapping set navisioninvoiceid='" + invoice + "' where ordernumber ='" + mageorder[0] + "' and magentoorderlineid = '" + mageorder[1] + "'";
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+                try
+                {
+                    //create command and assign the query and connection from the constructor
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                    //Execute command
+                    cmd.ExecuteNonQuery();
+
+
+                }
+                catch (Exception ex)
+                {
+
+                }
+                finally
+                {
+                    //close connection
+                    this.CloseConnection();
+                }
+            }
+
+
+        }
+
+
         public void InsertOrderMapping(string navisionordernumber,string navisionorderlineid, string magentoorderid,string magentoorderlineid, string navisioncustomerid)
         {
             string query = "INSERT INTO mgme_navision_ordermapping_navisionordermapping (ordernumber,magentoorderlineid,navisionordernumber,navisionorderlineid,navisioncustomerid,createdat) VALUES('" + magentoorderid + "','" + magentoorderlineid +  "','" + navisionordernumber + "','" + navisionorderlineid + "','" + navisioncustomerid + "','" + DateTime.Now.ToString("yyyy-MM-dd h:mm:ss") + "')";
@@ -324,7 +389,7 @@ namespace ConnectCsharpToMysql
 
         public System.Collections.Hashtable fetch_PendingShipments()
         {
-            string query = "select navisionordernumber,navisionorderlineid,ordernumber,magentoorderlineid from mgme_navision_ordermapping_navisionordermapping where navisionshipmentid =''";
+            string query = "select navisionordernumber,navisionorderlineid,ordernumber,magentoorderlineid from mgme_navision_ordermapping_navisionordermapping where navisionshipmentid ='' and navisionordernumber!=''";
             //DBConnect db = new DBConnect();
 
             Hashtable ret = null;

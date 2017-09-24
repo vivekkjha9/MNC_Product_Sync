@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections;
-using MNC_Product_Sync.MagentoConnectService;
+using AX_CRT_MAge_Connector.MagentoConnectService;
 using System.Collections.Generic;
 using System.Net;
 using ConnectCsharpToMysql;
 
-namespace MNC_Product_Sync
+namespace AX_CRT_MAge_Connector
 {
-    class OrderInvoice
+    class NavToMageOrderInvoices
     {
         private static string _apiUser;
         private static string _apiKey;
@@ -19,7 +19,7 @@ namespace MNC_Product_Sync
         public static void MainInv(string[] args)
         {
 
-            MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_PortClient client1 = new MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_PortClient();
+            AX_CRT_MAge_Connector.Navision_Invoice.PostedSalesInvoice_PortClient client1 = new AX_CRT_MAge_Connector.Navision_Invoice.PostedSalesInvoice_PortClient();
 
             client1.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
 
@@ -36,7 +36,7 @@ namespace MNC_Product_Sync
 
             DBConnect db = new DBConnect();
 
-            MNC_Product_Sync.MagentoConnectService.PortTypeClient mage_client = new MNC_Product_Sync.MagentoConnectService.PortTypeClient();
+            AX_CRT_MAge_Connector.MagentoConnectService.PortTypeClient mage_client = new AX_CRT_MAge_Connector.MagentoConnectService.PortTypeClient();
 
             string token_id = null;
             
@@ -52,7 +52,7 @@ namespace MNC_Product_Sync
                     if (db.fetch_OnlineOrder(nv_PostedInvoices[i].Order_No))
                     {
 
-                        string magorder = (string)hso[nv_PostedInvoices[i].Order_No + "/" + i];
+                        string magorder = (string)hso[nv_PostedInvoices[i].Order_No + "/" + 1];
                         string[] mageorders = magorder.Split('/');
                         salesOrderEntity orderDetail = mage_client.salesOrderInfo(token_id, mageorders[0]);
                         List<orderItemIdQty> invoiceInfo = new List<orderItemIdQty>();
@@ -80,6 +80,7 @@ namespace MNC_Product_Sync
                             {
                                 mage_client.salesOrderInvoiceCapture(token_id, invoiceIncrementId);
                                 mage_client.salesOrderAddComment(token_id, mageorders[0], "invoiced", "Order Invoiced via API", "0");
+                                db.UpdateInvoice(magorder, invoiceIncrementId + "/" + nv_PostedInvoices[i].No);
                             }
                             catch (Exception ex)
                             {

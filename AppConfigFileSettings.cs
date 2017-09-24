@@ -16,7 +16,7 @@
     /// <remarks></remarks>
     /// 
     /// 
-    namespace MNC_Product_Sync
+    namespace AX_CRT_MAge_Connector
 {
     public class AppConfigFileSettings
     {

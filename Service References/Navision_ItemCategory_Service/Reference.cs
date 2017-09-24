@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MNC_Product_Sync.Navision_ItemCategory_Service {
+namespace AX_CRT_Mage_Connector.Navision_ItemCategory_Service {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -18,56 +18,56 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         // CODEGEN: Generating message contract since the wrapper name (Read_Result) of message Read_Result does not match the default value (Read)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:Read", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Read_Result Read(MNC_Product_Sync.Navision_ItemCategory_Service.Read request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read_Result Read(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadByRecId_Result) of message ReadByRecId_Result does not match the default value (ReadByRecId)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:ReadByRecId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId_Result ReadByRecId(MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId_Result ReadByRecId(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadMultiple_Result) of message ReadMultiple_Result does not match the default value (ReadMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:ReadMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple_Result ReadMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple_Result ReadMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (IsUpdated_Result) of message IsUpdated_Result does not match the default value (IsUpdated)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:IsUpdated", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated_Result IsUpdated(MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated_Result IsUpdated(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated request);
         
         // CODEGEN: Generating message contract since the wrapper name (GetRecIdFromKey_Result) of message GetRecIdFromKey_Result does not match the default value (GetRecIdFromKey)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:GetRecIdFromKey", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey_Result GetRecIdFromKey(MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey_Result GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey request);
         
         // CODEGEN: Generating message contract since the wrapper name (Create_Result) of message Create_Result does not match the default value (Create)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:Create", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Create_Result Create(MNC_Product_Sync.Navision_ItemCategory_Service.Create request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create_Result Create(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create request);
         
         // CODEGEN: Generating message contract since the wrapper name (CreateMultiple_Result) of message CreateMultiple_Result does not match the default value (CreateMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:CreateMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple_Result CreateMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple_Result CreateMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (Update_Result) of message Update_Result does not match the default value (Update)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:Update", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Update_Result Update(MNC_Product_Sync.Navision_ItemCategory_Service.Update request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update_Result Update(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update request);
         
         // CODEGEN: Generating message contract since the wrapper name (UpdateMultiple_Result) of message UpdateMultiple_Result does not match the default value (UpdateMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:UpdateMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple_Result UpdateMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple_Result UpdateMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (Delete_Result) of message Delete_Result does not match the default value (Delete)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/itemcategories:Delete", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Delete_Result Delete(MNC_Product_Sync.Navision_ItemCategory_Service.Delete request);
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete_Result Delete(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete request);
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -197,7 +197,7 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories")]
     public enum Def_Costing_Method {
@@ -219,7 +219,7 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -265,7 +265,7 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories")]
     public enum ItemCategories_Fields {
@@ -313,12 +313,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     public partial class Read_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories;
         
         public Read_Result() {
         }
         
-        public Read_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+        public Read_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
             this.ItemCategories = ItemCategories;
         }
     }
@@ -347,12 +347,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     public partial class ReadByRecId_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories;
         
         public ReadByRecId_Result() {
         }
         
-        public ReadByRecId_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+        public ReadByRecId_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
             this.ItemCategories = ItemCategories;
         }
     }
@@ -365,7 +365,7 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("filter")]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Filter[] filter;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Filter[] filter;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=1)]
         public string bookmarkKey;
@@ -376,7 +376,7 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         public ReadMultiple() {
         }
         
-        public ReadMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Filter[] filter, string bookmarkKey, int setSize) {
+        public ReadMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Filter[] filter, string bookmarkKey, int setSize) {
             this.filter = filter;
             this.bookmarkKey = bookmarkKey;
             this.setSize = setSize;
@@ -391,12 +391,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="ReadMultiple_Result", Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ReadMultiple_Result1;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ReadMultiple_Result1;
         
         public ReadMultiple_Result() {
         }
         
-        public ReadMultiple_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ReadMultiple_Result1) {
+        public ReadMultiple_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ReadMultiple_Result1) {
             this.ReadMultiple_Result1 = ReadMultiple_Result1;
         }
     }
@@ -476,12 +476,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     public partial class Create {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories;
         
         public Create() {
         }
         
-        public Create(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+        public Create(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
             this.ItemCategories = ItemCategories;
         }
     }
@@ -493,12 +493,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     public partial class Create_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories;
         
         public Create_Result() {
         }
         
-        public Create_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+        public Create_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
             this.ItemCategories = ItemCategories;
         }
     }
@@ -511,12 +511,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
         
         public CreateMultiple() {
         }
         
-        public CreateMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
+        public CreateMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
             this.ItemCategories_List = ItemCategories_List;
         }
     }
@@ -529,12 +529,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
         
         public CreateMultiple_Result() {
         }
         
-        public CreateMultiple_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
+        public CreateMultiple_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
             this.ItemCategories_List = ItemCategories_List;
         }
     }
@@ -546,12 +546,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     public partial class Update {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories;
         
         public Update() {
         }
         
-        public Update(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+        public Update(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
             this.ItemCategories = ItemCategories;
         }
     }
@@ -563,12 +563,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     public partial class Update_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories;
         
         public Update_Result() {
         }
         
-        public Update_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+        public Update_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
             this.ItemCategories = ItemCategories;
         }
     }
@@ -581,12 +581,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
         
         public UpdateMultiple() {
         }
         
-        public UpdateMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
+        public UpdateMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
             this.ItemCategories_List = ItemCategories_List;
         }
     }
@@ -599,12 +599,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/itemcategories", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List;
         
         public UpdateMultiple_Result() {
         }
         
-        public UpdateMultiple_Result(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
+        public UpdateMultiple_Result(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
             this.ItemCategories_List = ItemCategories_List;
         }
     }
@@ -644,12 +644,12 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ItemCategories_PortChannel : MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port, System.ServiceModel.IClientChannel {
+    public interface ItemCategories_PortChannel : AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ItemCategories_PortClient : System.ServiceModel.ClientBase<MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port>, MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port {
+    public partial class ItemCategories_PortClient : System.ServiceModel.ClientBase<AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port>, AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port {
         
         public ItemCategories_PortClient() {
         }
@@ -671,124 +671,124 @@ namespace MNC_Product_Sync.Navision_ItemCategory_Service {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Read_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.Read(MNC_Product_Sync.Navision_ItemCategory_Service.Read request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.Read(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read request) {
             return base.Channel.Read(request);
         }
         
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories Read(string Code) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.Read inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.Read();
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories Read(string Code) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read();
             inValue.Code = Code;
-            MNC_Product_Sync.Navision_ItemCategory_Service.Read_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Read(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Read_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Read(inValue);
             return retVal.ItemCategories;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.ReadByRecId(MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.ReadByRecId(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId request) {
             return base.Channel.ReadByRecId(request);
         }
         
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ReadByRecId(string recId) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId();
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ReadByRecId(string recId) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId();
             inValue.recId = recId;
-            MNC_Product_Sync.Navision_ItemCategory_Service.ReadByRecId_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).ReadByRecId(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadByRecId_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).ReadByRecId(inValue);
             return retVal.ItemCategories;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.ReadMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.ReadMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple request) {
             return base.Channel.ReadMultiple(request);
         }
         
-        public MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ReadMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Filter[] filter, string bookmarkKey, int setSize) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple();
+        public AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ReadMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Filter[] filter, string bookmarkKey, int setSize) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple();
             inValue.filter = filter;
             inValue.bookmarkKey = bookmarkKey;
             inValue.setSize = setSize;
-            MNC_Product_Sync.Navision_ItemCategory_Service.ReadMultiple_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).ReadMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ReadMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).ReadMultiple(inValue);
             return retVal.ReadMultiple_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.IsUpdated(MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.IsUpdated(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated request) {
             return base.Channel.IsUpdated(request);
         }
         
         public bool IsUpdated(string Key) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated();
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_ItemCategory_Service.IsUpdated_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).IsUpdated(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.IsUpdated_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).IsUpdated(inValue);
             return retVal.IsUpdated_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.GetRecIdFromKey(MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey request) {
             return base.Channel.GetRecIdFromKey(request);
         }
         
         public string GetRecIdFromKey(string Key) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey();
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_ItemCategory_Service.GetRecIdFromKey_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).GetRecIdFromKey(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.GetRecIdFromKey_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).GetRecIdFromKey(inValue);
             return retVal.GetRecIdFromKey_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Create_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.Create(MNC_Product_Sync.Navision_ItemCategory_Service.Create request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.Create(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create request) {
             return base.Channel.Create(request);
         }
         
-        public void Create(ref MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.Create inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.Create();
+        public void Create(ref AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create();
             inValue.ItemCategories = ItemCategories;
-            MNC_Product_Sync.Navision_ItemCategory_Service.Create_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Create(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Create_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Create(inValue);
             ItemCategories = retVal.ItemCategories;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.CreateMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.CreateMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple request) {
             return base.Channel.CreateMultiple(request);
         }
         
-        public void CreateMultiple(ref MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple();
+        public void CreateMultiple(ref AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple();
             inValue.ItemCategories_List = ItemCategories_List;
-            MNC_Product_Sync.Navision_ItemCategory_Service.CreateMultiple_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).CreateMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.CreateMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).CreateMultiple(inValue);
             ItemCategories_List = retVal.ItemCategories_List;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Update_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.Update(MNC_Product_Sync.Navision_ItemCategory_Service.Update request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.Update(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update request) {
             return base.Channel.Update(request);
         }
         
-        public void Update(ref MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.Update inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.Update();
+        public void Update(ref AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories ItemCategories) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update();
             inValue.ItemCategories = ItemCategories;
-            MNC_Product_Sync.Navision_ItemCategory_Service.Update_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Update(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Update_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Update(inValue);
             ItemCategories = retVal.ItemCategories;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.UpdateMultiple(MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.UpdateMultiple(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple request) {
             return base.Channel.UpdateMultiple(request);
         }
         
-        public void UpdateMultiple(ref MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple();
+        public void UpdateMultiple(ref AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories[] ItemCategories_List) {
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple();
             inValue.ItemCategories_List = ItemCategories_List;
-            MNC_Product_Sync.Navision_ItemCategory_Service.UpdateMultiple_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).UpdateMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.UpdateMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).UpdateMultiple(inValue);
             ItemCategories_List = retVal.ItemCategories_List;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_ItemCategory_Service.Delete_Result MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port.Delete(MNC_Product_Sync.Navision_ItemCategory_Service.Delete request) {
+        AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete_Result AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port.Delete(AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete request) {
             return base.Channel.Delete(request);
         }
         
         public bool Delete(string Key) {
-            MNC_Product_Sync.Navision_ItemCategory_Service.Delete inValue = new MNC_Product_Sync.Navision_ItemCategory_Service.Delete();
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete inValue = new AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_ItemCategory_Service.Delete_Result retVal = ((MNC_Product_Sync.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Delete(inValue);
+            AX_CRT_Mage_Connector.Navision_ItemCategory_Service.Delete_Result retVal = ((AX_CRT_Mage_Connector.Navision_ItemCategory_Service.ItemCategories_Port)(this)).Delete(inValue);
             return retVal.Delete_Result1;
         }
     }

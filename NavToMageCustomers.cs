@@ -2,33 +2,37 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MNC_Product_Sync.MagentoConnectService;
+using AX_CRT_MAge_Connector.MagentoConnectService;
 using ConnectCsharpToMysql;
 using System.Collections;
 
-namespace MNC_Product_Sync
+namespace AX_CRT_MAge_Connector
 {
-    class Customer
+    class NavToMageCustomers
     {
 
        
 
          
-        static void MainCus(string[] args)
+        static void MainTTT(string[] args)
         {
 
-           
-            Navision_CustomerListService.CustomerList nv_Customer = new Navision_CustomerListService.CustomerList();
-            Navision_CustomerListService.CustomerList_PortClient client = new Navision_CustomerListService.CustomerList_PortClient();
-            Navision_CustomerListService.CustomerList[] nv_CustomerLists;
-            client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
 
-            client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+            // Navision_CustomerListService.CustomerList nv_Customer = new Navision_CustomerListService.CustomerList();
+            // Navision_CustomerListService.CustomerList_PortClient client = new Navision_CustomerListService.CustomerList_PortClient();
+            //// Navision_CustomerListService.CustomerList[] nv_CustomerLists;
 
-            client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            // client.ClientCredentials.UserName.UserName = "Administrator";
+            // client.ClientCredentials.UserName.Password = "itree@123";
+            // client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
 
-            nv_CustomerLists = client.ReadMultiple(null, null, 10000);
+            // client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
 
+            // client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            // client.ClientCredentials.Windows.AllowNtlm = true;
+            // client.ClientCredentials.Windows.AllowedImpersonationLevel = System.Security.Principal.TokenImpersonationLevel.Impersonation;
+            //nv_CustomerLists = client.ReadMultiple(null, null, 10000);
+            Navision_CustomerListService.CustomerList[] nv_CustomerLists = null;
             MagentoConnectService.PortTypeClient mage_client = new MagentoConnectService.PortTypeClient();
             DBConnect db = new DBConnect();
             int newCustomerCreateID = 0;
@@ -48,6 +52,7 @@ namespace MNC_Product_Sync
                     customerCreate.firstname = nv_CustomerLists[i].Name;
                     customerCreate.lastname = nv_CustomerLists[i].Name;
                     customerCreate.middlename = "";
+                    customerCreate.password = "abc123";
                     customerCreate.store_id = 1;
                     customerCreate.store_idSpecified = true;
                     customerCreate.website_id = 1;
@@ -113,7 +118,7 @@ namespace MNC_Product_Sync
                 }
                 catch (Exception ex)
                 {
-                    MNC_Product_Sync.ErrorLog errLog = new MNC_Product_Sync.ErrorLog();
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
                     errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                     db.InsertLog("Customer", nv_CustomerLists[i].No, ex.Message, "FAILED");

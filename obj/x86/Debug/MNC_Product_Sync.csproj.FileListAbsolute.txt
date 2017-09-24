@@ -8,10 +8,118 @@ C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.confi
 C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
 C:\Users\ITB ADMIN\Desktop\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
 C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.csprojResolveAssemblyReference.cache
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.exe
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.pdb
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe.config
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.exe
-C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MNC_Product_Sync.pdb
 C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.dll
 C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MySql.Data.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.config
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.manifest
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.application
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.pdb
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe.manifest
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.application
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.pdb
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.RetailProxy.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.OData.Client.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.OData.Edm.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Framework.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Newtonsoft.Json.Portable.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Entities.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Localization.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.OData.Core.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Retail.Diagnostics.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Client.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Spatial.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.Hosting.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.Convention.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.Runtime.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Retail.Resources.Strings.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.Messages.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Services.Messages.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.RealtimeServices.Messages.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Messages.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.OData.Client.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.OData.Edm.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.OData.Core.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Spatial.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.TypedParts.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.Hosting.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.Convention.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.Runtime.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\System.Composition.AttributedModel.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.Messages.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Services.Messages.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.RealtimeServices.Messages.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Messages.xml
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\de\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\es\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\fr\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\it\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ja\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ko\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ru\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hans\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hant\Microsoft.OData.Client.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\de\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\es\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\fr\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\it\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ja\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ko\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ru\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hans\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hant\Microsoft.OData.Edm.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\de\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\es\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\fr\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\it\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ja\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ko\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ru\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hans\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hant\Microsoft.OData.Core.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\de\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\es\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\fr\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\it\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ja\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ko\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\ru\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hans\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\zh-Hant\Microsoft.Spatial.resources.dll
+C:\Users\Anushka Jha\Downloads\MNC_Product_Sync\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+K:\MNC_Product_Sync\obj\x86\Debug\MNC_Product_Sync.csprojResolveAssemblyReference.cache
+K:\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe
+K:\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.pdb
+K:\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.config
+K:\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe.manifest
+K:\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.application
+K:\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.exe
+K:\MNC_Product_Sync\bin\Debug\MagentoNavisionCustomerConnector.pdb
+K:\MNC_Product_Sync\bin\Debug\Contoso.Commerce.RetailProxy.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.OData.Edm.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Framework.dll
+K:\MNC_Product_Sync\bin\Debug\Newtonsoft.Json.Portable.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Entities.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Client.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Localization.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.OData.Core.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Retail.Diagnostics.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Spatial.dll
+K:\MNC_Product_Sync\bin\Debug\System.Composition.TypedParts.dll
+K:\MNC_Product_Sync\bin\Debug\System.Composition.Hosting.dll
+K:\MNC_Product_Sync\bin\Debug\System.Composition.Convention.dll
+K:\MNC_Product_Sync\bin\Debug\System.Composition.Runtime.dll
+K:\MNC_Product_Sync\bin\Debug\System.Composition.AttributedModel.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Services.Messages.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.RealtimeServices.Messages.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.Messages.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.Messages.dll
+K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Retail.Resources.Strings.dll
+K:\MNC_Product_Sync\bin\Debug\Contoso.Commerce.RetailProxy.pdb
+K:\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.exe.manifest
+K:\MNC_Product_Sync\obj\x86\Debug\MagentoNavisionCustomerConnector.application

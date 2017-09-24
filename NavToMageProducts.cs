@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MNC_Product_Sync.MagentoConnectService;
+using AX_CRT_MAge_Connector.MagentoConnectService;
 using ConnectCsharpToMysql;
 using System.Collections;
 
 
-namespace MNC_Product_Sync
+namespace AX_CRT_MAge_Connector
 {
-    class Product
+    class NavToMageProducts
     {
 
                 
@@ -114,7 +114,7 @@ namespace MNC_Product_Sync
             }
             catch (Exception ex)
             {
-             MNC_Product_Sync.ErrorLog errLog = new MNC_Product_Sync.ErrorLog();            
+             AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();            
              errLog.LogError("C:\\MNC_Logs","Product " + ex.Message);
             } 
         }      

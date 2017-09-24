@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MNC_Product_Sync.Navision_SalesOrder_Service {
+namespace AX_CRT_Mage_Connector.Navision_SalesOrder_Service {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -18,61 +18,61 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         // CODEGEN: Generating message contract since the wrapper name (Read_Result) of message Read_Result does not match the default value (Read)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:Read", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Read_Result Read(MNC_Product_Sync.Navision_SalesOrder_Service.Read request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read_Result Read(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadByRecId_Result) of message ReadByRecId_Result does not match the default value (ReadByRecId)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:ReadByRecId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId_Result ReadByRecId(MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId_Result ReadByRecId(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadMultiple_Result) of message ReadMultiple_Result does not match the default value (ReadMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:ReadMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple_Result ReadMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple_Result ReadMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (IsUpdated_Result) of message IsUpdated_Result does not match the default value (IsUpdated)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:IsUpdated", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated_Result IsUpdated(MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated_Result IsUpdated(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated request);
         
         // CODEGEN: Generating message contract since the wrapper name (GetRecIdFromKey_Result) of message GetRecIdFromKey_Result does not match the default value (GetRecIdFromKey)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:GetRecIdFromKey", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey_Result GetRecIdFromKey(MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey_Result GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey request);
         
         // CODEGEN: Generating message contract since the wrapper name (Create_Result) of message Create_Result does not match the default value (Create)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:Create", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Create_Result Create(MNC_Product_Sync.Navision_SalesOrder_Service.Create request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create_Result Create(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create request);
         
         // CODEGEN: Generating message contract since the wrapper name (CreateMultiple_Result) of message CreateMultiple_Result does not match the default value (CreateMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:CreateMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple_Result CreateMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple_Result CreateMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (Update_Result) of message Update_Result does not match the default value (Update)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:Update", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Update_Result Update(MNC_Product_Sync.Navision_SalesOrder_Service.Update request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update_Result Update(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update request);
         
         // CODEGEN: Generating message contract since the wrapper name (UpdateMultiple_Result) of message UpdateMultiple_Result does not match the default value (UpdateMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:UpdateMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple_Result UpdateMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple_Result UpdateMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (Delete_Result) of message Delete_Result does not match the default value (Delete)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:Delete", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Delete_Result Delete(MNC_Product_Sync.Navision_SalesOrder_Service.Delete request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_Result Delete(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete request);
         
         // CODEGEN: Generating message contract since the wrapper name (Delete_SalesLines_Result) of message Delete_SalesLines_Result does not match the default value (Delete_SalesLines)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/salesorder:Delete_SalesLines", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines_Result Delete_SalesLines(MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines request);
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines_Result Delete_SalesLines(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines request);
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2219,7 +2219,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Mode_Of_Order {
@@ -2241,7 +2241,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Status {
@@ -2260,7 +2260,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Job_Queue_Status {
@@ -2279,7 +2279,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Applies_to_Doc_Type {
@@ -2307,7 +2307,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Shipping_Advice {
@@ -2320,7 +2320,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Service_Tax_Rounding_Type {
@@ -2336,7 +2336,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5084,7 +5084,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Type {
@@ -5109,7 +5109,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Excise_Accounting_Type {
@@ -5122,7 +5122,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum IC_Partner_Ref_Type {
@@ -5147,7 +5147,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Reserve {
@@ -5163,7 +5163,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum Source_Document_Type {
@@ -5176,7 +5176,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5222,7 +5222,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder")]
     public enum SalesOrder_Fields {
@@ -5582,12 +5582,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     public partial class Read_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder;
         
         public Read_Result() {
         }
         
-        public Read_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+        public Read_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
             this.SalesOrder = SalesOrder;
         }
     }
@@ -5616,12 +5616,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     public partial class ReadByRecId_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder;
         
         public ReadByRecId_Result() {
         }
         
-        public ReadByRecId_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+        public ReadByRecId_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
             this.SalesOrder = SalesOrder;
         }
     }
@@ -5634,7 +5634,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("filter")]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Filter[] filter;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Filter[] filter;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=1)]
         public string bookmarkKey;
@@ -5645,7 +5645,7 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         public ReadMultiple() {
         }
         
-        public ReadMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Filter[] filter, string bookmarkKey, int setSize) {
+        public ReadMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Filter[] filter, string bookmarkKey, int setSize) {
             this.filter = filter;
             this.bookmarkKey = bookmarkKey;
             this.setSize = setSize;
@@ -5660,12 +5660,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="ReadMultiple_Result", Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] ReadMultiple_Result1;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] ReadMultiple_Result1;
         
         public ReadMultiple_Result() {
         }
         
-        public ReadMultiple_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] ReadMultiple_Result1) {
+        public ReadMultiple_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] ReadMultiple_Result1) {
             this.ReadMultiple_Result1 = ReadMultiple_Result1;
         }
     }
@@ -5745,12 +5745,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     public partial class Create {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder;
         
         public Create() {
         }
         
-        public Create(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+        public Create(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
             this.SalesOrder = SalesOrder;
         }
     }
@@ -5762,12 +5762,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     public partial class Create_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder;
         
         public Create_Result() {
         }
         
-        public Create_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+        public Create_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
             this.SalesOrder = SalesOrder;
         }
     }
@@ -5780,12 +5780,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
         
         public CreateMultiple() {
         }
         
-        public CreateMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
+        public CreateMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
             this.SalesOrder_List = SalesOrder_List;
         }
     }
@@ -5798,12 +5798,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
         
         public CreateMultiple_Result() {
         }
         
-        public CreateMultiple_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
+        public CreateMultiple_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
             this.SalesOrder_List = SalesOrder_List;
         }
     }
@@ -5815,12 +5815,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     public partial class Update {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder;
         
         public Update() {
         }
         
-        public Update(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+        public Update(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
             this.SalesOrder = SalesOrder;
         }
     }
@@ -5832,12 +5832,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     public partial class Update_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder;
         
         public Update_Result() {
         }
         
-        public Update_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+        public Update_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
             this.SalesOrder = SalesOrder;
         }
     }
@@ -5850,12 +5850,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
         
         public UpdateMultiple() {
         }
         
-        public UpdateMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
+        public UpdateMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
             this.SalesOrder_List = SalesOrder_List;
         }
     }
@@ -5868,12 +5868,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/salesorder", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List;
         
         public UpdateMultiple_Result() {
         }
         
-        public UpdateMultiple_Result(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
+        public UpdateMultiple_Result(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
             this.SalesOrder_List = SalesOrder_List;
         }
     }
@@ -5947,12 +5947,12 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface SalesOrder_PortChannel : MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port, System.ServiceModel.IClientChannel {
+    public interface SalesOrder_PortChannel : AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SalesOrder_PortClient : System.ServiceModel.ClientBase<MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port>, MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port {
+    public partial class SalesOrder_PortClient : System.ServiceModel.ClientBase<AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port>, AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port {
         
         public SalesOrder_PortClient() {
         }
@@ -5974,136 +5974,136 @@ namespace MNC_Product_Sync.Navision_SalesOrder_Service {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Read_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.Read(MNC_Product_Sync.Navision_SalesOrder_Service.Read request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.Read(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read request) {
             return base.Channel.Read(request);
         }
         
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder Read(string No) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.Read inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.Read();
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder Read(string No) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read();
             inValue.No = No;
-            MNC_Product_Sync.Navision_SalesOrder_Service.Read_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Read(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Read_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Read(inValue);
             return retVal.SalesOrder;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.ReadByRecId(MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.ReadByRecId(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId request) {
             return base.Channel.ReadByRecId(request);
         }
         
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder ReadByRecId(string recId) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId();
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder ReadByRecId(string recId) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId();
             inValue.recId = recId;
-            MNC_Product_Sync.Navision_SalesOrder_Service.ReadByRecId_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).ReadByRecId(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadByRecId_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).ReadByRecId(inValue);
             return retVal.SalesOrder;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.ReadMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.ReadMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple request) {
             return base.Channel.ReadMultiple(request);
         }
         
-        public MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] ReadMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Filter[] filter, string bookmarkKey, int setSize) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple();
+        public AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] ReadMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Filter[] filter, string bookmarkKey, int setSize) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple();
             inValue.filter = filter;
             inValue.bookmarkKey = bookmarkKey;
             inValue.setSize = setSize;
-            MNC_Product_Sync.Navision_SalesOrder_Service.ReadMultiple_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).ReadMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.ReadMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).ReadMultiple(inValue);
             return retVal.ReadMultiple_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.IsUpdated(MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.IsUpdated(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated request) {
             return base.Channel.IsUpdated(request);
         }
         
         public bool IsUpdated(string Key) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated();
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_SalesOrder_Service.IsUpdated_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).IsUpdated(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.IsUpdated_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).IsUpdated(inValue);
             return retVal.IsUpdated_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.GetRecIdFromKey(MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey request) {
             return base.Channel.GetRecIdFromKey(request);
         }
         
         public string GetRecIdFromKey(string Key) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey();
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_SalesOrder_Service.GetRecIdFromKey_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).GetRecIdFromKey(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.GetRecIdFromKey_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).GetRecIdFromKey(inValue);
             return retVal.GetRecIdFromKey_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Create_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.Create(MNC_Product_Sync.Navision_SalesOrder_Service.Create request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.Create(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create request) {
             return base.Channel.Create(request);
         }
         
-        public void Create(ref MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.Create inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.Create();
+        public void Create(ref AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create();
             inValue.SalesOrder = SalesOrder;
-            MNC_Product_Sync.Navision_SalesOrder_Service.Create_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Create(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Create_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Create(inValue);
             SalesOrder = retVal.SalesOrder;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.CreateMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.CreateMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple request) {
             return base.Channel.CreateMultiple(request);
         }
         
-        public void CreateMultiple(ref MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple();
+        public void CreateMultiple(ref AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple();
             inValue.SalesOrder_List = SalesOrder_List;
-            MNC_Product_Sync.Navision_SalesOrder_Service.CreateMultiple_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).CreateMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.CreateMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).CreateMultiple(inValue);
             SalesOrder_List = retVal.SalesOrder_List;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Update_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.Update(MNC_Product_Sync.Navision_SalesOrder_Service.Update request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.Update(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update request) {
             return base.Channel.Update(request);
         }
         
-        public void Update(ref MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.Update inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.Update();
+        public void Update(ref AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder SalesOrder) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update();
             inValue.SalesOrder = SalesOrder;
-            MNC_Product_Sync.Navision_SalesOrder_Service.Update_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Update(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Update_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Update(inValue);
             SalesOrder = retVal.SalesOrder;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.UpdateMultiple(MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.UpdateMultiple(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple request) {
             return base.Channel.UpdateMultiple(request);
         }
         
-        public void UpdateMultiple(ref MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple();
+        public void UpdateMultiple(ref AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder[] SalesOrder_List) {
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple();
             inValue.SalesOrder_List = SalesOrder_List;
-            MNC_Product_Sync.Navision_SalesOrder_Service.UpdateMultiple_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).UpdateMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.UpdateMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).UpdateMultiple(inValue);
             SalesOrder_List = retVal.SalesOrder_List;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Delete_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.Delete(MNC_Product_Sync.Navision_SalesOrder_Service.Delete request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.Delete(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete request) {
             return base.Channel.Delete(request);
         }
         
         public bool Delete(string Key) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.Delete inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.Delete();
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_SalesOrder_Service.Delete_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Delete(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Delete(inValue);
             return retVal.Delete_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines_Result MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port.Delete_SalesLines(MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines request) {
+        AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines_Result AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port.Delete_SalesLines(AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines request) {
             return base.Channel.Delete_SalesLines(request);
         }
         
         public bool Delete_SalesLines(string SalesLines_Key) {
-            MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines inValue = new MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines();
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines inValue = new AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines();
             inValue.SalesLines_Key = SalesLines_Key;
-            MNC_Product_Sync.Navision_SalesOrder_Service.Delete_SalesLines_Result retVal = ((MNC_Product_Sync.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Delete_SalesLines(inValue);
+            AX_CRT_Mage_Connector.Navision_SalesOrder_Service.Delete_SalesLines_Result retVal = ((AX_CRT_Mage_Connector.Navision_SalesOrder_Service.SalesOrder_Port)(this)).Delete_SalesLines(inValue);
             return retVal.Delete_SalesLines_Result1;
         }
     }

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ConnectCsharpToMysql;
-using MNC_Product_Sync.MagentoConnectService;
+using AX_CRT_MAge_Connector.MagentoConnectService;
 
-namespace MNC_Product_Sync
+namespace AX_CRT_MAge_Connector
 {
 
 
@@ -18,9 +18,9 @@ namespace MNC_Product_Sync
         private static string _status;
         private static System.Net.Security.RemoteCertificateValidationCallback mIgnoreInvalidCertificates;
 
-        public static void Main(string[] arg)
+        public static void MainSh(string[] arg)
         {
-            MNC_Product_Sync.Navision_Shipment.PostedSalesShipment_PortClient client = new MNC_Product_Sync.Navision_Shipment.PostedSalesShipment_PortClient();
+            AX_CRT_MAge_Connector.Navision_Shipment.PostedSalesShipment_PortClient client = new AX_CRT_MAge_Connector.Navision_Shipment.PostedSalesShipment_PortClient();
 
             client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
 
@@ -36,7 +36,7 @@ namespace MNC_Product_Sync
 
             DBConnect db = new DBConnect();
 
-            MNC_Product_Sync.MagentoConnectService.PortTypeClient mage_client = new MNC_Product_Sync.MagentoConnectService.PortTypeClient();
+            AX_CRT_MAge_Connector.MagentoConnectService.PortTypeClient mage_client = new AX_CRT_MAge_Connector.MagentoConnectService.PortTypeClient();
 
             string token_id = null;
 
@@ -51,7 +51,7 @@ namespace MNC_Product_Sync
                 {
                     if (db.fetch_OnlineOrder(nv_PostedShipments[i].Order_No))
                     {
-                        string magorder = (string)hsp[nv_PostedShipments[i].Order_No + "/" + i];
+                        string magorder = (string)hsp[nv_PostedShipments[i].Order_No + "/" + 1];
                         string[] mageorders = magorder.Split('/');
 
                         string shipmentIncrementId = mage_client.salesOrderShipmentCreate(token_id, mageorders[0], null,
@@ -61,8 +61,9 @@ namespace MNC_Product_Sync
 
                         try
                         {
-                            mage_client.salesOrderShipmentAddTrack(token_id, shipmentIncrementId, nv_PostedShipments[i].Shipping_Agent_Code, "Shipment via Magnaxt Connector", nv_PostedShipments[i].Package_Tracking_No);
+                            mage_client.salesOrderShipmentAddTrack(token_id, shipmentIncrementId, "ups", "Shipment via Magnaxt Connector", nv_PostedShipments[i].Package_Tracking_No);
                             mage_client.salesOrderAddComment(token_id, mageorders[0], "complete", "Order Completed via API", "0");
+                            db.UpdateShipment(magorder, shipmentIncrementId +"/" + nv_PostedShipments[i].No);
                         }
                         catch (Exception ex)
                         {

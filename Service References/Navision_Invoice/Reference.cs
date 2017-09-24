@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MNC_Product_Sync.Navision_Invoice {
+namespace AX_CRT_Mage_Connector.Navision_Invoice {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -18,78 +18,78 @@ namespace MNC_Product_Sync.Navision_Invoice {
         // CODEGEN: Generating message contract since the wrapper name (Read_Result) of message Read_Result does not match the default value (Read)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Read", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.Read_Result Read(MNC_Product_Sync.Navision_Invoice.Read request);
+        AX_CRT_Mage_Connector.Navision_Invoice.Read_Result Read(AX_CRT_Mage_Connector.Navision_Invoice.Read request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Read", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Read_Result> ReadAsync(MNC_Product_Sync.Navision_Invoice.Read request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Read_Result> ReadAsync(AX_CRT_Mage_Connector.Navision_Invoice.Read request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadByRecId_Result) of message ReadByRecId_Result does not match the default value (ReadByRecId)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:ReadByRecId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.ReadByRecId_Result ReadByRecId(MNC_Product_Sync.Navision_Invoice.ReadByRecId request);
+        AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result ReadByRecId(AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:ReadByRecId", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.ReadByRecId_Result> ReadByRecIdAsync(MNC_Product_Sync.Navision_Invoice.ReadByRecId request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result> ReadByRecIdAsync(AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId request);
         
         // CODEGEN: Generating message contract since the wrapper name (ReadMultiple_Result) of message ReadMultiple_Result does not match the default value (ReadMultiple)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:ReadMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.ReadMultiple_Result ReadMultiple(MNC_Product_Sync.Navision_Invoice.ReadMultiple request);
+        AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result ReadMultiple(AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:ReadMultiple", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.ReadMultiple_Result> ReadMultipleAsync(MNC_Product_Sync.Navision_Invoice.ReadMultiple request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result> ReadMultipleAsync(AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (IsUpdated_Result) of message IsUpdated_Result does not match the default value (IsUpdated)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:IsUpdated", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.IsUpdated_Result IsUpdated(MNC_Product_Sync.Navision_Invoice.IsUpdated request);
+        AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result IsUpdated(AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:IsUpdated", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.IsUpdated_Result> IsUpdatedAsync(MNC_Product_Sync.Navision_Invoice.IsUpdated request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result> IsUpdatedAsync(AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated request);
         
         // CODEGEN: Generating message contract since the wrapper name (GetRecIdFromKey_Result) of message GetRecIdFromKey_Result does not match the default value (GetRecIdFromKey)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:GetRecIdFromKey", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey_Result GetRecIdFromKey(MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey request);
+        AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:GetRecIdFromKey", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey_Result> GetRecIdFromKeyAsync(MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result> GetRecIdFromKeyAsync(AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Update", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.Update_Result Update(MNC_Product_Sync.Navision_Invoice.Update request);
+        AX_CRT_Mage_Connector.Navision_Invoice.Update_Result Update(AX_CRT_Mage_Connector.Navision_Invoice.Update request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Update", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Update_Result> UpdateAsync(MNC_Product_Sync.Navision_Invoice.Update request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Update_Result> UpdateAsync(AX_CRT_Mage_Connector.Navision_Invoice.Update request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:UpdateMultiple", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.UpdateMultiple_Result UpdateMultiple(MNC_Product_Sync.Navision_Invoice.UpdateMultiple request);
+        AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple_Result UpdateMultiple(AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:UpdateMultiple", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.UpdateMultiple_Result> UpdateMultipleAsync(MNC_Product_Sync.Navision_Invoice.UpdateMultiple request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple_Result> UpdateMultipleAsync(AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple request);
         
         // CODEGEN: Generating message contract since the wrapper name (Delete_Result) of message Delete_Result does not match the default value (Delete)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Delete", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.Delete_Result Delete(MNC_Product_Sync.Navision_Invoice.Delete request);
+        AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result Delete(AX_CRT_Mage_Connector.Navision_Invoice.Delete request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Delete", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Delete_Result> DeleteAsync(MNC_Product_Sync.Navision_Invoice.Delete request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result> DeleteAsync(AX_CRT_Mage_Connector.Navision_Invoice.Delete request);
         
         // CODEGEN: Generating message contract since the wrapper name (Delete_SalesInvLines_Result) of message Delete_SalesInvLines_Result does not match the default value (Delete_SalesInvLines)
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Delete_SalesInvLines", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines_Result Delete_SalesInvLines(MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines request);
+        AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result Delete_SalesInvLines(AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:microsoft-dynamics-schemas/page/postedsalesinvoice:Delete_SalesInvLines", ReplyAction="*")]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines_Result> Delete_SalesInvLinesAsync(MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines request);
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result> Delete_SalesInvLinesAsync(AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines request);
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1116,7 +1116,7 @@ namespace MNC_Product_Sync.Navision_Invoice {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1708,7 +1708,7 @@ namespace MNC_Product_Sync.Navision_Invoice {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice")]
     public enum Type {
@@ -1733,7 +1733,7 @@ namespace MNC_Product_Sync.Navision_Invoice {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1779,7 +1779,7 @@ namespace MNC_Product_Sync.Navision_Invoice {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1038.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice")]
     public enum PostedSalesInvoice_Fields {
@@ -1983,12 +1983,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
     public partial class Read_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
         
         public Read_Result() {
         }
         
-        public Read_Result(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
+        public Read_Result(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
             this.PostedSalesInvoice = PostedSalesInvoice;
         }
     }
@@ -2017,12 +2017,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
     public partial class ReadByRecId_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
         
         public ReadByRecId_Result() {
         }
         
-        public ReadByRecId_Result(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
+        public ReadByRecId_Result(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
             this.PostedSalesInvoice = PostedSalesInvoice;
         }
     }
@@ -2035,7 +2035,7 @@ namespace MNC_Product_Sync.Navision_Invoice {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("filter")]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Filter[] filter;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Filter[] filter;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=1)]
         public string bookmarkKey;
@@ -2046,7 +2046,7 @@ namespace MNC_Product_Sync.Navision_Invoice {
         public ReadMultiple() {
         }
         
-        public ReadMultiple(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Filter[] filter, string bookmarkKey, int setSize) {
+        public ReadMultiple(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Filter[] filter, string bookmarkKey, int setSize) {
             this.filter = filter;
             this.bookmarkKey = bookmarkKey;
             this.setSize = setSize;
@@ -2061,12 +2061,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="ReadMultiple_Result", Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] ReadMultiple_Result1;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] ReadMultiple_Result1;
         
         public ReadMultiple_Result() {
         }
         
-        public ReadMultiple_Result(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] ReadMultiple_Result1) {
+        public ReadMultiple_Result(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] ReadMultiple_Result1) {
             this.ReadMultiple_Result1 = ReadMultiple_Result1;
         }
     }
@@ -2145,12 +2145,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
     public partial class Update {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
         
         public Update() {
         }
         
-        public Update(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
+        public Update(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
             this.PostedSalesInvoice = PostedSalesInvoice;
         }
     }
@@ -2161,12 +2161,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
     public partial class Update_Result {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice;
         
         public Update_Result() {
         }
         
-        public Update_Result(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
+        public Update_Result(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
             this.PostedSalesInvoice = PostedSalesInvoice;
         }
     }
@@ -2178,12 +2178,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List;
         
         public UpdateMultiple() {
         }
         
-        public UpdateMultiple(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List) {
+        public UpdateMultiple(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List) {
             this.PostedSalesInvoice_List = PostedSalesInvoice_List;
         }
     }
@@ -2195,12 +2195,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="urn:microsoft-dynamics-schemas/page/postedsalesinvoice", Order=0)]
         [System.Xml.Serialization.XmlArrayItemAttribute(IsNullable=false)]
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List;
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List;
         
         public UpdateMultiple_Result() {
         }
         
-        public UpdateMultiple_Result(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List) {
+        public UpdateMultiple_Result(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List) {
             this.PostedSalesInvoice_List = PostedSalesInvoice_List;
         }
     }
@@ -2274,12 +2274,12 @@ namespace MNC_Product_Sync.Navision_Invoice {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface PostedSalesInvoice_PortChannel : MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port, System.ServiceModel.IClientChannel {
+    public interface PostedSalesInvoice_PortChannel : AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PostedSalesInvoice_PortClient : System.ServiceModel.ClientBase<MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port>, MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port {
+    public partial class PostedSalesInvoice_PortClient : System.ServiceModel.ClientBase<AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port>, AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port {
         
         public PostedSalesInvoice_PortClient() {
         }
@@ -2301,200 +2301,200 @@ namespace MNC_Product_Sync.Navision_Invoice {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.Read_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.Read(MNC_Product_Sync.Navision_Invoice.Read request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.Read_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.Read(AX_CRT_Mage_Connector.Navision_Invoice.Read request) {
             return base.Channel.Read(request);
         }
         
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice Read(string No) {
-            MNC_Product_Sync.Navision_Invoice.Read inValue = new MNC_Product_Sync.Navision_Invoice.Read();
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice Read(string No) {
+            AX_CRT_Mage_Connector.Navision_Invoice.Read inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Read();
             inValue.No = No;
-            MNC_Product_Sync.Navision_Invoice.Read_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).Read(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.Read_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).Read(inValue);
             return retVal.PostedSalesInvoice;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Read_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.ReadAsync(MNC_Product_Sync.Navision_Invoice.Read request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Read_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.ReadAsync(AX_CRT_Mage_Connector.Navision_Invoice.Read request) {
             return base.Channel.ReadAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Read_Result> ReadAsync(string No) {
-            MNC_Product_Sync.Navision_Invoice.Read inValue = new MNC_Product_Sync.Navision_Invoice.Read();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Read_Result> ReadAsync(string No) {
+            AX_CRT_Mage_Connector.Navision_Invoice.Read inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Read();
             inValue.No = No;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.ReadByRecId_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.ReadByRecId(MNC_Product_Sync.Navision_Invoice.ReadByRecId request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.ReadByRecId(AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId request) {
             return base.Channel.ReadByRecId(request);
         }
         
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice ReadByRecId(string recId) {
-            MNC_Product_Sync.Navision_Invoice.ReadByRecId inValue = new MNC_Product_Sync.Navision_Invoice.ReadByRecId();
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice ReadByRecId(string recId) {
+            AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId inValue = new AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId();
             inValue.recId = recId;
-            MNC_Product_Sync.Navision_Invoice.ReadByRecId_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadByRecId(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadByRecId(inValue);
             return retVal.PostedSalesInvoice;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.ReadByRecId_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.ReadByRecIdAsync(MNC_Product_Sync.Navision_Invoice.ReadByRecId request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.ReadByRecIdAsync(AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId request) {
             return base.Channel.ReadByRecIdAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.ReadByRecId_Result> ReadByRecIdAsync(string recId) {
-            MNC_Product_Sync.Navision_Invoice.ReadByRecId inValue = new MNC_Product_Sync.Navision_Invoice.ReadByRecId();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId_Result> ReadByRecIdAsync(string recId) {
+            AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId inValue = new AX_CRT_Mage_Connector.Navision_Invoice.ReadByRecId();
             inValue.recId = recId;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadByRecIdAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadByRecIdAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.ReadMultiple_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.ReadMultiple(MNC_Product_Sync.Navision_Invoice.ReadMultiple request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.ReadMultiple(AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple request) {
             return base.Channel.ReadMultiple(request);
         }
         
-        public MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] ReadMultiple(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Filter[] filter, string bookmarkKey, int setSize) {
-            MNC_Product_Sync.Navision_Invoice.ReadMultiple inValue = new MNC_Product_Sync.Navision_Invoice.ReadMultiple();
+        public AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] ReadMultiple(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Filter[] filter, string bookmarkKey, int setSize) {
+            AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple inValue = new AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple();
             inValue.filter = filter;
             inValue.bookmarkKey = bookmarkKey;
             inValue.setSize = setSize;
-            MNC_Product_Sync.Navision_Invoice.ReadMultiple_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadMultiple(inValue);
             return retVal.ReadMultiple_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.ReadMultiple_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.ReadMultipleAsync(MNC_Product_Sync.Navision_Invoice.ReadMultiple request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.ReadMultipleAsync(AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple request) {
             return base.Channel.ReadMultipleAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.ReadMultiple_Result> ReadMultipleAsync(MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Filter[] filter, string bookmarkKey, int setSize) {
-            MNC_Product_Sync.Navision_Invoice.ReadMultiple inValue = new MNC_Product_Sync.Navision_Invoice.ReadMultiple();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple_Result> ReadMultipleAsync(AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Filter[] filter, string bookmarkKey, int setSize) {
+            AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple inValue = new AX_CRT_Mage_Connector.Navision_Invoice.ReadMultiple();
             inValue.filter = filter;
             inValue.bookmarkKey = bookmarkKey;
             inValue.setSize = setSize;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadMultipleAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).ReadMultipleAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.IsUpdated_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.IsUpdated(MNC_Product_Sync.Navision_Invoice.IsUpdated request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.IsUpdated(AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated request) {
             return base.Channel.IsUpdated(request);
         }
         
         public bool IsUpdated(string Key) {
-            MNC_Product_Sync.Navision_Invoice.IsUpdated inValue = new MNC_Product_Sync.Navision_Invoice.IsUpdated();
+            AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated inValue = new AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_Invoice.IsUpdated_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).IsUpdated(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).IsUpdated(inValue);
             return retVal.IsUpdated_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.IsUpdated_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.IsUpdatedAsync(MNC_Product_Sync.Navision_Invoice.IsUpdated request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.IsUpdatedAsync(AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated request) {
             return base.Channel.IsUpdatedAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.IsUpdated_Result> IsUpdatedAsync(string Key) {
-            MNC_Product_Sync.Navision_Invoice.IsUpdated inValue = new MNC_Product_Sync.Navision_Invoice.IsUpdated();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated_Result> IsUpdatedAsync(string Key) {
+            AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated inValue = new AX_CRT_Mage_Connector.Navision_Invoice.IsUpdated();
             inValue.Key = Key;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).IsUpdatedAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).IsUpdatedAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.GetRecIdFromKey(MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.GetRecIdFromKey(AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey request) {
             return base.Channel.GetRecIdFromKey(request);
         }
         
         public string GetRecIdFromKey(string Key) {
-            MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey inValue = new MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey();
+            AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey inValue = new AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).GetRecIdFromKey(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).GetRecIdFromKey(inValue);
             return retVal.GetRecIdFromKey_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.GetRecIdFromKeyAsync(MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.GetRecIdFromKeyAsync(AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey request) {
             return base.Channel.GetRecIdFromKeyAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey_Result> GetRecIdFromKeyAsync(string Key) {
-            MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey inValue = new MNC_Product_Sync.Navision_Invoice.GetRecIdFromKey();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey_Result> GetRecIdFromKeyAsync(string Key) {
+            AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey inValue = new AX_CRT_Mage_Connector.Navision_Invoice.GetRecIdFromKey();
             inValue.Key = Key;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).GetRecIdFromKeyAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).GetRecIdFromKeyAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.Update_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.Update(MNC_Product_Sync.Navision_Invoice.Update request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.Update_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.Update(AX_CRT_Mage_Connector.Navision_Invoice.Update request) {
             return base.Channel.Update(request);
         }
         
-        public void Update(ref MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
-            MNC_Product_Sync.Navision_Invoice.Update inValue = new MNC_Product_Sync.Navision_Invoice.Update();
+        public void Update(ref AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice PostedSalesInvoice) {
+            AX_CRT_Mage_Connector.Navision_Invoice.Update inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Update();
             inValue.PostedSalesInvoice = PostedSalesInvoice;
-            MNC_Product_Sync.Navision_Invoice.Update_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).Update(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.Update_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).Update(inValue);
             PostedSalesInvoice = retVal.PostedSalesInvoice;
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Update_Result> UpdateAsync(MNC_Product_Sync.Navision_Invoice.Update request) {
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Update_Result> UpdateAsync(AX_CRT_Mage_Connector.Navision_Invoice.Update request) {
             return base.Channel.UpdateAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.UpdateMultiple_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.UpdateMultiple(MNC_Product_Sync.Navision_Invoice.UpdateMultiple request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.UpdateMultiple(AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple request) {
             return base.Channel.UpdateMultiple(request);
         }
         
-        public void UpdateMultiple(ref MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List) {
-            MNC_Product_Sync.Navision_Invoice.UpdateMultiple inValue = new MNC_Product_Sync.Navision_Invoice.UpdateMultiple();
+        public void UpdateMultiple(ref AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice[] PostedSalesInvoice_List) {
+            AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple inValue = new AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple();
             inValue.PostedSalesInvoice_List = PostedSalesInvoice_List;
-            MNC_Product_Sync.Navision_Invoice.UpdateMultiple_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).UpdateMultiple(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).UpdateMultiple(inValue);
             PostedSalesInvoice_List = retVal.PostedSalesInvoice_List;
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.UpdateMultiple_Result> UpdateMultipleAsync(MNC_Product_Sync.Navision_Invoice.UpdateMultiple request) {
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple_Result> UpdateMultipleAsync(AX_CRT_Mage_Connector.Navision_Invoice.UpdateMultiple request) {
             return base.Channel.UpdateMultipleAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.Delete_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.Delete(MNC_Product_Sync.Navision_Invoice.Delete request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.Delete(AX_CRT_Mage_Connector.Navision_Invoice.Delete request) {
             return base.Channel.Delete(request);
         }
         
         public bool Delete(string Key) {
-            MNC_Product_Sync.Navision_Invoice.Delete inValue = new MNC_Product_Sync.Navision_Invoice.Delete();
+            AX_CRT_Mage_Connector.Navision_Invoice.Delete inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Delete();
             inValue.Key = Key;
-            MNC_Product_Sync.Navision_Invoice.Delete_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).Delete(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).Delete(inValue);
             return retVal.Delete_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Delete_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.DeleteAsync(MNC_Product_Sync.Navision_Invoice.Delete request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.DeleteAsync(AX_CRT_Mage_Connector.Navision_Invoice.Delete request) {
             return base.Channel.DeleteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Delete_Result> DeleteAsync(string Key) {
-            MNC_Product_Sync.Navision_Invoice.Delete inValue = new MNC_Product_Sync.Navision_Invoice.Delete();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Delete_Result> DeleteAsync(string Key) {
+            AX_CRT_Mage_Connector.Navision_Invoice.Delete inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Delete();
             inValue.Key = Key;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).DeleteAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).DeleteAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines_Result MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.Delete_SalesInvLines(MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines request) {
+        AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.Delete_SalesInvLines(AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines request) {
             return base.Channel.Delete_SalesInvLines(request);
         }
         
         public bool Delete_SalesInvLines(string SalesInvLines_Key) {
-            MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines inValue = new MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines();
+            AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines();
             inValue.SalesInvLines_Key = SalesInvLines_Key;
-            MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines_Result retVal = ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).Delete_SalesInvLines(inValue);
+            AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result retVal = ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).Delete_SalesInvLines(inValue);
             return retVal.Delete_SalesInvLines_Result1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines_Result> MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port.Delete_SalesInvLinesAsync(MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines request) {
+        System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result> AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port.Delete_SalesInvLinesAsync(AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines request) {
             return base.Channel.Delete_SalesInvLinesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines_Result> Delete_SalesInvLinesAsync(string SalesInvLines_Key) {
-            MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines inValue = new MNC_Product_Sync.Navision_Invoice.Delete_SalesInvLines();
+        public System.Threading.Tasks.Task<AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines_Result> Delete_SalesInvLinesAsync(string SalesInvLines_Key) {
+            AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines inValue = new AX_CRT_Mage_Connector.Navision_Invoice.Delete_SalesInvLines();
             inValue.SalesInvLines_Key = SalesInvLines_Key;
-            return ((MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_Port)(this)).Delete_SalesInvLinesAsync(inValue);
+            return ((AX_CRT_Mage_Connector.Navision_Invoice.PostedSalesInvoice_Port)(this)).Delete_SalesInvLinesAsync(inValue);
         }
     }
 }
