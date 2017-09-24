@@ -41,7 +41,7 @@ namespace AX_CRT_Mage_Connector
                 return true;
             };
 
-            var success = true;
+            
             writer.Write("Dynamics Connectivity validation starting...");
             var crtManager = new DynamicsRuntimeManager();
             //var  nv_CustomerLists = client.ReadMultiple(null, null, 10000);

@@ -77,7 +77,9 @@ namespace ConnectCsharpToMysql
             }
             catch (MySqlException ex)
             {
+                AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 return false;
             }
         }
@@ -108,7 +110,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -139,7 +143,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -170,7 +176,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -199,7 +207,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -231,7 +241,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -263,6 +275,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
 
                 }
                 finally
@@ -295,7 +310,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -329,7 +346,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -374,6 +393,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
 
                 }
                 finally
@@ -421,6 +443,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
 
                 }
                 finally
@@ -467,7 +492,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -514,6 +541,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
 
                 }
                 finally
@@ -562,6 +592,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
 
                 }
                 finally
@@ -608,6 +641,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
 
                 }
                 finally
@@ -656,7 +692,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -706,7 +744,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -756,7 +796,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
@@ -809,7 +851,9 @@ namespace ConnectCsharpToMysql
                 }
                 catch (Exception ex)
                 {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
 
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
                 }
                 finally
                 {
