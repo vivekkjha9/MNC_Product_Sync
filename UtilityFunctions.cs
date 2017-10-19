@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace AX_CRT_MAge_Connector
 {
-    static class ReadAxCustomers
+    static class UtilityFunctions
     {
         public static Microsoft.Dynamics.Commerce.Runtime.PagedResult<Customer> readCustomer(DynamicsRuntimeManager runtimeManager, CombinedWriter writer)
         {
 
-            var status = true;
+           // var status = true;
             var channelId = runtimeManager.CommerceRuntime.CurrentPrincipal.ChannelId;
             QueryResultSettings queryResultSettings = QueryResultSettings.AllRecords;
             queryResultSettings.Paging = new PagingInfo(10);
@@ -46,15 +46,42 @@ namespace AX_CRT_MAge_Connector
                 //Similarly for QuantityInIssueUnit_uom.
             }
 
-            System.Collections.Generic.List<String> list = CustomerAccountNumbers.ToString().Split(',').ToList();
-            IEnumerable<string> m_oEnum = list;
+             System.Collections.Generic.List<String> list = CustomerAccountNumbers.ToString().Split(',').ToList();
+            //System.Collections.Generic.List<String> list = new List<string>{ "004046" };
+            IEnumerable <string> m_oEnum = list;
 
 
 
             return runtimeManager.CustomerManager.GetCustomers(m_oEnum, SearchLocation.Local, queryResultSettings);
             
+
+            
         }
 
-        }
+        //public static Microsoft.Dynamics.Commerce.Runtime.PagedResult<Customer> readCategories(DynamicsRuntimeManager runtimeManager, CombinedWriter writer)
+        //{
+
+        //    var channelId = runtimeManager.CommerceRuntime.CurrentPrincipal.ChannelId;
+        //    QueryResultSettings queryResultSettings = QueryResultSettings.AllRecords;
+        //    queryResultSettings.Paging = new PagingInfo(10); 
+        //    return runtimeManager.ChannelManager.GetCustomers(m_oEnum, SearchLocation.Local, queryResultSettings);
+
+        //}
+
+        //public static Microsoft.Dynamics.Commerce.Runtime.PagedResult<Customer> readProducts(DynamicsRuntimeManager runtimeManager, CombinedWriter writer)
+        //{
+
+        //    var channelId = runtimeManager.CommerceRuntime.CurrentPrincipal.ChannelId;
+        //    QueryResultSettings queryResultSettings = QueryResultSettings.AllRecords;
+        //    queryResultSettings.Paging = new PagingInfo(10);
+        //    return runtimeManager.ChannelManager.GetCustomers(m_oEnum, SearchLocation.Local, queryResultSettings);
+
+        //}
+
+
+
+    }
+
+
 
     }

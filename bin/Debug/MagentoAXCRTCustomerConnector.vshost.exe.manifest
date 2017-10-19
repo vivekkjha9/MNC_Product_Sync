@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="MagentoAXCRTCustomerConnector.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="MagentoAXCRTCustomerConnector.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="MagentoAXCRTCustomerConnector" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
@@ -47,14 +47,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MagentoAXCRTCustomerConnector.exe" size="967688">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Contoso.Commerce.Runtime.EmailPreferenceSample.dll" size="7680">
+      <assemblyIdentity name="Contoso.Commerce.Runtime.EmailPreferenceSample" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R5wddgYBaTbEGAy+CAxhR/xQFctZcbDJj7dpulZding=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MagentoAXCRTCustomerConnector.exe" size="972808">
       <assemblyIdentity name="MagentoAXCRTCustomerConnector" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TQadT9ib1DWAb9cnQzwiSOpGlHbK3QqDL1VjZ1UCTHM=</dsig:DigestValue>
+        <dsig:DigestValue>VcvPq2jR31Ht9SgC/x5j9bSjITCdCHM3frhsQqVb6yg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1138,13 +1150,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="MagentoAXCRTCustomerConnector.exe.config" size="8800">
+  <file name="MagentoAXCRTCustomerConnector.exe.config" size="8489">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>WPNUA4s9Aq3VWaMSlV/aq8Vzx5k8KuwZE4h3Q35kUfw=</dsig:DigestValue>
+      <dsig:DigestValue>NOYfvInUWSGyHA79gPgg9C4GBkFQj4frNgkE3pCp9Ro=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

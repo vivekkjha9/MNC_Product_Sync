@@ -174,7 +174,7 @@ namespace AX_CRT_MAge_Connector
         /// Get the commerce runtime connection string from the application config file.
         /// </summary>
         /// <returns>The commerce runtime connection string.</returns>
-        private static string GetCrtConnectionString()
+        public static string GetCrtConnectionString()
         {
             var crtConnectionString = ConfigurationManager.ConnectionStrings[KeyCrtConnectionString].ConnectionString;
             if (string.IsNullOrEmpty(crtConnectionString))

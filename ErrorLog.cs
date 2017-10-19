@@ -29,15 +29,15 @@ namespace AX_CRT_MAge_Connector
         {
 
 
-            using (StreamWriter sw = (File.Exists(sPathName + "\\" + sErrorTime + ".log")) ? File.AppendText(sPathName + "\\" + sErrorTime + ".log") : File.CreateText(sPathName + "\\" + sErrorTime + ".log"))
-            {
+           // using (StreamWriter sw = (File.Exists(sPathName + "\\" + sErrorTime + ".log")) ? File.AppendText(sPathName + "\\" + sErrorTime + ".log") : File.CreateText(sPathName + "\\" + sErrorTime + ".log"))
+            //{
 
-                sw.WriteLine(sLogFormat + sErrMsg); ;
-                sw.Flush();
-                sw.Close();
+              //  sw.WriteLine(sLogFormat + sErrMsg); ;
+              //  sw.Flush();
+              //  sw.Close();
 
                
-            }     
+            ///}     
         }
     }
 }

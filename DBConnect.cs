@@ -527,13 +527,13 @@ namespace ConnectCsharpToMysql
 
 
 
-                    ret = new Hashtable(21);
+                    ret = new Hashtable(100);
 
 
                     while (reader.Read())
                     {
 
-                        ret.Add(reader[1].ToString(), reader[0].ToString());
+                        ret.Add(reader[0].ToString(),reader[1].ToString());
 
                     }
 

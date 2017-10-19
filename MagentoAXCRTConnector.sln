@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagentoAXCRTConnector", "MagentoAXCRTConnector.csproj", "{E34DA88A-7832-4482-A0C6-7F27628B4DE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagentoAXCRTConnector_CustomerMageToAX", "MagentoAXCRTConnector_CustomerMageToAX.csproj", "{E34DA88A-7832-4482-A0C6-7F27628B4DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime.Extensions.EmailPreferenceSample", "..\RetailSDK\SampleExtensions\CommerceRuntime\Extensions.EmailPreferenceSample\Runtime.Extensions.EmailPreferenceSample.csproj", "{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,14 @@ Global
 		{E34DA88A-7832-4482-A0C6-7F27628B4DE5}.Release|Any CPU.ActiveCfg = Release|x86
 		{E34DA88A-7832-4482-A0C6-7F27628B4DE5}.Release|x86.ActiveCfg = Release|x86
 		{E34DA88A-7832-4482-A0C6-7F27628B4DE5}.Release|x86.Build.0 = Release|x86
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Debug|x86.Build.0 = Debug|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{A036BA33-185D-4DF1-8E10-8D82AD3E0F8F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

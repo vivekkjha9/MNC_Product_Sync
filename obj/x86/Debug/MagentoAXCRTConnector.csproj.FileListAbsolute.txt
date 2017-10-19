@@ -82,7 +82,6 @@ K:\MNC_Product_Sync\bin\Debug\System.Composition.Hosting.xml
 K:\MNC_Product_Sync\bin\Debug\System.Composition.Convention.xml
 K:\MNC_Product_Sync\bin\Debug\System.Composition.Runtime.xml
 K:\MNC_Product_Sync\bin\Debug\System.Composition.AttributedModel.xml
-K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.Messages.xml
 K:\MNC_Product_Sync\bin\Debug\de\Microsoft.OData.Edm.resources.dll
 K:\MNC_Product_Sync\bin\Debug\es\Microsoft.OData.Edm.resources.dll
 K:\MNC_Product_Sync\bin\Debug\fr\Microsoft.OData.Edm.resources.dll
@@ -106,3 +105,5 @@ K:\MNC_Product_Sync\obj\x86\Debug\MagentoAXCRTCustomerConnector.application
 K:\MNC_Product_Sync\obj\x86\Debug\MagentoAXCRTCustomerConnector.exe
 K:\MNC_Product_Sync\obj\x86\Debug\MagentoAXCRTCustomerConnector.pdb
 K:\MNC_Product_Sync\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.SqlServer.dll
+K:\MNC_Product_Sync\bin\Debug\Contoso.Commerce.Runtime.EmailPreferenceSample.dll
+K:\MNC_Product_Sync\bin\Debug\Contoso.Commerce.Runtime.EmailPreferenceSample.pdb

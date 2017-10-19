@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AX_CRT_Mage_Connector</RootNamespace>
-    <AssemblyName>MagentoAXCRTCustomerConnector</AssemblyName>
+    <AssemblyName>MagentoAXCRTConnector_CustomerAxToMage</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -25,7 +25,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>19</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -97,6 +97,10 @@
     </Reference>
     <Reference Include="Microsoft.Dynamics.Commerce.Runtime.DataServices">
       <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.DataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.Commerce.Runtime.DataServices.Messages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RetailSDK\References\Microsoft.Dynamics.Commerce.Runtime.DataServices.Messages.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Dynamics.Commerce.Runtime.DataServices.SqlServer">
       <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Dynamics.Commerce.Runtime.DataServices.SqlServer.dll</HintPath>
@@ -283,8 +287,9 @@
     <Compile Include="ErrorLog.cs" />
     <Compile Include="AxToMageCustomers.cs" />
     <Compile Include="DBConnect.cs" />
+    <Compile Include="MageToAXCustomers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadAxCustomers.cs" />
+    <Compile Include="UtilityFunctions.cs" />
     <Compile Include="Service References\MagentoConnectService\Reference1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -663,6 +668,12 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RetailSDK\SampleExtensions\CommerceRuntime\Extensions.EmailPreferenceSample\Runtime.Extensions.EmailPreferenceSample.csproj">
+      <Project>{a036ba33-185d-4df1-8e10-8d82ad3e0f8f}</Project>
+      <Name>Runtime.Extensions.EmailPreferenceSample</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
