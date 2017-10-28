@@ -16,12 +16,14 @@ namespace AX_CRT_Mage_Connector
 
 
 
-        static void Main(string[] args)
+        static void MainXX(string[] args)
         {
 
 
             CombinedWriter writer;
             var oldOut = Console.Out;
+
+            
 
             try
             {

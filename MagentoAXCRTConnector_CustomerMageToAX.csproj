@@ -9,13 +9,13 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AX_CRT_Mage_Connector</RootNamespace>
-    <AssemblyName>MagentoAXCRTConnector_CustomerAxToMage</AssemblyName>
+    <AssemblyName>MagentoAXCRTConnector_ProductsAxToMage</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Connectors\Customer\</PublishUrl>
+    <PublishUrl>C:\Connectors\Products\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -25,7 +25,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>19</ApplicationRevision>
+    <ApplicationRevision>22</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -282,12 +282,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigFileSettings.cs" />
+    <Compile Include="AxtoMageItemCategories1.cs" />
+    <Compile Include="AxtoMageProducts.cs" />
     <Compile Include="CombinedWriter.cs" />
     <Compile Include="DynamicsRuntimeManager.cs" />
     <Compile Include="ErrorLog.cs" />
     <Compile Include="AxToMageCustomers.cs" />
     <Compile Include="DBConnect.cs" />
     <Compile Include="MageToAXCustomers.cs" />
+    <Compile Include="MageToAxOrders.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UtilityFunctions.cs" />
     <Compile Include="Service References\MagentoConnectService\Reference1.cs">

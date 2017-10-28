@@ -556,11 +556,61 @@ namespace ConnectCsharpToMysql
             return ret;
         }
 
+        public int fetch_MageCategoryID(long axcategoryid)
+        {
 
+            int magecategoryid=0;
+            string query = "select magentocategoryid from mgme_navision_categorymapping_navisioncategorymapping where navisioncategoryid='" + axcategoryid +"'";
+
+            //open connection
+            if (this.OpenConnection() == true)
+            {
+
+                try
+                {
+                    //create command and assign the query and connection from the constructor
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+
+                    //Execute command
+                    MySqlDataReader reader = cmd.ExecuteReader();
+
+
+
+
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            magecategoryid = int.Parse(reader[0].ToString());
+                        }
+                    }
+                    else
+                    {
+                        magecategoryid= 0;
+                    }
+            
+                }
+                catch (Exception ex)
+                {
+                    AX_CRT_MAge_Connector.ErrorLog errLog = new AX_CRT_MAge_Connector.ErrorLog();
+
+                    errLog.LogError("C:\\MNC_Logs", "Customer :" + ex.Message);
+                }
+                finally
+                {
+                    //close connection
+                    this.CloseConnection();
+                }
+
+            }
+            return magecategoryid;
+
+        }
 
         public System.Collections.Hashtable fetch_CategoryMapping()
         {
-            string query = "select categoryname,magentocategoryid from mgme_navision_categorymapping_navisioncategorymapping";
+            //string query = "select categoryname,magentocategoryid from mgme_navision_categorymapping_navisioncategorymapping";
+            string query = "select * from mgme_navision_categorymapping_navisioncategorymapping";
             //DBConnect db = new DBConnect();
 
             Hashtable ret = null;
@@ -578,7 +628,7 @@ namespace ConnectCsharpToMysql
 
 
 
-                    ret = new Hashtable(21);
+                    ret = new Hashtable(100);
 
 
                     while (reader.Read())

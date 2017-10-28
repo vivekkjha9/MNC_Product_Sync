@@ -5,6 +5,7 @@ using Microsoft.Dynamics.Commerce.Runtime.Configuration;
     using Microsoft.Dynamics.Commerce.Runtime.Data;
     using Microsoft.Dynamics.Commerce.Runtime.DataModel;
     using Microsoft.Dynamics.Retail.Diagnostics;
+using Microsoft.Dynamics.Commerce.RetailProxy;
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
@@ -30,6 +31,8 @@ namespace AX_CRT_MAge_Connector
         private ProductManager _productManager;
         private CustomerManager _customerManager;
         private OrderManager _orderManager;
+        
+       // private CartManager _cartManager;
 
         /// <summary>
         ///     Gets the commerce runtime.
@@ -80,54 +83,62 @@ namespace AX_CRT_MAge_Connector
         /// <summary>
         /// Gets or sets the product.
         /// </summary>        
-        public Product Product { get; set; }
+        public Microsoft.Dynamics.Commerce.Runtime.DataModel.Product Product { get; set; }
 
         /// <summary>
-        /// Gets or sets the customer.
+        /// Gets or sets the customer.ss
         /// </summary>       
-        public Customer Customer { get; set; }
+        public Microsoft.Dynamics.Commerce.Runtime.DataModel.Customer Customer { get; set; }
+
 
         /// <summary>
         /// Creates the cart.
         /// </summary>
         /// <returns>Cart with one line item.</returns>     
-        //public Cart CreateCart()
-        //{
-        //    var shoppingCartId = GenerateTransactionId();
-        //    var cart = new Cart
-        //    {
-        //        Id = shoppingCartId,
-        //        CustomerId = this.Customer.AccountNumber,
-        //        CartType = CartType.Checkout
-        //    };
-        //    OrderManager.CreateOrUpdateCart(cart, 0);
+        public Microsoft.Dynamics.Commerce.Runtime.DataModel.Cart CreateCart()
+        {
+            var shoppingCartId = GenerateTransactionId();
+            var cart = new Microsoft.Dynamics.Commerce.Runtime.DataModel.Cart
+            {
+                Id = shoppingCartId,
+                CustomerId = "004011",
+                ChannelId = 5637144608,
+                CartTypeValue = (int)Microsoft.Dynamics.Commerce.Runtime.DataModel.CartType.Checkout
+            };
+            OrderManager.CreateOrUpdateCart(cart, 0);
 
-        //    //// get cart line from the product
-        //    var variants = this.Product.CompositionInformation.VariantInformation.IndexedVariants;
-        //    var variantId = variants.Keys.FirstOrDefault();
+            //// get cart line from the product
+            IEnumerable<long> productRecordIds = new long[] { 22565423191 };
+            Microsoft.Dynamics.Commerce.Runtime.DataModel.QueryResultSettings queryResultSettings1 = Microsoft.Dynamics.Commerce.Runtime.DataModel.QueryResultSettings.AllRecords;
+            queryResultSettings1.Paging = new Microsoft.Dynamics.Commerce.Runtime.DataModel.PagingInfo(1000);
+            Microsoft.Dynamics.Commerce.Runtime.PagedResult<Microsoft.Dynamics.Commerce.Runtime.DataModel.Product> products =   ProductManager.GetProducts(queryResultSettings1);
+            var variants = products.First<Microsoft.Dynamics.Commerce.Runtime.DataModel.Product>().CompositionInformation.VariantInformation.IndexedVariants;
+            var variantId = variants.Keys.FirstOrDefault();
 
-        //    var productVariant = variants[variantId];
+            var productVariant = variants[variantId];
 
-        //    var cartLines = new Collection<CartLine>();
-        //    var cartLine = new CartLine();
+                      
 
-        //    var cartLineData = new CartLineData
-        //    {
-        //        ItemId = productVariant.ItemId,
-        //        InventoryDimensionId = productVariant.InventoryDimensionId,
-        //        ProductId = productVariant.DistinctProductVariantId,
-        //        Quantity = 1,
-        //        Comment = string.Empty
-        //       // ["ProductDetails"] = string.Empty
-        //    };
+            var cartLine = new Microsoft.Dynamics.Commerce.Runtime.DataModel.CartLine();
 
-        //    cartLine.LineData = cartLineData;
-        //    cartLines.Add(cartLine);
+            var cartLineData = new CartLineData
+            {
+                ItemId = productVariant.ItemId,
+                InventoryDimensionId = productVariant.InventoryDimensionId,
+                ProductId = productVariant.DistinctProductVariantId,
+                Quantity = 1,
+                Comment = string.Empty
+                // ["ProductDetails"] = string.Empty
+            };
 
-        //    var modes = CalculationModes.Totals | CalculationModes.Discounts | CalculationModes.Prices;
+            cartLine.LineData = cartLineData;
+            IEnumerable<Microsoft.Dynamics.Commerce.Runtime.DataModel.CartLine> cartLines = new Microsoft.Dynamics.Commerce.Runtime.DataModel.CartLine[] { cartLine };
+            //cartLines.Add(cartLine);
 
-        //    return OrderManager.AddCartLines(shoppingCartId, this.Customer.AccountNumber, cartLines, new CalculationModes?(modes));
-        //}
+            var modes = CalculationModes.Totals | CalculationModes.Discounts | CalculationModes.Prices;
+
+            return OrderManager.AddCartLines(shoppingCartId, cartLines, null);
+        }
 
         ///// <summary>
         /// Gets the CommerceRuntime instance initialized by using the currently executing application's config.
@@ -213,7 +224,7 @@ namespace AX_CRT_MAge_Connector
                             CultureInfo.InvariantCulture,
                             "The default channel identifier {0} was returned from CRT. Please ensure that a default operating unit number has been specified as part of the <commerceRuntime> configuration section.",
                             _defaultChannelIdentifer);
-                        throw new ConfigurationException(ConfigurationErrors.Microsoft_Dynamics_Commerce_Runtime_InvalidChannelConfiguration, message);
+                        throw new ConfigurationException(Microsoft.Dynamics.Commerce.Runtime.ConfigurationErrors.Microsoft_Dynamics_Commerce_Runtime_InvalidChannelConfiguration, message);
                     }
                 }
             }

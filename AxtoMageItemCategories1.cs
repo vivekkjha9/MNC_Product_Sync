@@ -12,13 +12,13 @@ using static AX_CRT_MAge_Connector.UtilityFunctions;
 
 namespace MNC_Product_Sync
 {
-    class AxtoMageItemCategories
+    class AxtoMageItemCategories1
     {
 
         private DBConnect dbConnect;
 
 
-        static void Main(string[] args)
+        static void MainS(string[] args)
         {
 
            
