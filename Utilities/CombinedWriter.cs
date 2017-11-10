@@ -1,13 +1,4 @@
-﻿// ------------------------------------------------------------------------------------------
-// <copyright file="CombinedWriter.cs" company="Sitecore Corporation">
-//   Copyright (c) Sitecore Corporation 1999-2016 
-// </copyright>
-// ------------------------------------------------------------------------------------------
-// Copyright 2016 Sitecore Corporation A/S
-// Licensed under the SITECORE SHARED SOURCE LICENSE, you may not use this file 
-// except in compliance with the License. You may obtain a copy of the License at
-//       https://marketplace.sitecore.net/Shared_Source_License.aspx
-// -------------------------------------------------------------------------------------------
+﻿
 
 namespace DynamicsConnectivityValidator
 {

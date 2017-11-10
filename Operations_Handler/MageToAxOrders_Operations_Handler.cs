@@ -31,9 +31,11 @@ namespace AX_CRT_Mage_Connector
             runtime = crtManager.CommerceRuntime;
             CombinedWriter writer;
             var oldOut = Console.Out;
+            DBConnect db = new DBConnect();
+            Hashtable hs = db.fetch_CategoryMapping();
 
-
-
+            Hashtable hsp = db.fetch_ProductMapping();
+         
             try
             {
                 writer = new CombinedWriter("./DynamicsConnectivityValidator.log", false, Encoding.Unicode, 0x400, Console.Out);
@@ -44,6 +46,27 @@ namespace AX_CRT_Mage_Connector
                 Console.WriteLine(e.Message);
                 return;
             }
+            SimpleProduct prd = null;
+            foreach (DictionaryEntry pair in hs)
+            {
+
+                Microsoft.Dynamics.Commerce.Runtime.PagedResult<Microsoft.Dynamics.Commerce.Runtime.DataModel.SimpleProduct> axProducts = AX_CRT_MAge_Connector.UtilityFunctions.readProducts(crtManager, writer, long.Parse(pair.Key.ToString()));
+
+                 prd = axProducts.Results[0];
+                break;
+
+            }
+
+                try
+                {
+                writer = new CombinedWriter("./DynamicsConnectivityValidator.log", false, Encoding.Unicode, 0x400, Console.Out);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Cannot open DynamicsConnectivityValidator.log for writing");
+                Console.WriteLine(e.Message);
+               // return;
+            }
 
             Console.SetOut(writer);
             System.Net.ServicePointManager.ServerCertificateValidationCallback +=
@@ -53,7 +76,7 @@ namespace AX_CRT_Mage_Connector
             };
 
 
-            UtilityFunctions.createOrder1(crtManager, writer);
+            UtilityFunctions.createOrder1(crtManager, writer, prd);
         }
 
         public static void CreateOrder()

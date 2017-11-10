@@ -61,7 +61,7 @@ namespace AX_CRT_MAge_Connector
         }
 
 
-        public static Microsoft.Dynamics.Commerce.Runtime.PagedResult<SalesOrder> createOrder1(DynamicsRuntimeManager runtimeManager, CombinedWriter writer)
+        public static Microsoft.Dynamics.Commerce.Runtime.PagedResult<SalesOrder> createOrder1(DynamicsRuntimeManager runtimeManager, CombinedWriter writer, SimpleProduct simpleProduct)
         {
 
             // var status = true;
@@ -69,7 +69,8 @@ namespace AX_CRT_MAge_Connector
             QueryResultSettings queryResultSettings = QueryResultSettings.AllRecords;
             queryResultSettings.Paging = new PagingInfo(10);
 
-            runtimeManager.CreateCart();
+            runtimeManager.CreateCart(simpleProduct, runtimeManager);
+            
 
 
             return null;

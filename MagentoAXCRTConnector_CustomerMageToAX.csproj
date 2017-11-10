@@ -260,6 +260,12 @@
     <Reference Include="Microsoft.OData.Client">
       <HintPath>..\..\..\..\AX CRT Connector\WpfApplication1\bin\Debug\Microsoft.OData.Client.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.OData.Core">
+      <HintPath>E:\rainfndstab\7.0.4641.16233\retail\Services\RetailStorefront\Code\bin\Microsoft.OData.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.OData.Edm">
+      <HintPath>E:\rainfndstab\7.0.4641.16233\retail\Services\RetailStorefront\Code\bin\Microsoft.OData.Edm.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Users\Admine8e276ddfc\Documents\Visual Studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
@@ -267,6 +273,9 @@
     <Reference Include="MySql.Data, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.8\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Portable">
+      <HintPath>E:\rainfndstab\7.0.4641.16233\retail\Services\RetailStorefront\Code\bin\Newtonsoft.Json.Portable.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -282,17 +291,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigFileSettings.cs" />
-    <Compile Include="AxtoMageItemCategories1.cs" />
-    <Compile Include="AxtoMageProducts.cs" />
-    <Compile Include="CombinedWriter.cs" />
+    <Compile Include="Operations_Handler\AxtoMageItemCategories_Operations_Handler.cs" />
+    <Compile Include="Operations_Handler\AxtoMageProducts_Operations_Handler.cs" />
+    <Compile Include="Utilities\CombinedWriter.cs" />
     <Compile Include="DynamicsRuntimeManager.cs" />
-    <Compile Include="ErrorLog.cs" />
-    <Compile Include="AxToMageCustomers.cs" />
-    <Compile Include="DBConnect.cs" />
-    <Compile Include="MageToAXCustomers.cs" />
-    <Compile Include="MageToAxOrders.cs" />
+    <Compile Include="Utilities\ErrorLog.cs" />
+    <Compile Include="Operations_Handler\AxToMageCustomer_Operations_Handler.cs" />
+    <Compile Include="Utilities\DBConnect.cs" />
+    <Compile Include="Operations_Handler\MageToAXCustomers_Operations_Handler.cs" />
+    <Compile Include="Operations_Handler\MageToAxOrders_Operations_Handler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UtilityFunctions.cs" />
+    <Compile Include="Utilities\UtilityFunctions.cs" />
     <Compile Include="Service References\MagentoConnectService\Reference1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

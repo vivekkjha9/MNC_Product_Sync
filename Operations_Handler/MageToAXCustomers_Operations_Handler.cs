@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 
 namespace AX_CRT_Mage_Connector
 {
-   static class MageToAXCustomers
+   static class MageToAXCustomers_Operations_Handler
     {
         private static CommerceRuntime runtime = null;
         static void MainXYZ(string[] args)

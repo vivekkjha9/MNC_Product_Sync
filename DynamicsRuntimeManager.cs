@@ -1,19 +1,20 @@
 ﻿
-    using Microsoft.Dynamics.Commerce.Runtime;
-    using Microsoft.Dynamics.Commerce.Runtime.Client;
+using Microsoft.Dynamics.Commerce.Runtime;
+using Microsoft.Dynamics.Commerce.Runtime.Client;
 using Microsoft.Dynamics.Commerce.Runtime.Configuration;
-    using Microsoft.Dynamics.Commerce.Runtime.Data;
-    using Microsoft.Dynamics.Commerce.Runtime.DataModel;
-    using Microsoft.Dynamics.Retail.Diagnostics;
+using Microsoft.Dynamics.Commerce.Runtime.Data;
+using Microsoft.Dynamics.Commerce.Runtime.DataModel;
+using Microsoft.Dynamics.Retail.Diagnostics;
 using Microsoft.Dynamics.Commerce.RetailProxy;
-    using System;
-    using System.Collections.Generic;
-    using System.Collections.ObjectModel;
-    using System.Configuration;
-    using System.Globalization;
-    using System.Linq;
-    using System.Security.Cryptography;
-    using ConfigurationException = Microsoft.Dynamics.Commerce.Runtime.ConfigurationException;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Configuration;
+using System.Globalization;
+using System.Linq;
+using System.Security.Cryptography;
+using ConfigurationException = Microsoft.Dynamics.Commerce.Runtime.ConfigurationException;
+using DynamicsConnectivityValidator;
 
 namespace AX_CRT_MAge_Connector
 {
@@ -95,7 +96,7 @@ namespace AX_CRT_MAge_Connector
         /// Creates the cart.
         /// </summary>
         /// <returns>Cart with one line item.</returns>     
-        public Microsoft.Dynamics.Commerce.Runtime.DataModel.Cart CreateCart()
+        public Microsoft.Dynamics.Commerce.Runtime.DataModel.Cart CreateCart(Microsoft.Dynamics.Commerce.Runtime.DataModel.SimpleProduct simpleProduct, AX_CRT_MAge_Connector.DynamicsRuntimeManager crtManager)
         {
             var shoppingCartId = GenerateTransactionId();
             var cart = new Microsoft.Dynamics.Commerce.Runtime.DataModel.Cart
@@ -108,14 +109,40 @@ namespace AX_CRT_MAge_Connector
             OrderManager.CreateOrUpdateCart(cart, 0);
 
             //// get cart line from the product
-            IEnumerable<long> productRecordIds = new long[] { 22565423191 };
+            IEnumerable<long> productRecordIds = new long[] {simpleProduct.RecordId };
             Microsoft.Dynamics.Commerce.Runtime.DataModel.QueryResultSettings queryResultSettings1 = Microsoft.Dynamics.Commerce.Runtime.DataModel.QueryResultSettings.AllRecords;
             queryResultSettings1.Paging = new Microsoft.Dynamics.Commerce.Runtime.DataModel.PagingInfo(1000);
-            Microsoft.Dynamics.Commerce.Runtime.PagedResult<Microsoft.Dynamics.Commerce.Runtime.DataModel.Product> products =   ProductManager.GetProducts(queryResultSettings1);
-            var variants = products.First<Microsoft.Dynamics.Commerce.Runtime.DataModel.Product>().CompositionInformation.VariantInformation.IndexedVariants;
-            var variantId = variants.Keys.FirstOrDefault();
 
-            var productVariant = variants[variantId];
+            CombinedWriter writer;
+            var oldOut = Console.Out;
+
+            try
+            {
+                writer = new CombinedWriter("./DynamicsConnectivityValidator.log", false, System.Text.Encoding.Unicode, 0x400, Console.Out);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Cannot open DynamicsConnectivityValidator.log for writing");
+                Console.WriteLine(e.Message);
+                //return;
+            }
+
+           // Microsoft.Dynamics.Commerce.Runtime.PagedResult<Microsoft.Dynamics.Commerce.Runtime.DataModel.SimpleProduct> axProducts = AX_CRT_MAge_Connector.UtilityFunctions.readProducts(crtManager, writer, ""));
+
+            Microsoft.Dynamics.Commerce.Runtime.DataModel.ProductDimension dim = new Microsoft.Dynamics.Commerce.Runtime.DataModel.ProductDimension();
+
+            //Microsoft.Dynamics.Commerce.Runtime.PagedResult<Microsoft.Dynamics.Commerce.Runtime.DataModel.Product> products =   ProductManager.GetProducts(queryResultSettings1);
+            //Microsoft.Dynamics.Commerce.Runtime.DataModel.Product prd = new Microsoft.Dynamics.Commerce.Runtime.DataModel.Product();
+            
+           // var variants = prd.GetVariants();
+            //var variants = products.First<Microsoft.Dynamics.Commerce.Runtime.DataModel.Product>().CompositionInformation.VariantInformation.IndexedVariants;
+
+            
+           // var variantId = simpleProduct.VariantId;
+           // int intVariant = int.Parse(variantId);
+           // ICollection<Microsoft.Dynamics.Commerce.Runtime.DataModel.ProductDimension> dim1 = new List<Microsoft.Dynamics.Commerce.Runtime.DataModel.ProductDimension>();
+           // dim1.Add(dim);
+           // var productVariant = ProductManager.GetVariants(5637144608, (long)simpleProduct.MasterProductId,null, queryResultSettings1);
 
                       
 
@@ -123,21 +150,155 @@ namespace AX_CRT_MAge_Connector
 
             var cartLineData = new CartLineData
             {
-                ItemId = productVariant.ItemId,
-                InventoryDimensionId = productVariant.InventoryDimensionId,
-                ProductId = productVariant.DistinctProductVariantId,
-                Quantity = 1,
-                Comment = string.Empty
-                // ["ProductDetails"] = string.Empty
+                ItemId = simpleProduct.ItemId,
+                InventoryDimensionId = simpleProduct.InventoryDimensionId,
+                ProductId = simpleProduct.RecordId,
+                Quantity = 1,                
+                Comment = string.Empty,
+                              
             };
 
             cartLine.LineData = cartLineData;
             IEnumerable<Microsoft.Dynamics.Commerce.Runtime.DataModel.CartLine> cartLines = new Microsoft.Dynamics.Commerce.Runtime.DataModel.CartLine[] { cartLine };
-            //cartLines.Add(cartLine);
+            
 
             var modes = CalculationModes.Totals | CalculationModes.Discounts | CalculationModes.Prices;
 
-            return OrderManager.AddCartLines(shoppingCartId, cartLines, null);
+            //OrderManager.UpdateDeliverySpecification(shoppingCartId,)
+           cart=  OrderManager.AddCartLines(shoppingCartId, cartLines, null);
+            var deliveryAddress = new Microsoft.Dynamics.Commerce.Runtime.DataModel.Address()
+            {
+                StreetNumber = "123",
+                Street = "Main",
+                City = "Redmond",
+                State = "WA",
+                ZipCode = "98052",
+                ThreeLetterISORegionName = "USA",
+                Email = "test@demo.com",                
+                AddressTypeValue = (int)Microsoft.Dynamics.Commerce.Runtime.DataModel.AddressType.None,
+                Name = "Home"
+            };
+            Microsoft.Dynamics.Commerce.Runtime.DataModel.DeliverySpecification dl = new Microsoft.Dynamics.Commerce.Runtime.DataModel.DeliverySpecification()
+            {
+                DeliveryAddress = deliveryAddress,
+                DeliveryModeId = "10",
+                DeliveryPreferenceTypeValue = (int)Microsoft.Dynamics.Commerce.Runtime.DataModel.DeliveryPreferenceType.ShipToAddress,
+
+            };
+
+            OrderManager.UpdateDeliverySpecification(cart.Id, dl);
+
+
+            Microsoft.Dynamics.Commerce.Runtime.DataModel.LineDeliverySpecification dls = new Microsoft.Dynamics.Commerce.Runtime.DataModel.LineDeliverySpecification()
+            {
+               DeliverySpecification = dl,
+               LineId = "1",               
+               
+            };
+
+            //IEnumerable<LineDeliverySpecification> = new List<LineDeliverySpecification>(dls);
+            IEnumerable<Microsoft.Dynamics.Commerce.Runtime.DataModel.LineDeliverySpecification> dlss = new Microsoft.Dynamics.Commerce.Runtime.DataModel.LineDeliverySpecification[] { dls };
+
+            OrderManager.UpdateDeliverySpecification(cart.Id, dl);
+            // OrderManager.UpdateLineDeliverySpecifications(cart.Id, dlss);
+            var cardTokenInfo = new Microsoft.Dynamics.Commerce.Runtime.DataModel.CardTokenInfo
+            {
+                CardToken = "1011",
+                ServiceAccountId = "111",
+                MaskedCardNumber = "5566",
+                UniqueCardId = "123",
+                
+                
+            };
+            var CardTypeInfo = new Microsoft.Dynamics.Commerce.Runtime.DataModel.CardTypeInfo
+            {
+                
+            };
+           
+
+            // ICategoryManager categoryManager = managerFactory.GetManager<ICategoryManager>();
+            //    // add payment    
+            //   var channelConfiguration = runtimeManager.ChannelManager.GetChannelConfiguration();
+            Microsoft.Dynamics.Commerce.Runtime.DataModel.QueryResultSettings queryResultSettings2 = Microsoft.Dynamics.Commerce.Runtime.DataModel.QueryResultSettings.AllRecords;
+            queryResultSettings2.Paging = new Microsoft.Dynamics.Commerce.Runtime.DataModel.PagingInfo(10);
+            IEnumerable<Microsoft.Dynamics.Commerce.Runtime.DataModel.TenderType> tenderTypes = crtManager.ChannelManager.GetChannelTenderTypes(queryResultSettings2).Results;
+            if (!tenderTypes.Any())
+            {
+              
+            }
+
+            IEnumerable<Microsoft.Dynamics.Commerce.Runtime.DataModel.TenderType> creditCardTenderTypes = tenderTypes.Where(t => t.OperationId == (int)Microsoft.Dynamics.Commerce.Runtime.DataModel.RetailOperation.PayCard);
+            if (!creditCardTenderTypes.Any())
+            {
+               // writer.Write("No CreditCard TenderTypes defined for the channel");
+               // status = false;
+            }
+
+            var creditCardTenderTypeId = "1";
+            var channelConfiguration = crtManager.ChannelManager.GetChannelConfiguration();
+            var paymentCard = new Microsoft.Dynamics.Commerce.Runtime.DataModel.TokenizedPaymentCard
+            {
+                Address1 = "12 street",
+                City = "Orlando",
+                Zip = "32822",
+                Country = "USA",
+                CardTypeId = "1",
+                ExpirationMonth = 11,
+                ExpirationYear = 2020,
+                NameOnCard = "john doe",
+                CardTokenInfo = cardTokenInfo,
+                Address2="abc",
+                IsSwipe=false,
+                Phone ="9383383",
+                State="TX",
+                TenderType = "1",
+                
+            };
+            var cartTenderline = new Microsoft.Dynamics.Commerce.Runtime.DataModel.CartTenderLine
+            {
+
+                Currency = channelConfiguration.Currency,
+                TenderTypeId = "1",
+                CardOrAccount = "Card",                
+                CardTypeId = "1",       
+               
+                TokenizedPaymentCard = paymentCard,                                
+            };
+            cartTenderline.CardTypeId = "1";
+            // cartTenderline.Amount = cart.CartLines[0].Price;           
+            cartTenderline.Amount = 232.99M;
+
+            
+
+            var random = new Random();
+            cart.OrderNumber = random.Next(1000, 9999).ToString(CultureInfo.InvariantCulture);
+
+            RetailServerContext context = RetailServerContext.Create(
+          new Uri(ConfigurationManager.AppSettings["RetailServerRoot"]),
+          ConfigurationManager.AppSettings["OperatingUnitNumber"]);
+
+            // Creating a factory based on RetailServerContext.
+
+           var managerFactory = ManagerFactory.Create(context);
+          //  ManagerFactory managerFactory = Utilities.GetManagerFactory(this.EcommerceContext);
+            ICartManager cartManager = managerFactory.GetManager<ICartManager>();        
+            
+
+           var order = crtManager.OrderManager.Checkout(cart.Id,"vivekkjha@gmail.com", new List<Microsoft.Dynamics.Commerce.Runtime.DataModel.CartTenderLine> { cartTenderline });
+            //    //if (order == null || order.Id == string.Empty)
+            //    //{
+            //    //    writer.Write("Failed to create Sales Order");
+            //    //    status = false;
+            //    //}
+            //    //else 
+            //    //{
+            //    //    writer.Write(string.Format(CultureInfo.InvariantCulture, "Sales Order with ChannelReferenceId {0} has been successfully created.", order.ChannelReferenceId));
+            //    //}
+
+
+
+            return null; 
+
         }
 
         ///// <summary>

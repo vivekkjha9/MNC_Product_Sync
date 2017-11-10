@@ -10,7 +10,7 @@ using DynamicsConnectivityValidator;
 
 namespace AX_CRT_Mage_Connector
 {
-    class AxToMageCustomers
+    class AxToMageCustomer_Operations_Handler
     {
 
 
