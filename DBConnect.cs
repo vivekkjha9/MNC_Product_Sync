@@ -27,10 +27,10 @@ namespace ConnectCsharpToMysql
         //Initialize values
         private void Initialize()
         {
-            server = "66.199.235.83";
-            database = "magnaxtc_mage542";
-            uid = "magnaxtc_mage542";
-            password = "Pass@w0rd123";
+            server = "XXXXXX";
+            database = "XXXX";
+            uid = "XX";
+            password = "XXX";
 
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";" + "port=3306";
