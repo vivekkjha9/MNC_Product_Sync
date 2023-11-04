@@ -27,11 +27,11 @@ namespace MNC_Product_Sync
             Navision_ItemCategory_Service.ItemCategories[] nv_ItemCats = null;
 
 
-            client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
+            client.ClientCredentials.Windows.ClientCredential.UserName = 
 
-            client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+            client.ClientCredentials.Windows.ClientCredential.Password = 
 
-            client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            client.ClientCredentials.Windows.ClientCredential.Domain = 
 
             string token_id = null;
 
