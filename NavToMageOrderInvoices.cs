@@ -21,11 +21,11 @@ namespace MNC_Product_Sync
 
             MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_PortClient client1 = new MNC_Product_Sync.Navision_Invoice.PostedSalesInvoice_PortClient();
 
-            client1.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
+            client1.ClientCredentials.Windows.ClientCredential.UserName = 
 
-            client1.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+            client1.ClientCredentials.Windows.ClientCredential.Password = 
 
-            client1.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            client1.ClientCredentials.Windows.ClientCredential.Domain = 
 
             Navision_Invoice.PostedSalesInvoice_Filter f1 = new Navision_Invoice.PostedSalesInvoice_Filter();
 
