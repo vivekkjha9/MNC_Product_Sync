@@ -27,11 +27,11 @@ namespace MNC_Product_Sync
 
                 Navision_ItemList_Service.ItemList[] nv_ItemLists;
 
-                client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";               
+                client.ClientCredentials.Windows.ClientCredential.UserName =              
 
-                client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+                client.ClientCredentials.Windows.ClientCredential.Password =
 
-                client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";              
+                client.ClientCredentials.Windows.ClientCredential.Domain =            
 
                 Navision_ItemList_Service.ItemList_Filter f = new Navision_ItemList_Service.ItemList_Filter();               
 
