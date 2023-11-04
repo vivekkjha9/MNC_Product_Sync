@@ -23,11 +23,11 @@ namespace MNC_Product_Sync
             Navision_CustomerListService.CustomerList[] nv_CustomerLists;
             client.ClientCredentials.UserName.UserName = 
             client.ClientCredentials.UserName.Password = 
-            //client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
+            //client.ClientCredentials.Windows.ClientCredential.UserName = 
 
-            //client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+            //client.ClientCredentials.Windows.ClientCredential.Password = 
 
-            //client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+            //client.ClientCredentials.Windows.ClientCredential.Domain = 
             
 
             nv_CustomerLists = client.ReadMultiple(null, null, 10000);
