@@ -21,8 +21,8 @@ namespace MNC_Product_Sync
             Navision_CustomerListService.CustomerList nv_Customer = new Navision_CustomerListService.CustomerList();
             Navision_CustomerListService.CustomerList_PortClient client = new Navision_CustomerListService.CustomerList_PortClient();
             Navision_CustomerListService.CustomerList[] nv_CustomerLists;
-            client.ClientCredentials.UserName.UserName = "Administrator";
-            client.ClientCredentials.UserName.Password = "itree@123";
+            client.ClientCredentials.UserName.UserName = 
+            client.ClientCredentials.UserName.Password = 
             //client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
 
             //client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
