@@ -24,11 +24,11 @@ class Order
 
 
 
-        client.ClientCredentials.Windows.ClientCredential.UserName = "Administrator";
+        client.ClientCredentials.Windows.ClientCredential.UserName = "dhdhdh";
 
-        client.ClientCredentials.Windows.ClientCredential.Password = "itree@123";
+        client.ClientCredentials.Windows.ClientCredential.Password = "xxxxx";
 
-        client.ClientCredentials.Windows.ClientCredential.Domain = "122.166.222.116";
+        client.ClientCredentials.Windows.ClientCredential.Domain = "xxxxxxxxxx";
 
         DBConnect db = new DBConnect();
         MNC_Product_Sync.MagentoConnectService.PortTypeClient mage_client = new MNC_Product_Sync.MagentoConnectService.PortTypeClient();
